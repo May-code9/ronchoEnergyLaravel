@@ -38,6 +38,15 @@
               <a itemprop="addressLocality"> GRA, Ikeja</a>,
               <a itemprop="addressRegion"> Lagos State</a>
             </p>
+          </div>
+        </aside>
+      </div>
+      <div class="col-md-3 col-sm-6 col-xs-6 ftr-widget contact-widget">
+        <aside id="widget_contactus-2" class="widget widget-contact"><h3>Keep in touch</h3>
+          <div class="about-text" itemscope itemtype="http://schema.org/LocalBusiness">
+            <p itemprop="name">
+              {{ config('app.name') }}
+            </p>
             <p itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
               <span class="icon icon-Pointer"></span>
               <a itemprop="streetAddress">Address 3 :						<br/>Deogratias Plaza, Opp. Modern Market</a>,
@@ -54,30 +63,6 @@
               Email :						<a href="mailto:ikenna.efika@ronchoenergy.com" itemprop="email">ikenna.efika@ronchoenergy.com</a>
             </p>
           </div>
-        </aside>
-      </div>
-      <div class="col-md-3 col-sm-6 col-xs-6 ftr-widget instagram-widget">
-        <aside id="widget_instagram-feed-2" class="widget instagram-feed"><h3>Instagram</h3>
-          <ul class="social-instafeeds">
-            <li class="il-item">
-              <a href="//instagram.com/p/Bcr4k4bHIuv/" target="_blank"  class=""><img src="//scontent-ort2-1.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/c0.135.1080.1080/24838176_153827668584294_6601308895082184704_n.jpg"  alt="" title=""  class="il-photo__img"/></a>
-            </li>
-            <li class="il-item">
-              <a href="//instagram.com/p/BcfBvQInZSb/" target="_blank"  class=""><img src="//scontent-ort2-1.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/c0.125.1000.1000/25010273_147749029210135_5445644203453317120_n.jpg"  alt="" title=""  class="il-photo__img"/></a>
-            </li>
-            <li class="il-item">
-              <a href="//instagram.com/p/Bccau_wHNV3/" target="_blank"  class=""><img src="//scontent-ort2-1.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/c0.135.1080.1080/25006767_525705811137440_3849651269840928768_n.jpg"  alt="" title=""  class="il-photo__img"/></a>
-            </li>
-            <li class="il-item">
-              <a href="//instagram.com/p/BcZ3bMVnSUw/" target="_blank"  class=""><img src="//scontent-ort2-1.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/c0.125.1000.1000/25012897_150429298927809_1843204125819404288_n.jpg"  alt="" title=""  class="il-photo__img"/></a>
-            </li>
-            <li class="il-item">
-              <a href="//instagram.com/p/BcXBjUhnwKc/" target="_blank"  class=""><img src="//scontent-ort2-1.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/c0.125.1000.1000/25012371_1801042230194477_6098057221843714048_n.jpg"  alt="" title="" class="il-photo__img"/></a>
-            </li>
-            <li class="il-item">
-              <a href="//instagram.com/p/BcUskxwHw0p/" target="_blank"  class=""><img src="//scontent-ort2-1.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/c0.135.1080.1080/24327282_801558340026444_3848631971022372864_n.jpg"  alt="" title="" class="il-photo__img"/></a>
-            </li>
-          </ul>
         </aside>
       </div>
     </div>

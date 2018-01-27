@@ -60,7 +60,7 @@ RonchoEnergy | Oil &amp; Gas
 								<i class="fa fa-file-pdf-o" aria-hidden="true"></i>
 							</a>
 							<h3>Brochures</h3>
-							<p>For more information on any of our custom truck body services, please visit our range of brochures</p>
+							<p>For more information on any of ourservices, please visit our range of brochures</p>
 						</div>
 					</div>
 					<div class="col-md-9 col-sm-8">
@@ -70,26 +70,20 @@ RonchoEnergy | Oil &amp; Gas
 									<div class="section-header">
 										<h3>Oil &#038; Gas</h3>
 									</div>
-									<p>In 2010, we laid out our goals for the sed future in our Strategy 2015, including our vision and mission for our company. Our vision emphasizes that the we want to be The Best Finance Company through the world this is goes beyond the simple fact that, as soon global company,</p>
-									<p>Our vision emphasizes that the we want to be The Best Finance Company through the world this is goes beyond the simple fact that, as soon global company.Perspiciatis unde omnis iste natus error sit elites voluptatem accu santiumuo doloremque laudatium, totam rem aperiam, eaque ipsa quae ab illomas ilts inventore veritatis et quasi architecto</p>
-									<p>Mister we could use a man like Herbert Hoover again. Maybe you and me were never meant to be. But baby think of me once in awhile. I&#8217;m at WKRP in Cincinnati! Just two good ol&#8217; boys Wouldn&#8217;t change if they could system like a true modern.</p>
 									<ul>
-										<li>The first mate and his Skivery best to make the others comfortable</li>
-										<li>Michael Knight a young loner on a crusade to champion</li>
-										<li>The powerless in a world of criminals who operate above the law.</li>
-										<li>You would see the biggest gift would and the card attached</li>
-										<li>These are the voyages of the Starship Enterprise</li>
+										<li>Procurement, Installation, Operation & Maintenance</li>
+										<li>Consultancy Services</li>
+										<li>Information & Communication Systems & Technologies</li>
 									</ul>
 									<div class="service-info col-md-10">
-										<a href="">
+										<a target="_blank" href="{{ asset('pdf/RonchoEnergy_Corporate Profile_20171215.pdf') }}">
 											<i class="fa fa-file-pdf-o" aria-hidden="true"></i>
 										</a>
-										<span>For more information, Please download our 1-2 tonne Manufactory brochure here</span>
+										<span>For more information, Please download our Oil &amp; Gas brochure here</span>
 									</div>
 								</div>
 								<div class="col-md-5 col-sm-5 servicedetail-images">
 									<img width="352" height="371" src="demo/wpm/manufactory/wp-content/uploads/2016/06/service-detail-2-352x371.jpg" class="attachment-manufactory-352-371 size-manufactory-352-371" alt="" srcset="demo/wpm/manufactory/wp-content/uploads/2016/06/service-detail-2-352x371.jpg 352w, demo/wpm/manufactory/wp-content/uploads/2016/06/service-detail-2-284x300.jpg 284w, demo/wpm/manufactory/wp-content/uploads/2016/06/service-detail-2.jpg 360w" sizes="(max-width: 352px) 100vw, 352px" />
-									<img width="352" height="371" src="demo/wpm/manufactory/wp-content/uploads/2016/06/service-detail-1-352x371.jpg" class="attachment-manufactory-352-371 size-manufactory-352-371" alt="" srcset="demo/wpm/manufactory/wp-content/uploads/2016/06/service-detail-1-352x371.jpg 352w, demo/wpm/manufactory/wp-content/uploads/2016/06/service-detail-1-284x300.jpg 284w, demo/wpm/manufactory/wp-content/uploads/2016/06/service-detail-1.jpg 360w" sizes="(max-width: 352px) 100vw, 352px" />
 								</div>
 							</div>
 						</div>

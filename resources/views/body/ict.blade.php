@@ -56,11 +56,11 @@ RonchoEnergy | ICT
 							</li>
 						</ul>
 						<div class="callout">
-							<a href="">
+							<a href="{{ asset('pdf/RonchoEnergy_Corporate Profile_20171215.pdf') }}" target="_blank">
 								<i class="fa fa-file-pdf-o" aria-hidden="true"></i>
 							</a>
 							<h3>Brochures</h3>
-							<p>For more information on any of our custom truck body services, please visit our range of brochures</p>
+							<p>For more information on any of our services, please visit our range of brochures</p>
 						</div>
 					</div>
 					<div class="col-md-9 col-sm-8">
@@ -83,7 +83,7 @@ RonchoEnergy | ICT
 										<a href="">
 											<i class="fa fa-file-pdf-o" aria-hidden="true"></i>
 										</a>
-										<span>For more information, Please download our 1-2 tonne Manufactory brochure here</span>
+										<span>For more information, Please download our ICT brochure here</span>
 									</div>
 								</div>
 								<div class="col-md-5 col-sm-5 servicedetail-images">
