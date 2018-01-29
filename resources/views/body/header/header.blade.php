@@ -69,10 +69,7 @@
           </div>
           <ul>
             <li>
-              <h3>Number #1 Provider</h3><span>of Industrial Solution</span>
-            </li>
-            <li>
-              <h3>Global Certificate</h3><span>ISO 9001:2015</span>
+              <h3>Certificate</h3><span>ISO 9001: 2008 | ISO 14001:2004 | OHSAS 18001</span>
             </li>
             <li>
               <h3>Award Winning</h3><span>Solution Of The Year</span>

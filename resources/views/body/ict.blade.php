@@ -20,13 +20,13 @@ RonchoEnergy | ICT
 		<div class="breadcrumb">
 			<!-- Breadcrumb NavXT 5.7.1 -->
 			<span property="itemListElement" typeof="ListItem">
-				<a property="item" typeof="WebPage" title="Go to Manufactory." href="demo/wpm/manufactory" class="home">
-					<span property="name">Manufactory</span>
+				<a property="item" typeof="WebPage" title="Go to {{ config('app.name') }}" href="{{ route('roncho_home') }}" class="home">
+					<span property="name">{{ config('app.name') }}</span>
 				</a>
 				<meta property="position" content="1">
 			</span> &gt;
 			<span property="itemListElement" typeof="ListItem">
-				<a property="item" typeof="WebPage" title="Go to Service." href="demo/wpm/manufactory/service-item/" class="post post-manufactor_service-archive">
+				<a property="item" typeof="WebPage" title="Solution" href="#" class="post post-manufactor_service-archive">
 					<span property="name">Solution</span>
 				</a>
 				<meta property="position" content="2">

@@ -20,7 +20,7 @@ RonchoEnergy | is an energy and technology company registered in Nigeria
 		<div class="breadcrumb">
 			<!-- Breadcrumb NavXT 5.7.1 -->
 			<span property="itemListElement" typeof="ListItem">
-				<a property="item" typeof="WebPage" title="Go to Manufactory." href="demo/wpm/manufactory" class="home">
+				<a property="item" typeof="WebPage" title="Go to {{ config('app.name') }}" href="{{ route('roncho_home') }}" class="home">
 					<span property="name">{{ config('app.name') }}</span>
 				</a>
 				<meta property="position" content="1">
@@ -30,7 +30,6 @@ RonchoEnergy | is an energy and technology company registered in Nigeria
 				<meta property="position" content="2">
 			</span>
 		</div>
-
 	</div>
 </div>
 
@@ -286,6 +285,10 @@ RonchoEnergy | is an energy and technology company registered in Nigeria
 														</div>
 													</div>
 													<hr>
+													<div class='section-header' id="clients">
+														<h3 style="color:#000000; font-size:32px">Meet Our Partners</h3>
+													</div>
+													<br>
 													<div class='row'>
 														<div class='col-md-12 col-sm-12 col-xs-12'>
 															<div class='client-logo-block'>
@@ -453,43 +456,62 @@ RonchoEnergy | is an energy and technology company registered in Nigeria
 												</div>
 											</div>
 
-	<div class="subscribe-section container-fluid no-padding">
-		<div class="container">
-			<div class="row">
-								<div class="col-md-6 col-sm-6 subscribe-info">
-						<img width="196" height="63" src="demo/wpm/manufactory/wp-content/uploads/2016/07/logo-196x63.png" class="attachment-manufactory-196-80 size-manufactory-196-80" alt="" /><p>At vero eos et accusamus et iusto elity lit agnissmos ducimus os quidtiis </p>
-					</div>
-								<div class="col-md-6 col-sm-6 newsletter-block">
-				<script type="text/javascript">(function() {
-	if (!window.mc4wp) {
-		window.mc4wp = {
-			listeners: [],
-			forms    : {
-				on: function (event, callback) {
-					window.mc4wp.listeners.push({
-						event   : event,
-						callback: callback
-					});
-				}
-			}
-		}
-	}
-})();
-</script><!-- MailChimp for WordPress v4.1.9 - https://wordpress.org/plugins/mailchimp-for-wp/ --><form id="mc4wp-form-1" class="mc4wp-form mc4wp-form-247" method="post" data-id="247" data-name="Mailchimp Footer" ><div class="mc4wp-form-fields"><p>
-	<label>Subscribe now to get daily updates</label>
-	<input type="email" name="EMAIL" placeholder="Enter your email" required />
-</p>
-
-<p>
-	<input type="submit" value="Sign up" />
-</p><label style="display: none !important;">Leave this field empty if you're human: <input type="text" name="_mc4wp_honeypot" value="" tabindex="-1" autocomplete="off" /></label><input type="hidden" name="_mc4wp_timestamp" value="1513352389" /><input type="hidden" name="_mc4wp_form_id" value="247" /><input type="hidden" name="_mc4wp_form_element_id" value="mc4wp-form-1" /></div><div class="mc4wp-response"></div></form><!-- / MailChimp for WordPress Plugin -->			</div>
-			</div>
-		</div>
-	</div>
-	</div></div></div></div>
-			</div>
-</div>				</div>
+											<div class="subscribe-section container-fluid no-padding">
+												<div class="container">
+													<div class="row">
+														<div class="col-md-6 col-sm-6 subscribe-info">
+															<img width="196" height="63" src="demo/wpm/manufactory/wp-content/uploads/2016/07/logo-196x63.png" class="attachment-manufactory-196-80 size-manufactory-196-80" alt="" /><p>At vero eos et accusamus et iusto elity lit agnissmos ducimus os quidtiis </p>
+														</div>
+														<div class="col-md-6 col-sm-6 newsletter-block">
+															<script type="text/javascript">(function() {
+																if (!window.mc4wp) {
+																	window.mc4wp = {
+																		listeners: [],
+																		forms    : {
+																			on: function (event, callback) {
+																				window.mc4wp.listeners.push({
+																					event   : event,
+																					callback: callback
+																				});
+																			}
+																		}
+																	}
+																}
+															})();
+															</script>
+															<!-- MailChimp for WordPress v4.1.9 - https://wordpress.org/plugins/mailchimp-for-wp/ -->
+															<form id="mc4wp-form-1" class="mc4wp-form mc4wp-form-247" method="post" data-id="247" data-name="Mailchimp Footer" >
+																<div class="mc4wp-form-fields">
+																	<p>
+																		<label>Subscribe now to get daily updates</label>
+																		<input type="email" name="EMAIL" placeholder="Enter your email" required />
+																	</p>
+																	<p>
+																		<input type="submit" value="Sign up" />
+																	</p>
+																	<label style="display: none !important;">Leave this field empty if you're human:
+																		<input type="text" name="_mc4wp_honeypot" value="" tabindex="-1" autocomplete="off" />
+																	</label>
+																	<input type="hidden" name="_mc4wp_timestamp" value="1513352389" />
+																	<input type="hidden" name="_mc4wp_form_id" value="247" />
+																	<input type="hidden" name="_mc4wp_form_element_id" value="mc4wp-form-1" />
+																</div>
+																<div class="mc4wp-response">
+																</div>
+															</form>
+															<!-- / MailChimp for WordPress Plugin -->
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
 							</div>
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
 	</div>
 </main>
