@@ -2745,7 +2745,7 @@ article[class*="type-"]  {
 	padding: 6px 12px;
 }
 .post-password-form input[type="submit"] {
-	background-color: #feca16;
+	background-color: #ff9c33;
     border: none;
     color: #fafbfc;
     display: inline-block;
@@ -3495,7 +3495,7 @@ article[class*="type-"]  {
 	font-size: 13px;
 	display: inline-block;
 	font-weight: 700;
-	background-color: #feca16;
+	background-color: #ff9c33;
 	padding: 18px 37px;
 	margin-top: 30px;
 	text-transform: uppercase;
@@ -4108,7 +4108,7 @@ p > video {
     -o-transition: all 1s ease 0s;
 }
 .widget-area .widget-recent-post .latest-content h3 a:hover {
-    color: #feca16;
+    color: #ff9c33;
 }
 .widget-area .widget-recent-post .latest-content span a {
     color: #777;
@@ -5833,7 +5833,7 @@ ins {
 .contactus-section  .wpcf7-form  input[type="submit"] {
     padding: 8px 35px;
     border-radius: 0;
-    background-color: #feca16;
+    background-color: #ff9c33;
     border: none;
     border-radius: 3px;
     color: #fff;
@@ -5967,7 +5967,7 @@ div.wpcf7-validation-errors {
 	font-size: 13px;
 	display: inline-block;
 	font-weight: 700;
-	background-color: #feca16;
+	background-color: #ff9c33;
 	padding: 18px 37px;
 	margin-top: 15px;
 	text-transform: uppercase;

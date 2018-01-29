@@ -66,7 +66,7 @@
 }
 .ow-navigation .nav.navbar-nav li.active > a::before,
 .ow-navigation .nav.navbar-nav li > a:hover::before {
-    border-color: #f7c51d;
+    border-color: #ff9c33;
     left: 22px;
     right: 22px;
 }
@@ -169,12 +169,12 @@
         border-bottom: none;
     }
     .menu-block.navbar-fixed-top .ow-navigation .dropdown-menu > li > a:hover {
-        color: #f7c51d;
+        color: #ff9c33;
     }
     .ow-navigation .dropdown-menu > li:hover > a,
     .ow-navigation .dropdown-menu > li > a:hover {
         background-color: transparent;
-        color: #f7c51d;
+        color: #ff9c33;
     }
     .ow-navigation ul > li > .dropdown-menu {
         left: 0;
@@ -276,7 +276,7 @@
     }
     .ow-navigation .navbar-nav {
         float: none!important;
-        border-top: 1px solid #f7c51d;
+        border-top: 1px solid #ff9c33;
         margin: 0;
     }
     .ow-navigation .navbar-header {
@@ -287,7 +287,7 @@
     }
     .ow-navigation .navbar-toggle {
         display: block;
-        background-color: #f7c51d;
+        background-color: #ff9c33;
         margin-bottom: 12px;
         margin-top: 12px;
         margin-right: 0px;
@@ -304,12 +304,12 @@
     .navbar-fixed-top .ow-navigation .navbar-toggle:hover,
     .ow-navigation .navbar-toggle:hover {
         background-color: #fff;
-        border-color: #f7c51d;
+        border-color: #ff9c33;
     }
     .navbar-fixed-top .ow-navigation .navbar-toggle:focus .icon-bar,
     .navbar-fixed-top .ow-navigation .navbar-toggle:hover .icon-bar,
     .ow-navigation .navbar-toggle:hover .icon-bar {
-        background-color: #f7c51d;
+        background-color: #ff9c33;
     }
     .ow-navigation .navbar-collapse > .nav.navbar-nav > li {
         margin: 0;
@@ -325,7 +325,7 @@
     .menu-block.navbar-fixed-top .ow-navigation .dropdown-menu > li > a:hover,
     .ow-navigation .dropdown-menu > li > a:hover {
         background-color: transparent;
-        color: #f7c51d;
+        color: #ff9c33;
     }
     .ow-navigation .nav.navbar-nav li > a,
     .ow-navigation .navbar-collapse > ul > li > a {
@@ -385,7 +385,7 @@
         right: 0;
         z-index: 9999;
         top: 6px;
-        color: #f7c51d;
+        color: #ff9c33;
     }
     .ow-navigation .ddl-active > .ddl-switch:before {
         content: "\f106";

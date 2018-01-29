@@ -12,7 +12,7 @@
 */
 
 Route::get('/', ['as'=>'roncho_home', 'uses'=>'RonchoController@index']);
-Route::get('/Oil&Gas', ['as'=>'roncho_oil', 'uses'=>'RonchoController@oil']);
+Route::get('/Engineering Services', ['as'=>'roncho_engineering', 'uses'=>'RonchoController@engineering']);
 Route::get('/ICT', ['as'=>'roncho_ict', 'uses'=>'RonchoController@ict']);
 Route::get('/Energy', ['as'=>'roncho_energy', 'uses'=>'RonchoController@energy']);
 Route::get('/About RonchoEnergy', ['as'=>'roncho_about', 'uses'=>'RonchoController@about']);

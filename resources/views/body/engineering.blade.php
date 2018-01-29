@@ -1,7 +1,7 @@
 @extends("master")
 
 @section("title")
-RonchoEnergy | Oil &amp; Gas
+RonchoEnergy | Engineering Services
 @endsection
 
 @section("content")
@@ -9,7 +9,7 @@ RonchoEnergy | Oil &amp; Gas
 	<div class="page-banner-inner">
 		<div class="container">
 			<h3>
-				Oil &#038; Gas
+				Engineering Services
 			</h3>
 		</div>
 	</div>
@@ -32,7 +32,7 @@ RonchoEnergy | Oil &amp; Gas
 				<meta property="position" content="2">
 			</span> &gt;
 			<span property="itemListElement" typeof="ListItem">
-				<span property="name">Oil &amp; Gas</span>
+				<span property="name">Engineering Services</span>
 				<meta property="position" content="3">
 			</span>
 		</div>
@@ -52,7 +52,7 @@ RonchoEnergy | Oil &amp; Gas
 								<a href="{{ route('roncho_ict') }}">ICT</a>
 							</li>
 							<li class="active">
-								<a href="{{ route('roncho_oil') }}">Oil and Gas</a>
+								<a href="{{ route('roncho_engineering') }}">Engineering Services</a>
 							</li>
 						</ul>
 						<div class="callout">
@@ -68,8 +68,9 @@ RonchoEnergy | Oil &amp; Gas
 							<div class="row">
 								<div class="col-md-7 col-sm-7">
 									<div class="section-header">
-										<h3>Oil &#038; Gas</h3>
+										<h3>Engineering Services</h3>
 									</div>
+									<br>
 									<ul>
 										<li>Procurement, Installation, Operation & Maintenance</li>
 										<li>Consultancy Services</li>

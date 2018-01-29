@@ -1,7 +1,7 @@
 @extends("master")
 
 @section("title")
-RonchoEnergy | Projects: Energy, ICT, Oil &amp; Gas
+RonchoEnergy | Projects: Energy, ICT, Engineering Services
 @endsection
 
 @section("content")
@@ -39,7 +39,7 @@ RonchoEnergy | Projects: Energy, ICT, Oil &amp; Gas
 
 													<li><a href="#" data-filter=".energy">Enery</a></li>
 													<li><a href="#" data-filter=".ict">ICT</a></li>
-													<li><a href="#" data-filter=".oil">Oil &amp; Gas</a></li>
+													<li><a href="#" data-filter=".oil">Engineering Services</a></li>
 												</ul>
 												<ul class="portfolio-list no-padding">
 													<li class="col-md-4 col-sm-4 col-xs-12 energy">

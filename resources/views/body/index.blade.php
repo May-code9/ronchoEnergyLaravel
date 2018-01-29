@@ -1,7 +1,7 @@
 @extends("master")
 
 @section("title")
-RonchoEnergy | Energy, ICT, Oil &amp; Gas
+RonchoEnergy | Energy, ICT, Engineering Services
 @endsection
 
 @section("content")
@@ -225,7 +225,7 @@ RonchoEnergy | Energy, ICT, Oil &amp; Gas
 														</div>
 														<div class='col-md-4 col-sm-6 col-xs-6 introdction-block '>
 															<img width="370" height="281" src="demo/wpm/manufactory/wp-content/uploads/2016/07/intro-lg-3.jpg" class="attachment-manufactory-370-281 size-manufactory-370-281" alt="" srcset="demo/wpm/manufactory/wp-content/uploads/2016/07/intro-lg-3.jpg 370w, demo/wpm/manufactory/wp-content/uploads/2016/07/intro-lg-3-300x228.jpg 300w" sizes="(max-width: 370px) 100vw, 370px" />
-															<h3><a href='#'>Oil &amp; Gas</a></h3>
+															<h3><a href='#'>Engineering Services</a></h3>
 															<span>Objectively innovate empowered</span>
 														</div>
 													</div>
@@ -240,8 +240,8 @@ RonchoEnergy | Energy, ICT, Oil &amp; Gas
 																		<a data-filter="*" class="active" href="#">All Projects</a>
 																	</li>
 																	<li><a href="#" data-filter=".energy">Energy</a></li>
-																	<li><a href="#" data-filter=".it">I.T</a></li>
-																	<li><a href="#" data-filter=".oil">Oil &amp; Gas</a></li>
+																	<li><a href="#" data-filter=".it">ICT</a></li>
+																	<li><a href="#" data-filter=".oil">Engineering Services</a></li>
 																</ul>
 															</div>
 															<ul class="portfolio-list no-left-padding">

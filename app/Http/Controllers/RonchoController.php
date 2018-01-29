@@ -9,8 +9,8 @@ class RonchoController extends Controller
     public function index() {
       return view("body.index");
     }
-    public function oil() {
-      return view("body.oil-gas");
+    public function engineering() {
+      return view("body.engineering");
     }
     public function ict() {
       return view("body.ict");
