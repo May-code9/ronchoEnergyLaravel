@@ -55,13 +55,12 @@ RonchoEnergy | Engineering Services
 								<a href="{{ route('roncho_engineering') }}">Engineering Services</a>
 							</li>
 						</ul>
-						<div class="callout">
-							<a href="">
-								<i class="fa fa-file-pdf-o" aria-hidden="true"></i>
-							</a>
-							<h3>Brochures</h3>
-							<p>For more information on any of ourservices, please visit our range of brochures</p>
-						</div>
+						<hr>
+						<ul>
+							<li class="active">
+								<a href="{{ route('roncho_projects') }}">View Projects</a>
+							</li>
+						</ul>
 					</div>
 					<div class="col-md-9 col-sm-8">
 						<div class="service-content">
@@ -80,51 +79,11 @@ RonchoEnergy | Engineering Services
 										<a target="_blank" href="{{ asset('pdf/RonchoEnergy_Corporate Profile_20171215.pdf') }}">
 											<i class="fa fa-file-pdf-o" aria-hidden="true"></i>
 										</a>
-										<span>For more information, Please download our Oil &amp; Gas brochure here</span>
+										<span>For more information, Please download our Engineering Services brochure here</span>
 									</div>
 								</div>
 								<div class="col-md-5 col-sm-5 servicedetail-images">
 									<img width="352" height="371" src="demo/wpm/manufactory/wp-content/uploads/2016/06/service-detail-2-352x371.jpg" class="attachment-manufactory-352-371 size-manufactory-352-371" alt="" srcset="demo/wpm/manufactory/wp-content/uploads/2016/06/service-detail-2-352x371.jpg 352w, demo/wpm/manufactory/wp-content/uploads/2016/06/service-detail-2-284x300.jpg 284w, demo/wpm/manufactory/wp-content/uploads/2016/06/service-detail-2.jpg 360w" sizes="(max-width: 352px) 100vw, 352px" />
-								</div>
-							</div>
-						</div>
-						<div class="accordion-section">
-							<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-								<div class="panel panel-default">
-									<div class="panel-heading" role="tab" id="accordion_1">
-										<h4 class="panel-title">
-											<a role="button" data-toggle="collapse" data-parent="#accordion" href="#accordion1" aria-expanded="true" aria-controls="accordion1">Careers</a>
-										</h4>
-									</div>
-									<div id="accordion1" class="panel-collapse collapse" role="tabpanel" aria-labelledby="accordion1">
-										<div class="panel-body">
-											<p>Perspiciatis unde omnis iste natus error sit voluptatem accu santiumuo doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illomas inventore veritatis et quasi architecto beatae vitae dicta sunt explicaon Nemo enim ipsam voluptatem quia voluptas</p>
-										</div>
-									</div>
-								</div>
-								<div class="panel panel-default">
-									<div class="panel-heading" role="tab" id="accordion_2">
-										<h4 class="panel-title">
-											<a role="button" data-toggle="collapse" data-parent="#accordion" href="#accordion2" aria-expanded="true" aria-controls="accordion2">Clients Approch</a>
-										</h4>
-									</div>
-									<div id="accordion2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="accordion2">
-										<div class="panel-body">
-											<p>Perspiciatis unde omnis iste natus error sit voluptatem accu santiumuo doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illomas inventore veritatis et quasi architecto beatae vitae dicta sunt explicaon Nemo enim ipsam voluptatem quia voluptas</p>
-										</div>
-									</div>
-								</div>
-								<div class="panel panel-default">
-									<div class="panel-heading" role="tab" id="accordion_3">
-										<h4 class="panel-title">
-											<a role="button" data-toggle="collapse" data-parent="#accordion" href="#accordion3" aria-expanded="true" aria-controls="accordion3">24/7 Professional Support</a>
-										</h4>
-									</div>
-									<div id="accordion3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="accordion3">
-										<div class="panel-body">
-											<p>Perspiciatis unde omnis iste natus error sit voluptatem accu santiumuo doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illomas inventore veritatis et quasi architecto beatae vitae dicta sunt explicaon Nemo enim ipsam voluptatem quia voluptas</p>
-										</div>
-									</div>
 								</div>
 							</div>
 						</div>
@@ -135,5 +94,109 @@ RonchoEnergy | Engineering Services
 		</div>
 	</div>
 </main>
-
+<div class="col-md-10 col-md-push-1">
+	<hr>
+</div>
+<main id="maining" class="site-main">
+	<div class="post-content">
+		<div class="container servicedetail">
+			<div class="row">
+				<div id="post-83" class="post-83 manufactor_service type-manufactor_service status-publish has-post-thumbnail hentry">
+					<div class="col-md-6 col-sm-12">
+						<div class="accordion-section">
+							<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+								<div class="panel panel-default">
+									<div class="panel-heading" role="tab" id="accordion_1">
+										<h4 class="panel-title">
+											<a role="button" data-toggle="collapse" data-parent="#accordion" href="#accordion1" aria-expanded="true" aria-controls="accordion1">Consultancy Services</a>
+										</h4>
+									</div>
+									<div id="accordion1" class="panel-collapse collapse" role="tabpanel" aria-labelledby="accordion1">
+										<div class="panel-body">
+											<div class="service-content">
+												<ul>
+													<li>Manpower Supply (Technical & Admin)</li>
+													<li>Human Resources & Development Consultancy</li>
+													<li>Material Management</li>
+													<li>Cost and Planning</li>
+													<li>Technical Documentation / Document Control</li>
+													<li>Industrial Design</li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="panel panel-default">
+									<div class="panel-heading" role="tab" id="accordion_5">
+										<h4 class="panel-title">
+											<a role="button" data-toggle="collapse" data-parent="#accordion" href="#accordion5" aria-expanded="true" aria-controls="accordion5">Operation & Maintenance</a>
+										</h4>
+									</div>
+									<div id="accordion5" class="panel-collapse collapse" role="tabpanel" aria-labelledby="accordion5">
+										<div class="panel-body">
+											<div class="service-content">
+												<ul>
+													<li>Electrical, Mechanical & Civil Maintenance Services</li>
+													<li>Preservation Services (Corrosion Control)</li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6 col-sm-12">
+						<div class="accordion-section">
+							<div class="panel-group" id="accordionion" role="tablist" aria-multiselectable="true">
+								<div class="panel panel-default">
+									<div class="panel-heading" role="tab" id="accordion_2">
+										<h4 class="panel-title">
+											<a role="button" data-toggle="collapse" data-parent="#accordionion" href="#accordion2" aria-expanded="true" aria-controls="accordion2">Information Systems & Technology / Communication Systems</a>
+										</h4>
+									</div>
+									<div id="accordion2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="accordion2">
+										<div class="panel-body">
+											<div class="service-content">
+												<ul>
+													<li>Web Design
+													</li>
+													<li>Data Management Services</li>
+													<li>Hardware Installation Support</li>
+													<li>User Support / Help Desk Services</li>
+													<li>Network Support Services</li>
+													<li>Software Development & Support Services</li>
+													<li>IT Management</li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="panel panel-default">
+									<div class="panel-heading" role="tab" id="accordion_6">
+										<h4 class="panel-title">
+											<a role="button" data-toggle="collapse" data-parent="#accordionion" href="#accordion6" aria-expanded="true" aria-controls="accordion6">How to order</a>
+										</h4>
+									</div>
+									<div id="accordion6" class="panel-collapse collapse" role="tabpanel" aria-labelledby="accordion6">
+										<div class="panel-body">
+											<p>You can contact us at</p>
+											<div class="service-content">
+												<ul>
+													<li>sales@ronchoenergy.com</li>
+													<li>090 6992 0242</li>
+												</ul>
+											</div>
+											<p>We have distributors that make these plug and play products available anywhere in Nigeria. Contact us to connect you to the right channel.</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</main>
 @endsection
