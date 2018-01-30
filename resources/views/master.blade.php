@@ -15,6 +15,15 @@
   <link rel="stylesheet" href="{{ asset('css/may.css') }}">
   <meta property="og:description" content="Energy, ICT, Oil and Gas">
   <meta property="og:url" content="http://www.ronchoenergy.com">
+  @if(Route::currentRouteName() == 'login' || Route::currentRouteName() == 'register')
+  <!-- CSRF Token -->
+  <meta name="csrf-token" content="{{ csrf_token() }}">
+
+  <title>{{ config('app.name', 'Laravel') }}</title>
+
+  <!-- Styles -->
+  
+  @endif
 </head>
 
   @if(Route::currentRouteName() == "roncho_engineering" || Route::currentRouteName() == "roncho_energy" || Route::currentRouteName() == "roncho_ict" || Route::currentRouteName() == "roncho_about")

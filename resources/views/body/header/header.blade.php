@@ -84,7 +84,6 @@
           <li><a target="_blank" href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
           <li><a target="_blank" href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
           <li><a target="_blank" href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-          <li><a target="_blank" href="#"><i class="fa fa-behance" aria-hidden="true"></i></a></li>
         </ul>
       </div>
     </div>
@@ -132,7 +131,19 @@
             <!-- <li id="menu-item-228" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-228"><a title="Services" href="services.php">Services</a></li> -->
             <li id="menu-item-229" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-229"><a title="Products" href="{{ route('roncho_products') }}">Products</a></li>
             <li id="menu-item-278" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-229"><a title="Contact" href="{{ route('roncho_contact') }}">Contact</a></li>
+            @guest
+            <li id="menu-item-278" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-229"><a title="Contact" href="{{ route('login') }}">Login</a></li>
+            <li id="menu-item-278" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-229"><a title="Contact" href="{{ route('register') }}">Register</a></li>
+            @else
+            <li id="menu-item-278" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-229"><a title="Contact" href="{{route('logout')}}" onclick="event.preventDefault(); document.getElementById('logout-form').submit();">{{ Auth::user()->first_name }} | Logout</a>
+              <form id="logout-form" action="{{route('logout')}}" method="POST" style="display: none;">
+                {{ csrf_field() }}
+              </form>
             </li>
+            @endguest
+            @if(Auth::user()->role == 4)
+            <li id="menu-item-278" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-229"><a title="Contact" href="#">Dashboard</a></li>
+            @endif
           </ul>
         </div>
       </nav><!-- Navigation /- -->

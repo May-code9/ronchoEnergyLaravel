@@ -20,3 +20,5 @@ Route::get('/Products', ['as'=>'roncho_products', 'uses'=>'RonchoController@prod
 Route::get('/Contact Us', ['as'=>'roncho_contact', 'uses'=>'RonchoController@contact']);
 Route::get('/News', ['as'=>'roncho_news', 'uses'=>'RonchoController@news']);
 Route::get('/Projects', ['as'=>'roncho_projects', 'uses'=>'RonchoController@projects']);
+
+Auth::routes();
