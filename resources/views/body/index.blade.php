@@ -240,39 +240,21 @@ RonchoEnergy | Energy, ICT, Engineering Services
 																		<a data-filter="*" class="active" href="#">All Projects</a>
 																	</li>
 																	<li><a href="#" data-filter=".energy">Energy</a></li>
-																	<li><a href="#" data-filter=".it">ICT</a></li>
-																	<li><a href="#" data-filter=".oil">Engineering Services</a></li>
+																	<li><a href="#" data-filter=".ict">ICT</a></li>
+																	<li><a href="#" data-filter=".engineering">Engineering Services</a></li>
 																</ul>
 															</div>
 															<ul class="portfolio-list no-left-padding">
-																<li class="col-md-3 col-sm-4 col-xs-4 coal energy">
+																@forelse($projects as $project)
+																<li class="col-md-3 col-sm-4 col-xs-4 coal {{ $project->category }}">
 																	<div class="content-image-block">
-																		<a href="demo/wpm/manufactory/portfolio-item/portfolio-1/"><img width="263" height="214" src="demo/wpm/manufactory/wp-content/uploads/2016/06/weare-1-263x214.jpg" class="attachment-manufactory-263-214 size-manufactory-263-214 wp-post-image" alt="" /></a>
-																		<a class="zoom" href="demo/wpm/manufactory/wp-content/uploads/2016/06/weare-1.jpg"><i class="fa fa-plus"></i></a>
-																		<a href="demo/wpm/manufactory/portfolio-item/portfolio-1/"><span class="icon icon-Goto"></span></a>
+																		<a href="#"><img width="320" height="220" src="{{ asset('image/' . $project->image)}}" class="attachment-manufactory-263-214 size-manufactory-263-214 wp-post-image" alt="" /></a>
+																		<a class="zoom" href="{{ asset('image/' . $project->fullimage)}}"><i class="fa fa-plus"></i></a>
 																	</div>
 																</li>
-																<li class="col-md-3 col-sm-4 col-xs-4 coal it energy">
-																	<div class="content-image-block">
-																		<a href="demo/wpm/manufactory/portfolio-item/portfolio-1-2/"><img width="263" height="214" src="demo/wpm/manufactory/wp-content/uploads/2016/06/service-detail-2-263x214.jpg" class="attachment-manufactory-263-214 size-manufactory-263-214 wp-post-image" alt="" /></a>
-																		<a class="zoom" href="demo/wpm/manufactory/wp-content/uploads/2016/06/service-detail-2.jpg"><i class="fa fa-plus"></i></a>
-																		<a href="demo/wpm/manufactory/portfolio-item/portfolio-1-2/"><span class="icon icon-Goto"></span></a>
-																	</div>
-																</li>
-																<li class="col-md-3 col-sm-4 col-xs-4 coal it">
-																	<div class="content-image-block">
-																		<a href="demo/wpm/manufactory/portfolio-item/portfolio-3/"><img width="263" height="214" src="demo/wpm/manufactory/wp-content/uploads/2016/06/weare-3-263x214.jpg" class="attachment-manufactory-263-214 size-manufactory-263-214 wp-post-image" alt="" /></a>
-																		<a class="zoom" href="demo/wpm/manufactory/wp-content/uploads/2016/06/weare-3.jpg"><i class="fa fa-plus"></i></a>
-																		<a href="demo/wpm/manufactory/portfolio-item/portfolio-3/"><span class="icon icon-Goto"></span></a>
-																	</div>
-																</li>
-																<li class="col-md-3 col-sm-4 col-xs-4 coal oil energy">
-																	<div class="content-image-block">
-																		<a href="demo/wpm/manufactory/portfolio-item/portfolio-4/"><img width="263" height="214" src="demo/wpm/manufactory/wp-content/uploads/2016/06/service-detail-1-263x214.jpg" class="attachment-manufactory-263-214 size-manufactory-263-214 wp-post-image" alt="" /></a>
-																		<a class="zoom" href="demo/wpm/manufactory/wp-content/uploads/2016/06/service-detail-1.jpg"><i class="fa fa-plus"></i></a>
-																		<a href="demo/wpm/manufactory/portfolio-item/portfolio-4/"><span class="icon icon-Goto"></span></a>
-																	</div>
-																</li>
+																@empty
+																<h1>No Images Yet</h1>
+																@endforelse
 															</ul>
 														</div>
 													</div>

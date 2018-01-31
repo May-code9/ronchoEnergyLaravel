@@ -113,9 +113,9 @@
         </div>
         <div class="navbar-collapse collapse" id="navbar">
           <ul id="menu-main-menu" class="nav navbar-nav menubar">
-            <li id="menu-item-37" class="hide-text menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home current-menu-ancestor current-menu-parent menu-item-has-children menu-item-37 dropdown active"><a title="Home" href="{{ route('roncho_home') }}" class="dropdown-toggle" aria-haspopup="true">
+            <li id="menu-item-37" class="hide-text menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home current-menu-ancestor current-menu-parent menu-item-has-children menu-item-37 dropdown @if(isset($home)) {{$home}} @endif"><a title="Home" href="{{ route('roncho_home') }}" class="dropdown-toggle" aria-haspopup="true">
               <span class="fa fa-home"></span>&nbsp;Home</a><i class='ddl-switch fa fa-angle-down'></i>
-              <ul role="menu" class=" dropdown-menu">
+              <ul role="menu" class="@if(isset($about)) {{$about}} @endif dropdown-menu">
                 <li id="menu-item-38" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-38"><a title="About Us" href="{{ route('roncho_about') }}">About Us</a></li>
               </ul>
             </li>
@@ -126,16 +126,16 @@
                 <li id="menu-item-200" class="menu-item menu-item-type-post_type menu-item-object-manufactor_service menu-item-200"><a title="Engineering Services" href="{{ route('roncho_engineering') }}">Engineering Services</a></li>
               </ul>
             </li>
-            <li id="menu-item-226" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-226"><a title="Project" href="{{ route('roncho_projects') }}">Project</a></li>
-            <li id="menu-item-227" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-227"><a title="News" href="{{ route('roncho_news') }}">News</a></li>
+            <li id="menu-item-226" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-226 @if(isset($active)) {{$active}} @endif"><a title="Project" href="{{ route('roncho_projects') }}">Project</a></li>
+            <li id="menu-item-227" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-227 @if(isset($news)) {{$news}} @endif"><a title="News" href="{{ route('roncho_news') }}">News</a></li>
             <!-- <li id="menu-item-228" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-228"><a title="Services" href="services.php">Services</a></li> -->
-            <li id="menu-item-229" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-229"><a title="Products" href="{{ route('roncho_products') }}">Products</a></li>
-            <li id="menu-item-278" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-229"><a title="Contact" href="{{ route('roncho_contact') }}">Contact</a></li>
+            <li id="menu-item-229" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-229 @if(isset($products)) {{$products}} @endif"><a title="Products" href="{{ route('roncho_products') }}">Products</a></li>
+            <li id="menu-item-278" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-229 @if(isset($contact)) {{$contact}} @endif"><a title="Contact" href="{{ route('roncho_contact') }}">Contact</a></li>
             @guest
-            <li id="menu-item-278" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-229"><a title="Contact" href="{{ route('login') }}">Login</a></li>
-            <li id="menu-item-278" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-229"><a title="Contact" href="{{ route('register') }}">Register</a></li>
+            <li id="menu-item-278" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-229"><a title="login" href="{{ route('login') }}">Login</a></li>
+            <li id="menu-item-278" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-229"><a title="register" href="{{ route('register') }}">Register</a></li>
             @else
-            <li id="menu-item-278" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-229"><a title="Contact" href="{{route('logout')}}" onclick="event.preventDefault(); document.getElementById('logout-form').submit();">{{ Auth::user()->first_name }} | Logout</a>
+            <li id="menu-item-278" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-229"><a title="logout" href="{{route('logout')}}" onclick="event.preventDefault(); document.getElementById('logout-form').submit();">{{ Auth::user()->first_name }} | Logout</a>
               <form id="logout-form" action="{{route('logout')}}" method="POST" style="display: none;">
                 {{ csrf_field() }}
               </form>
