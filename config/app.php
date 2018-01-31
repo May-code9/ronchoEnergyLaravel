@@ -14,6 +14,7 @@ return [
     */
 
     'name' => 'Roncho Energy Services Limited',
+    'shortName' => 'Roncho Energy',
 
     /*
     |--------------------------------------------------------------------------

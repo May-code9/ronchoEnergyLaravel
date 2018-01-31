@@ -140,10 +140,10 @@
                 {{ csrf_field() }}
               </form>
             </li>
-            @endguest
             @if(Auth::user()->role == 4)
-            <li id="menu-item-278" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-229"><a title="Contact" href="#">Dashboard</a></li>
+            <li id="menu-item-278" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-229"><a title="Contact" href="{{ route('ronchoDashboard') }}">Dashboard</a></li>
             @endif
+            @endguest
           </ul>
         </div>
       </nav><!-- Navigation /- -->

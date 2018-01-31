@@ -22,3 +22,7 @@ Route::get('/News', ['as'=>'roncho_news', 'uses'=>'RonchoController@news']);
 Route::get('/Projects', ['as'=>'roncho_projects', 'uses'=>'RonchoController@projects']);
 
 Auth::routes();
+
+Route::group(['middleware'=>'superadmin'], function () {
+  Route::get('/dashboard', ['as'=>'ronchoDashboard', 'uses'=>'DashboardController@index']);
+});

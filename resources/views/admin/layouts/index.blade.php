@@ -47,7 +47,7 @@
           <div class="small-box bg-yellow">
             <div class="inner">
               <h3>
-                --------
+                ---
               </h3>
               <p>
                 Subcribers
@@ -66,7 +66,7 @@
           <div class="small-box bg-blue">
             <div class="inner">
               <h3>
-                ----------
+                ---
               </h3>
               <p>
                 Courses
@@ -85,7 +85,7 @@
           <div class="small-box bg-red">
             <div class="inner">
               <h3>
-                --------------
+                ---
               </h3>
               <p>
                 Events
@@ -104,7 +104,7 @@
           <div class="small-box bg-green">
             <div class="inner">
               <h3>
-                -----------
+                ---
               </h3>
               <p>
                 News
@@ -123,7 +123,7 @@
           <div class="small-box bg-aqua">
             <div class="inner">
               <h3>
-                --------------
+                ---
               </h3>
               <p>
                 Lecturers
@@ -142,7 +142,7 @@
           <div class="small-box bg-yellow">
             <div class="inner">
               <h3>
-                --------------
+                ---
               </h3>
               <p>
                 Blog
@@ -161,7 +161,7 @@
           <div class="small-box bg-blue">
             <div class="inner">
               <h3>
-                --------------
+                ---
               </h3>
               <p>
                 Testimonies
