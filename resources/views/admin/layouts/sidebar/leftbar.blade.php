@@ -16,25 +16,16 @@
     <ul class="sidebar-menu">
       @if (Auth::user()->role == 4)
       <li class="">
-        <a href="#">
+        <a href="{{ route('ronchoDashboard') }}">
           <i class="fa fa-dashboard"></i> <span>Dashboard</span>
         </a>
       </li>
-      <li class="treeview">
-        <a href="#">
-          <i class="fa fa-folder"></i> <span>Display Images</span>
-          <i class="fa fa-angle-left pull-right"></i>
-        </a>
-        <ul class="treeview-menu">
-          <li><a href="#"><i class="fa fa-angle-double-right"></i> Header Image</a></li>
-        </ul>
-      </li>
-      <li class="">
+
+      <!-- <li class="">
         <a href="#">
           <i class="fa fa-envelope"></i> <span>Testimonies</span>
-          <!--<small class="badge pull-right bg-red">3</small>-->
         </a>
-      </li>
+      </li> -->
 
       <li class="treeview">
         <a href="#">
@@ -42,9 +33,9 @@
           <i class="fa fa-angle-left pull-right"></i>
         </a>
         <ul class="treeview-menu">
-          <li><a href="#"><i class="fa fa-angle-double-right"></i> Energy</a></li>
-          <li><a href="#"><i class="fa fa-angle-double-right"></i> ICT</a></li>
-          <li><a href="#"><i class="fa fa-angle-double-right"></i> Engineering</a></li>
+          <li><a href="{{ route('energy.create') }}"><i class="fa fa-angle-double-right"></i> Energy</a></li>
+          <li><a href="{{ route('ict.create') }}"><i class="fa fa-angle-double-right"></i> ICT</a></li>
+          <li><a href="{{ route('engineering.create') }}"><i class="fa fa-angle-double-right"></i> Engineering</a></li>
         </ul>
       </li>
 

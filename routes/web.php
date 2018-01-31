@@ -25,4 +25,7 @@ Auth::routes();
 
 Route::group(['middleware'=>'superadmin'], function () {
   Route::get('/dashboard', ['as'=>'ronchoDashboard', 'uses'=>'DashboardController@index']);
+  Route::resource('energy', 'EnergyProject');
+  Route::resource('ict', 'IctProject');
+  Route::resource('engineering', 'EngineeringProject');
 });

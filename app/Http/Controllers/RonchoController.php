@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Project;
 
 class RonchoController extends Controller
 {
@@ -31,6 +32,7 @@ class RonchoController extends Controller
       return view("body.news");
     }
     public function projects() {
-      return view("body.project");
+      $projects = Project::inRandomOrder()->get();
+      return view("body.project", compact('projects'));
     }
 }
