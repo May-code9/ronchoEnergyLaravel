@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Project;
+use App\Product;
 
 class RonchoController extends Controller
 {
@@ -26,8 +27,10 @@ class RonchoController extends Controller
       return view("body.about-us", compact('about'));
     }
     public function products() {
+      $getProducts = Product::inRandomOrder()->paginate(9);
+      $getProductsFours = Product::take(2)->get();
       $products = "active";
-      return view("body.products", compact('products'));
+      return view("body.products", compact('products', 'getProducts', 'getProductsFours'));
     }
     public function contact() {
       $contact = "active";

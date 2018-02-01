@@ -62,7 +62,7 @@
                   </div>
 
                   <div class="form-group{{ $errors->has('fullimage') ? ' has-error' : '' }}">
-                    <label>Author's Image</label>
+                    <label>Full Image</label>
                     <input type="file" name="fullimage" id="fullimage" >
                     <p style="padding-left:10px">Original Image Size</p>
                     @if ($errors->has('fullimage'))

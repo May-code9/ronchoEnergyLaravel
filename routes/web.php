@@ -21,6 +21,9 @@ Route::get('/Contact Us', ['as'=>'roncho_contact', 'uses'=>'RonchoController@con
 Route::get('/News', ['as'=>'roncho_news', 'uses'=>'RonchoController@news']);
 Route::get('/Projects', ['as'=>'roncho_projects', 'uses'=>'RonchoController@projects']);
 
+//SearchController
+Route::get('searchProducts{page?}', ['as'=>'product.search', 'uses'=>'SearchController@productSearch']);
+
 Auth::routes();
 
 Route::group(['middleware'=>'superadmin'], function () {
@@ -28,4 +31,5 @@ Route::group(['middleware'=>'superadmin'], function () {
   Route::resource('energy', 'EnergyProject');
   Route::resource('ict', 'IctProject');
   Route::resource('engineering', 'EngineeringProject');
+  Route::resource('product', 'ProductController');
 });

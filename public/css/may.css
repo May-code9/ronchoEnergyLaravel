@@ -35,3 +35,6 @@
     left: 24.66666666666666%;
   }
 }
+.zoom:hover {
+    transform: scale(1.1);
+}

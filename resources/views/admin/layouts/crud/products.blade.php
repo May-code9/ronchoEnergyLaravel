@@ -43,38 +43,33 @@
           <!-- general form elements -->
           <div class="box box-success">
             <div class="box-header">
-              <h3 class="box-title">ICT Project</h3>
+              <h3 class="box-title">Products</h3>
             </div><!-- /.box-header -->
 
             <!-- form start -->
-            <form role="form" method="post" action="{{ route('ict.store') }}" enctype="multipart/form-data">
+            <form role="form" method="post" action="{{ route('product.store') }}" enctype="multipart/form-data">
               {{ csrf_field() }}
               <div class="box-body">
-                  <div class="form-group{{ $errors->has('image') ? ' has-error' : '' }}">
-                    <label>Mini Image</label>
-                    <input type="file" name="image" id="image" >
-                    <p style="padding-left:10px">Image Size: 370 x 220</p>
-                    @if ($errors->has('image'))
-                    <span class="help-block">
-                      <strong>{{ $errors->first('image') }}</strong>
-                    </span>
-                    @endif
-                  </div>
+                <div class="form-group{{ $errors->has('product') ? ' has-error' : '' }}">
+                  <label>Title of Products</label>
+                  <input type="text" class="form-control" name="product" id="product" placeholder="Enter ..." />
+                  @if ($errors->has('product'))
+                  <span class="help-block">
+                    <strong>{{ $errors->first('product') }}</strong>
+                  </span>
+                  @endif
+                </div>
 
-                  <div class="form-group{{ $errors->has('fullimage') ? ' has-error' : '' }}">
-                    <label>Full Image</label>
-                    <input type="file" name="fullimage" id="fullimage" >
-                    <p style="padding-left:10px">Original Image Size</p>
-                    @if ($errors->has('fullimage'))
-                    <span class="help-block">
-                      <strong>{{ $errors->first('fullimage') }}</strong>
-                    </span>
-                    @endif
-                  </div>
-
-                  <div class="form-group{{ $errors->has('category') ? ' has-error' : '' }}">
-                    <input type="hidden" class="form-control" name="category" id="category" value="ict" />
-                  </div>
+                <div class="form-group{{ $errors->has('image') ? ' has-error' : '' }}">
+                  <label>Image</label>
+                  <input type="file" name="image" id="image" >
+                  <p style="padding-left:10px">Image Size: 340 x 340</p>
+                  @if ($errors->has('image'))
+                  <span class="help-block">
+                    <strong>{{ $errors->first('image') }}</strong>
+                  </span>
+                  @endif
+                </div>
               </div>
 
               <div class="box-footer">

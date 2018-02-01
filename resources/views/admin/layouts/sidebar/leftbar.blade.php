@@ -27,6 +27,12 @@
         </a>
       </li> -->
 
+      <li class="">
+        <a href="{{ route('product.create') }}">
+          <i class="fa fa-edit"></i> <span>Product</span>
+        </a>
+      </li>
+
       <li class="treeview">
         <a href="#">
           <i class="fa fa-edit"></i> <span>Projects</span>

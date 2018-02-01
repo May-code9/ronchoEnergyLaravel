@@ -7,13 +7,13 @@
 
   <title>@yield("title")</title>
   <meta name='robots' content='noindex,follow' />
-  @if(Route::currentRouteName() == "roncho_products")
+  @if(Route::currentRouteName() == "roncho_products" || Route::currentRouteName() == "product.search")
   @include("body.link.link2")
   @else
   @include("body.link.link")
   @endif
   <link rel="stylesheet" href="{{ asset('css/may.css') }}">
-  <meta property="og:description" content="Energy, ICT, Oil and Gas">
+  <meta property="og:description" content="Energy, ICT, Engineering Services">
   <meta property="og:url" content="http://www.ronchoenergy.com">
   @if(Route::currentRouteName() == 'login' || Route::currentRouteName() == 'register')
   <!-- CSRF Token -->
@@ -22,13 +22,13 @@
   <title>{{ config('app.name', 'Laravel') }}</title>
 
   <!-- Styles -->
-  
+
   @endif
 </head>
 
   @if(Route::currentRouteName() == "roncho_engineering" || Route::currentRouteName() == "roncho_energy" || Route::currentRouteName() == "roncho_ict" || Route::currentRouteName() == "roncho_about")
   <body class="manufactor_service-template-default single single-manufactor_service postid-83 singular wpb-js-composer js-comp-ver-5.3 vc_responsive" data-offset="200" data-spy="scroll" data-target=".ow-navigation">
-  @elseif(Route::currentRouteName() == "roncho_products")
+  @elseif(Route::currentRouteName() == "roncho_products" || Route::currentRouteName() == "product.search")
   <body class="archive post-type-archive post-type-archive-product woocommerce woocommerce-page wpb-js-composer js-comp-ver-5.3 vc_responsive" data-offset="200" data-spy="scroll" data-target=".ow-navigation">
   @else
   <body class="home page-template-default page page-id-5 front-page wpb-js-composer js-comp-ver-5.3 vc_responsive" data-offset="200" data-spy="scroll" data-target=".ow-navigation">

@@ -1,7 +1,7 @@
 @extends("master")
 
 @section("title")
-RonchoEnergy | Products
+RonchoEnergy | Search Products
 @endsection
 
 @section("content")
@@ -50,11 +50,11 @@ RonchoEnergy | Products
 					</select>
 				</form> -->
 				<ul class="products">
-					@forelse($getProducts as $getProduct)
+					@forelse($searchProducts as $searchProduct)
 					<li class="post-160 product type-product status-publish has-post-thumbnail product_cat-entreperneurs product_cat-industries product_cat-parmacology last instock shipping-taxable purchasable product-type-simple zoom">
 						<a href="demo/wpm/manufactory/product/550w-electric-water-pump/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">
-							<img width="370" height="370" src="{{ asset('image/product/' . $getProduct->image) }}" class="attachment-shop_catalog size-shop_catalog wp-post-image" alt="" srcset="{{ asset('image/product/' . $getProduct->image) }} 270w, {{ asset('image/product/' . $getProduct->image) }} 236w, {{ asset('image/product/' . $getProduct->image) }} 275w" sizes="(max-width: 270px) 100vw, 270px" />
-							<h2 class="woocommerce-loop-product__title">{{ $getProduct->product }}</h2>
+							<img width="370" height="370" src="{{ asset('image/product/' . $searchProduct->image) }}" class="attachment-shop_catalog size-shop_catalog wp-post-image" alt="" srcset="{{ asset('image/product/' . $searchProduct->image) }} 270w, {{ asset('image/product/' . $searchProduct->image) }} 236w, {{ asset('image/product/' . $searchProduct->image) }} 275w" sizes="(max-width: 270px) 100vw, 270px" />
+							<h2 class="woocommerce-loop-product__title">{{ $searchProduct->product }}</h2>
 							<span class="price">
 								<span class="woocommerce-Price-amount amount">
 									Click To Purchase
@@ -64,12 +64,10 @@ RonchoEnergy | Products
 						<!-- <a rel="nofollow" href="/demo/wpm/manufactory/shop/?add-to-cart=160" data-quantity="1" data-product_id="160" data-product_sku="" class="button product_type_simple add_to_cart_button ajax_add_to_cart">Add to cart</a> -->
 					</li>
 					@empty
-					<h1 style="text-align:center">No Images Yet</h1>
+					<h1 style="text-align:center">No result for {{ $search }} found</h1>
 					@endforelse
 				</ul>
-				<div style="font-size:20px">
-					{{ $getProducts->links() }}
-				</div>
+
 			</div>
 			<!-- Sidebar -->
 			<div class="widget-area col-md-3 col-sm-4 sidebar-shop sidebar-right">
@@ -90,7 +88,7 @@ RonchoEnergy | Products
 							@forelse($getProductsFours as $getProductsFour)
 							<li class="zoom">
 								<a href="#">
-									<img width="150" height="150" src="{{ asset('image/product/' . $getProductsFour->image) }}" class="attachment-shop_catalog size-shop_catalog wp-post-image" alt="" srcset="{{ asset('image/product/' . $getProduct->image) }} 270w, {{ asset('image/product/' . $getProductsFour->image) }} 236w, {{ asset('image/product/' . $getProductsFour->image) }} 275w" sizes="(max-width: 150px) 100vw, 150px" />
+									<img width="150" height="150" src="{{ asset('image/product/' . $getProductsFour->image) }}" class="attachment-shop_catalog size-shop_catalog wp-post-image" alt="" srcset="{{ asset('image/product/' . $getProductsFour->image) }} 270w, {{ asset('image/product/' . $getProductsFour->image) }} 236w, {{ asset('image/product/' . $getProductsFour->image) }} 275w" sizes="(max-width: 150px) 100vw, 150px" />
 								</a>
 							</li>
 							@empty
