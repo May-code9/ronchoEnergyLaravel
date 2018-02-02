@@ -4,7 +4,7 @@
       <div class="container">
         <div class="logo-block" style="margin-top: 7px;">
           <a class="image-logo" href="{{ route('roncho_home') }}" title="{{ config('app.name') }}">
-            <img src="demo/wpm/manufactory/wp-content/uploads/2016/07/logo.png" alt="{{ config('app.name') }}">
+            <img src="{{asset('demo/wpm/manufactory/wp-content/uploads/2016/07/logo.png')}}" alt="{{ config('app.name') }}">
           </a>
         </div>
         <div class="header-info" style="margin-top: 10px;">
@@ -107,7 +107,7 @@
           </button>
           <div class="menu-default-logo">
             <a class="image-logo" href="{{ route('roncho_home') }}" title="{{ config('app.name') }}">
-              <img src="demo/wpm/manufactory/wp-content/uploads/2016/07/logo.png" alt="{{ config('app.name') }}">
+              <img src="{{asset('demo/wpm/manufactory/wp-content/uploads/2016/07/logo.png')}}" alt="{{ config('app.name') }}">
             </a>
           </div>
         </div>

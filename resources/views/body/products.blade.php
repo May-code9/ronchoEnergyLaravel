@@ -52,7 +52,7 @@ RonchoEnergy | Products
 				<ul class="products">
 					@forelse($getProducts as $getProduct)
 					<li class="post-160 product type-product status-publish has-post-thumbnail product_cat-entreperneurs product_cat-industries product_cat-parmacology last instock shipping-taxable purchasable product-type-simple zoom">
-						<a href="demo/wpm/manufactory/product/550w-electric-water-pump/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">
+						<a href="/SingleProducts/{{ $getProduct->id }}" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">
 							<img width="370" height="370" src="{{ asset('image/product/' . $getProduct->image) }}" class="attachment-shop_catalog size-shop_catalog wp-post-image" alt="" srcset="{{ asset('image/product/' . $getProduct->image) }} 270w, {{ asset('image/product/' . $getProduct->image) }} 236w, {{ asset('image/product/' . $getProduct->image) }} 275w" sizes="(max-width: 270px) 100vw, 270px" />
 							<h2 class="woocommerce-loop-product__title">{{ $getProduct->product }}</h2>
 							<span class="price">
@@ -89,7 +89,7 @@ RonchoEnergy | Products
 						<ul>
 							@forelse($getProductsFours as $getProductsFour)
 							<li class="zoom">
-								<a href="#">
+								<a href="/SingleProducts/{{ $getProductsFour->id }}">
 									<img width="150" height="150" src="{{ asset('image/product/' . $getProductsFour->image) }}" class="attachment-shop_catalog size-shop_catalog wp-post-image" alt="" srcset="{{ asset('image/product/' . $getProduct->image) }} 270w, {{ asset('image/product/' . $getProductsFour->image) }} 236w, {{ asset('image/product/' . $getProductsFour->image) }} 275w" sizes="(max-width: 150px) 100vw, 150px" />
 								</a>
 							</li>

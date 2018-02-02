@@ -9,6 +9,8 @@
   <meta name='robots' content='noindex,follow' />
   @if(Route::currentRouteName() == "roncho_products" || Route::currentRouteName() == "product.search")
   @include("body.link.link2")
+  @elseif(Route::currentRouteName() == "roncho_iproducts")
+  @include("body.link.iproduct")
   @else
   @include("body.link.link")
   @endif
@@ -27,6 +29,8 @@
   <body class="manufactor_service-template-default single single-manufactor_service postid-83 singular wpb-js-composer js-comp-ver-5.3 vc_responsive" data-offset="200" data-spy="scroll" data-target=".ow-navigation">
   @elseif(Route::currentRouteName() == "roncho_products" || Route::currentRouteName() == "product.search")
   <body class="archive post-type-archive post-type-archive-product woocommerce woocommerce-page wpb-js-composer js-comp-ver-5.3 vc_responsive" data-offset="200" data-spy="scroll" data-target=".ow-navigation">
+  @elseif(Route::currentRouteName() == "roncho_iproducts")
+  <body class="product-template-default single single-product postid-164 woocommerce woocommerce-page singular wpb-js-composer js-comp-ver-5.3 vc_responsive" data-offset="200" data-spy="scroll" data-target=".ow-navigation">
   @else
   <body class="home page-template-default page page-id-5 front-page wpb-js-composer js-comp-ver-5.3 vc_responsive" data-offset="200" data-spy="scroll" data-target=".ow-navigation">
   @endif
@@ -42,7 +46,7 @@
 
     @yield("content")
 
-    @if(Route::currentRouteName() == "roncho_products")
+    @if(Route::currentRouteName() == "roncho_products" || Route::currentRouteName() == "roncho_iproducts")
     @include("body.footer.footer2")
     @else
     @include("body.footer.footer")

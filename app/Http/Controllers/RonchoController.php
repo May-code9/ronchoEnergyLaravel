@@ -33,6 +33,10 @@ class RonchoController extends Controller
       $products = "active";
       return view("body.products", compact('products', 'getProducts', 'getProductsFours'));
     }
+    public function iproducts($id) {
+      $getProducts = Product::findOrFail($id);
+      return view("body.iproduct", compact('getProducts'));
+    }
     public function contact() {
       $contact = "active";
       return view("body.contact", compact('contact'));

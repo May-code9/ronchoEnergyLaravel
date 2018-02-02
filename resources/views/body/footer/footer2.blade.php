@@ -4,8 +4,8 @@
       <div class="col-md-3 col-sm-6 col-xs-6 ftr-widget about-widget">
         <aside id="text-2" class="widget widget_text"><h3>About Us</h3>
           <div class="textwidget">
-            <p>At vero eos et accusamus et iusto elity lit agnissmos ducimus quidtiis praesetium ptatum mole deeniti. Ducimus os quidtiis praesetium ptatum mole deeniti hates lites fortune .</p>
-            <a href="#">Learn More</a>
+            <p style="text-align:justify">Roncho Energy Services Limited is an energy and technology company registered in Nigeria since 2007. We provide affordable and clean energy solutions, ICT solutions, and engineering services.</p>
+            <a href="{{ route('roncho_about') }}">Learn More</a>
           </div>
         </aside>
       </div>
@@ -111,10 +111,21 @@ var woocommerce_params = {"ajax_url":"\/demo\/wpm\/manufactory\/wp-admin\/admin-
 /* ]]> */
 </script>
 <script type='text/javascript' src="{{ asset('demo/wpm/manufactory/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=3.2.1') }}"></script>
-<script type='text/javascript'>
-/* <![CDATA[ */
-var wc_cart_fragments_params = {"ajax_url":"\/demo\/wpm\/manufactory\/wp-admin\/admin-ajax.php","wc_ajax_url":"http:\/\/lolthemes.com\/demo\/wpm\/manufactory\/?wc-ajax=%%endpoint%%","fragment_name":"wc_fragments_d196cdeac57164375adf6ea02dadf083"};
-/* ]]> */
-</script>
+
 <script type='text/javascript' src="{{ asset('demo/wpm/manufactory/wp-content/plugins/woocommerce/assets/js/frontend/cart-fragments.min.js?ver=3.2.1') }}"></script>
 <script type='text/javascript' src="{{ asset('demo/wpm/manufactory/wp-includes/js/wp-embed.min.js?ver=4.8.4') }}"></script>
+
+@if(Route::currentRouteName() == "roncho_iproducts")
+<script type='text/javascript' src="{{ asset('demo/wpm/manufactory/wp-content/plugins/woocommerce/assets/js/zoom/jquery.zoom.min.js?ver=1.7.15') }}"></script>
+<script type='text/javascript' src="{{ asset('demo/wpm/manufactory/wp-content/plugins/js_composer/assets/lib/bower/flexslider/jquery.flexslider-min.js?ver=5.3') }}"></script>
+<script type='text/javascript' src="{{ asset('demo/wpm/manufactory/wp-content/plugins/woocommerce/assets/js/photoswipe/photoswipe.min.js?ver=4.1.1') }}"></script>
+<script type='text/javascript' src="{{ asset('demo/wpm/manufactory/wp-content/plugins/woocommerce/assets/js/photoswipe/photoswipe-ui-default.min.js?ver=4.1.1') }}"></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wc_single_product_params = {"i18n_required_rating_text":"Please select a rating","review_rating_required":"yes","flexslider":{"rtl":false,"animation":"slide","smoothHeight":true,"directionNav":false,"controlNav":"thumbnails","slideshow":false,"animationSpeed":500,"animationLoop":false,"allowOneSlide":false},"zoom_enabled":"1","photoswipe_enabled":"1","photoswipe_options":{"shareEl":false,"closeOnScroll":false,"history":false,"hideAnimationDuration":0,"showAnimationDuration":0},"flexslider_enabled":"1"};
+/* ]]> */
+</script>
+<script type='text/javascript' src="{{ asset('demo/wpm/manufactory/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.70') }}"></script>
+
+<script type='text/javascript' src="{{ asset('demo/wpm/manufactory/wp-includes/js/comment-reply.min.js?ver=4.8.5') }}"></script>
+@endif
