@@ -95,5 +95,7 @@
     </section><!-- /.content -->
   </aside><!-- /.right-side -->
 </div><!-- ./wrapper -->
-
+@if (session('alert'))
+    {!! session('alert') !!}
+@endif
 @endsection

@@ -65,31 +65,33 @@ RonchoEnergy | Products
 						<div class="woocommerce-product-details__short-description">
 							<p>{!! $getProducts->details !!}</p>
 						</div>
-						<div role="form" class="wpcf7" id="" lang="en-US" dir="ltr">
-							<div class="screen-reader-response"></div>
-							<form class="wpcf7-form" method="post" enctype='multipart/form-data'>
+
+							<form class="wpcf7-form" method="post" action="{{ route('submitProduct', ['id'=>$getProducts->id]) }}" enctype='multipart/form-data'>
+								{{ csrf_field() }}
 								<div class="col-md-12 col-sm-12 col-xs-12">
 									<div class="form-group">
 										<span class="wpcf7-form-control-wrap your-message">
 											<label class="" for="quantity_5a746d1baf814" >Quantity</label>
-											<input type="number" id="quantity_5a746d1baf814" class="input-text qty text" step="1" min="1" max="" name="quantity" value="1" title="Qty" size="4" pattern="[0-9]*" inputmode="numeric" />
+											<input type="number" id="quantity" class="input-text qty text" step="1" min="1" max="" name="quantity" value="1" title="Qty" size="4" pattern="[0-9]*" inputmode="numeric" />
 										</span>
 									</div>
 								</div>
 								<div class="col-md-12 col-sm-12 col-xs-12">
 									<div class="form-group">
 										<span class="wpcf7-form-control-wrap your-message">
-											<textarea name="your-message" cols="40" rows="6" class="wpcf7-form-control wpcf7-textarea" aria-invalid="false" placeholder="Message"></textarea>
+											<textarea name="message" cols="40" rows="6" class="wpcf7-form-control wpcf7-textarea" aria-invalid="false" placeholder="Message"></textarea>
 										</span>
 									</div>
 								</div>
+								<input type="hidden" name="product_id" value="{{$getProducts->id}}">
+								<input type="hidden" name="user_id" value="{{ Auth::user()->id }}">
 								<div class="col-md-12 col-sm-12 col-xs-12">
 									<div class="form-group">
-										<button type="submit" name="add-to-cart" class="single_add_to_cart_button button">Submit</button>
+										<button type="submit" name="" class="single_add_to_cart_button button">Submit</button>
 									</div>
 								</div>
 							</form>
-						</div>
+
 						<!-- <div class="product_meta">
 							<span class="posted_in">Categories: <a href="demo/wpm/manufactory/product-category/entreperneurs/" rel="tag">Entreperneurs</a>, <a href="demo/wpm/manufactory/product-category/industries/" rel="tag">Industries</a>, <a href="demo/wpm/manufactory/product-category/parmacology/" rel="tag">Parmacology</a></span>
 						</div> -->
@@ -132,4 +134,8 @@ RonchoEnergy | Products
 		</div>
 	</div><!-- Page Content /- -->
 </main><!-- .site-main -->
+
+@if (session('alert'))
+		{!! session('alert') !!}
+@endif
 @endsection

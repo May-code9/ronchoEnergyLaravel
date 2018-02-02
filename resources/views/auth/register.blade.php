@@ -81,7 +81,20 @@ RonchoEnergy | Register
                                 </div>
                               </div>
 
-                              <div class="col-md-12 col-sm-12 col-xs-12">
+                              <div class="col-md-6 col-sm-6 col-xs-12">
+                                <div class="form-group{{ $errors->has('phone_number') ? ' has-error' : '' }}">
+                                  <span class="wpcf7-form-control-wrap your-name">
+                                    <input id="phone_number" type="text" class="wpcf7-form-control wpcf7-text" placeholder="Phone Number" name="phone_number" required>
+                                  </span>
+                                  @if ($errors->has('phone_number'))
+                                  <span class="help-block">
+                                    <strong>{{ $errors->first('phone_number') }}</strong>
+                                  </span>
+                                  @endif
+                                </div>
+                              </div>
+
+                              <div class="col-md-6 col-sm-6 col-xs-12">
                                 <div class="form-group{{ $errors->has('email') ? ' has-error' : '' }}">
                                   <span class="wpcf7-form-control-wrap your-name">
                                     <input id="email" type="email" class="wpcf7-form-control wpcf7-text" placeholder="Email" name="email" required>
