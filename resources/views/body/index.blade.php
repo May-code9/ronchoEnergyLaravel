@@ -253,7 +253,7 @@ RonchoEnergy | Energy, ICT, Engineering Services
 																	</div>
 																</li>
 																@empty
-																<h1>No Images Yet</h1>
+																<h1 style="text-align:center">No Images Yet</h1>
 																@endforelse
 															</ul>
 														</div>

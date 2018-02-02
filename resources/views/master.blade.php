@@ -19,11 +19,11 @@
   <!-- CSRF Token -->
   <meta name="csrf-token" content="{{ csrf_token() }}">
   <title>{{ config('app.name', 'Laravel') }}</title>
-  
+
   @endif
 </head>
 
-  @if(Route::currentRouteName() == "roncho_engineering" || Route::currentRouteName() == "roncho_energy" || Route::currentRouteName() == "roncho_ict" || Route::currentRouteName() == "roncho_about")
+  @if(Route::currentRouteName() == "roncho_engineering" || Route::currentRouteName() == "roncho_energy" || Route::currentRouteName() == "roncho_ict" || Route::currentRouteName() == "roncho_about" || Route::currentRouteName() == "roncho_news")
   <body class="manufactor_service-template-default single single-manufactor_service postid-83 singular wpb-js-composer js-comp-ver-5.3 vc_responsive" data-offset="200" data-spy="scroll" data-target=".ow-navigation">
   @elseif(Route::currentRouteName() == "roncho_products" || Route::currentRouteName() == "product.search")
   <body class="archive post-type-archive post-type-archive-product woocommerce woocommerce-page wpb-js-composer js-comp-ver-5.3 vc_responsive" data-offset="200" data-spy="scroll" data-target=".ow-navigation">

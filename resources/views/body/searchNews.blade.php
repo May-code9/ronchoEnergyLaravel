@@ -39,17 +39,17 @@ RonchoEnergy | News
 			<div class="row">
 				<div class="content-area blog-list content-left col-md-8 col-sm-8">
 					<article id="post-117" class="post-117 post type-post status-publish format-standard has-post-thumbnail hentry category-uncategorized tag-materials-chemicals">
-						@forelse($getNews as $getNew)
+						@forelse($searchNews as $searchNew)
 						<div class="blog-post-inner">
 							<div class="entry-cover">
 								<a href="#">
-									<img width="791" height="421" src="{{ asset('/image/news/' . $getNew->image) }}" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" srcset="{{ asset('/image/news/' . $getNew->image) }} 791w, {{ asset('/image/news/' . $getNew->image) }} 300w, {{ asset('/image/news/' . $getNew->image) }} 768w" sizes="(max-width: 791px) 100vw, 791px" /></a>
+									<img width="791" height="421" src="{{ asset('/image/news/' . $searchNew->image) }}" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" srcset="{{ asset('/image/news/' . $searchNew->image) }} 791w, {{ asset('/image/news/' . $searchNew->image) }} 300w, {{ asset('/image/news/' . $searchNew->image) }} 768w" sizes="(max-width: 791px) 100vw, 791px" /></a>
 								<a href="#"><span class="icon_plus" aria-hidden="true"></span></a>
 							</div>
 							<div class="entry-meta">
 								<div class="entrymeta-left">
 									<div class="post-tag">
-										<span class="icon icon-Tag"></span>Tags: <a href="#" rel="tag">{{ $getNew->category }}</a>
+										<span class="icon icon-Tag"></span>Tags: <a href="#" rel="tag">{{ $searchNew->category }}</a>
 									</div>
 										<div class="post-share social-icon-share">
 											<span class="icon icon-Share"></span>
@@ -63,26 +63,26 @@ RonchoEnergy | News
 									</div>
 									<div class="entrymeta-right">
 										<div class="post-date">
-											<span>{{ $getNew->Day }}</span>
-											<span>{{ $getNew->Month }}</span>
+											<span>{{ $searchNew->Day }}</span>
+											<span>{{ $searchNew->Month }}</span>
 										</div>
 									</div>
 								</div>
 								<div class="entry-block">
 									<div class="post-by">
 										<span>By - </span>
-										<a href="#">{{ $getNew->author }}</a>
+										<a href="#">{{ $searchNew->author }}</a>
 									</div>
 									<div class="entry-title">
 										<a href="#">
-											<h3>{{ $getNew->title }}</h3>
+											<h3>{{ $searchNew->title }}</h3>
 										</a>
 									</div>
 									<!-- <div id="less" class="entry-content">
-										<p>{!! $getNew->shortContent !!}</p>
+										<p>{!! $searchNew->shortContent !!}</p>
 									</div> -->
 									<div id="readmore" class="entry-content">
-										<p>{!! $getNew->content !!}</p>
+										<p>{!! $searchNew->content !!}</p>
 									</div>
 									<!-- <div id="more" class="single-post-link">
 										<a href="#123">Read More<span class="arrow_right" aria-hidden="true"></span></a>
@@ -91,12 +91,10 @@ RonchoEnergy | News
 							</div>
 							<hr>
 							@empty
-							<h1 style="text-align:center">No News Yet</h1>
+							<h1 style="text-align:center">No Result for {{ $search }}</h1>
 							@endforelse
 						</article>
-						<div style="font-size:20px">
-							{{ $getNews->links() }}
-						</div>
+
 						<div class="clearfix"></div>
 					</div>
 

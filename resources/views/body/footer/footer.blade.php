@@ -4,8 +4,8 @@
       <div class="col-md-3 col-sm-6 col-xs-6 ftr-widget about-widget">
         <aside id="text-2" class="widget widget_text"><h3>About Us</h3>
           <div class="textwidget">
-            <p>At vero eos et accusamus et iusto elity lit agnissmos ducimus quidtiis praesetium ptatum mole deeniti. Ducimus os quidtiis praesetium ptatum mole deeniti hates lites fortune .</p>
-            <a href="#">Learn More</a>
+            <p style="text-align:justify">Roncho Energy Services Limited is an energy and technology company registered in Nigeria since 2007. We provide affordable and clean energy solutions, ICT solutions, and engineering services.</p>
+            <a href="{{ route('roncho_about') }}">Learn More</a>
           </div>
         </aside>
       </div>

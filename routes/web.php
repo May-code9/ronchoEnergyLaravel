@@ -23,6 +23,7 @@ Route::get('/Projects', ['as'=>'roncho_projects', 'uses'=>'RonchoController@proj
 
 //SearchController
 Route::get('searchProducts{page?}', ['as'=>'product.search', 'uses'=>'SearchController@productSearch']);
+Route::get('searchNews{page?}', ['as'=>'news.search', 'uses'=>'SearchController@newsSearch']);
 
 Auth::routes();
 

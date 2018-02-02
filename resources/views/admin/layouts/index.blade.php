@@ -47,10 +47,10 @@
           <div class="small-box bg-yellow">
             <div class="inner">
               <h3>
-                ---
+                {{ $energyProjects }}
               </h3>
               <p>
-                Subcribers
+                Energy Projects
               </p>
             </div>
             <div class="icon">
@@ -66,10 +66,10 @@
           <div class="small-box bg-blue">
             <div class="inner">
               <h3>
-                ---
+                {{ $ictProjects }}
               </h3>
               <p>
-                Courses
+                ICT Projects
               </p>
             </div>
             <div class="icon">
@@ -85,10 +85,10 @@
           <div class="small-box bg-red">
             <div class="inner">
               <h3>
-                ---
+                {{ $engineeringProjects }}
               </h3>
               <p>
-                Events
+                Engineering Projects
               </p>
             </div>
             <div class="icon">
@@ -104,7 +104,7 @@
           <div class="small-box bg-green">
             <div class="inner">
               <h3>
-                ---
+                {{ $news }}
               </h3>
               <p>
                 News
@@ -123,10 +123,10 @@
           <div class="small-box bg-aqua">
             <div class="inner">
               <h3>
-                ---
+                {{ $product }}
               </h3>
               <p>
-                Lecturers
+                Products
               </p>
             </div>
             <div class="icon">
