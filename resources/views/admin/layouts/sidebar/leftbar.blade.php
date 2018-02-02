@@ -20,18 +20,12 @@
           <i class="fa fa-dashboard"></i> <span>Dashboard</span>
         </a>
       </li>
-
-      <!-- <li class="">
-        <a href="#">
-          <i class="fa fa-envelope"></i> <span>Testimonies</span>
-        </a>
-      </li> -->
-
       <li class="">
         <a href="{{ route('product.create') }}">
           <i class="fa fa-edit"></i> <span>Product</span>
         </a>
       </li>
+
 
       <li class="treeview">
         <a href="#">
@@ -43,6 +37,12 @@
           <li><a href="{{ route('ict.create') }}"><i class="fa fa-angle-double-right"></i> ICT</a></li>
           <li><a href="{{ route('engineering.create') }}"><i class="fa fa-angle-double-right"></i> Engineering</a></li>
         </ul>
+      </li>
+
+      <li class="">
+        <a href="{{ route('news.create') }}">
+          <i class="fa fa-edit"></i> <span>News</span>
+        </a>
       </li>
 
       <li class="treeview">

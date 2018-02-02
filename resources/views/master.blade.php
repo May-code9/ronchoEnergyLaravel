@@ -18,11 +18,8 @@
   @if(Route::currentRouteName() == 'login' || Route::currentRouteName() == 'register')
   <!-- CSRF Token -->
   <meta name="csrf-token" content="{{ csrf_token() }}">
-
   <title>{{ config('app.name', 'Laravel') }}</title>
-
-  <!-- Styles -->
-
+  
   @endif
 </head>
 

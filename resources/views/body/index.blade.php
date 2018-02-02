@@ -46,9 +46,9 @@ RonchoEnergy | Energy, ICT, Engineering Services
 																data-frames='[{"from":"x:50px;opacity:0;","speed":300,"to":"o:1;","delay":500,"ease":"Bounce.easeIn"},{"delay":"wait","speed":300,"to":"opacity:0;","ease":"nothing"}]' data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 8; min-width: 688px; max-width: 688px; max-width: 57px; max-width: 57px; white-space: normal; font-size: 16px; line-height: 28px; font-weight: 400; color: rgba(204,204,204,1);">We Mobilise Engineering and Technology Concepts to Tackle 11 out of 17 Sustainable Development Goals</div>
 															</li>
 															<!-- SLIDE  -->
-															<li data-index="rs-8" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="300"  data-thumb="demo/wpm/manufactory/wp-content/uploads/revslider/home-slide-1/slider-2-100x50.jpg"  data-rotate="0"  data-saveperformance="off"  class="home-slide" data-title="Slide" data-description="">
+															<li data-index="rs-8" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="300"  data-thumb="demo/wpm/manufactory/wp-content/uploads/revslider/home-slide-1/slider-1-100x50.jpg"  data-rotate="0"  data-saveperformance="off"  class="home-slide" data-title="Slide" data-description="">
 																<!-- MAIN IMAGE -->
-																<img src="demo/wpm/manufactory/wp-content/uploads/revslider/home-slide-1/slider-2.jpg"  alt="" title="Manufactory Home 1"  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
+																<img src="demo/wpm/manufactory/wp-content/uploads/revslider/home-slide-1/slider-1.jpg"  alt="" title="Manufactory Home 1"  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
 																<!-- LAYERS -->
 
 																<!-- LAYER NR. 5 -->
@@ -81,9 +81,9 @@ RonchoEnergy | Energy, ICT, Engineering Services
 																data-type="text" data-responsive_offset="on" data-frames='[{"from":"y:top;","speed":2000,"to":"o:1;","delay":500,"ease":"easeInOutBounce"},{"delay":"wait","speed":300,"to":"opacity:0;","ease":"nothing"}]' data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 15; white-space: nowrap; font-size: 37px; line-height: 40px; font-weight: 700; color: rgba(255,255,255,1);">To Clean Energy. </div>
 															</li>
 															<!-- SLIDE  -->
-															<li data-index="rs-9" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="300"  data-thumb="demo/wpm/manufactory/wp-content/uploads/revslider/home-slide-1/slider-3-100x50.jpg"  data-rotate="0"  data-saveperformance="off"  class="home-slide" data-title="Slide"  data-description="">
+															<li data-index="rs-9" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="300"  data-thumb="demo/wpm/manufactory/wp-content/uploads/revslider/home-slide-1/slider-1-100x50.jpg"  data-rotate="0"  data-saveperformance="off"  class="home-slide" data-title="Slide"  data-description="">
 																<!-- MAIN IMAGE -->
-																<img src="demo/wpm/manufactory/wp-content/uploads/revslider/home-slide-1/slider-3.jpg"  alt="" title="Manufactory Home 1"  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
+																<img src="demo/wpm/manufactory/wp-content/uploads/revslider/home-slide-1/slider-1.jpg"  alt="" title="Manufactory Home 1"  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
 																<!-- LAYERS -->
 
 																<!-- LAYER NR. 12 -->

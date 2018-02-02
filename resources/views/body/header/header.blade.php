@@ -149,7 +149,7 @@
       </nav><!-- Navigation /- -->
       <div class="menu-search">
         <div id="sb-search" class="sb-search">
-          <form method="get" id="searchform" class="searchform" action="demo/wpm/manufactory/" >
+          <form method="get" id="searchform" class="searchform" action="#" >
             <input type="text" name="s" id="s" placeholder="Enter your search term..." class="form-control sb-search-input" required>
             <button class="sb-search-submit" type="submit"><i class="fa fa-search"></i></button>
             <span class="sb-icon-search"></span>

@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Project;
 use App\Product;
+use App\News;
 
 class RonchoController extends Controller
 {
@@ -37,8 +38,11 @@ class RonchoController extends Controller
       return view("body.contact", compact('contact'));
     }
     public function news() {
+      $getNews = News::latest()->paginate(2);
+      $getSideNews = News::latest()->take(5)->get();
+      $getOlderNews = News::oldest()->take(15)->get();
       $news = "active";
-      return view("body.news", compact('news'));
+      return view("body.news", compact('news', 'getNews', 'getSideNews', 'getOlderNews'));
     }
     public function projects() {
       $active = "active";

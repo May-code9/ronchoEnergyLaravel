@@ -151,12 +151,32 @@ var wc_cart_fragments_params = {"ajax_url":"\/demo\/wpm\/manufactory\/wp-admin\/
 <script type='text/javascript' src="{{ asset('demo/wpm/manufactory/wp-content/plugins/js_composer/assets/js/dist/js_composer_front.min.js?ver=5.3') }}"></script>
 <script type='text/javascript' src="{{ asset('demo/wpm/manufactory/wp-content/plugins/js_composer/assets/lib/vc_accordion/vc-accordion.min.js?ver=5.3') }}"></script>
 <script type='text/javascript' src="{{ asset('demo/wpm/manufactory/wp-content/plugins/js_composer/assets/lib/vc-tta-autoplay/vc-tta-autoplay.min.js?ver=5.3') }}"></script>
+
 <script type='text/javascript'>
 /* <![CDATA[ */
 var mc4wp_forms_config = [];
 /* ]]> */
 </script>
 <script type='text/javascript' src="{{ asset('demo/wpm/manufactory/wp-content/plugins/mailchimp-for-wp/assets/js/forms-api.min.js?ver=4.1.9') }}"></script>
+<script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "https://connect.facebook.net/en_US/sdk.js#xfbml=1";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));
+</script>
+@if(Route::currentRouteName() == 'roncho_news')
+<script>
+  $("document").ready(function() {
+    $("#readmore").hide(100);
+    $("#more").on('click', function() {
+      $("#less").hide(100);
+      $("#readmore").show(1000);
+    });
+  });
+</script>
+@endif
 <!--[if lte IE 9]>
 <script type='text/javascript' src='demo/wpm/manufactory/wp-content/plugins/mailchimp-for-wp/assets/js/third-party/placeholders.min.js?ver=4.1.9'></script>
 <![endif]-->

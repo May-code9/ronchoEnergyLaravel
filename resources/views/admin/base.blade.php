@@ -26,6 +26,11 @@
   </header>
 
   @yield('content')
+
+  @if(Route::currentRouteName() == 'news.create')
+  @include('admin.scripts.news')
+  @else
   @include('admin.scripts.index')
+  @endif
 </body>
 </html>
