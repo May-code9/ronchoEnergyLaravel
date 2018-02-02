@@ -60,6 +60,17 @@
                   @endif
                 </div>
 
+                <div class="form-group{{ $errors->has('details') ? ' has-error' : '' }}">
+                  <label>News Details</label>
+                  <!-- tools box -->
+                  <textarea id="editor1" name="details" placeholder="Enter ..." style="width: 100%; height: 200px; font-size: 14px; line-height: 18px; border: 1px solid #dddddd; padding: 10px;"></textarea>
+                  @if ($errors->has('details'))
+                  <span class="help-block">
+                    <strong>{{ $errors->first('details') }}</strong>
+                  </span>
+                  @endif
+                </div>
+
                 <div class="form-group{{ $errors->has('image') ? ' has-error' : '' }}">
                   <label>Image</label>
                   <input type="file" name="image" id="image" >
