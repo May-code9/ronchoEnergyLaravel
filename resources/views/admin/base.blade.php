@@ -27,7 +27,7 @@
 
   @yield('content')
 
-  @if(Route::currentRouteName() == 'news.create' || Route::currentRouteName() == 'product.create')
+  @if(Route::currentRouteName() == 'news.create' || Route::currentRouteName() == 'product.create' || Route::currentRouteName() == 'message.show')
   @include('admin.scripts.news')
   @elseif(Route::currentRouteName() == 'message.index')
   @include('admin.scripts.mail')

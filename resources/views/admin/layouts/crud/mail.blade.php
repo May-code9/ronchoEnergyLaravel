@@ -12,6 +12,22 @@
       </h1>
     </section>
 
+    <div class="col-md-8 col-md-push-2" style="padding-left:0px">
+      @if(session('success_status'))
+      <div class = "alert alert-success">
+        <i class="fa fa-check"></i>
+        {{session('success_status')}}
+      </div>
+      @endif
+
+      @if(session('failure_status'))
+      <div class = "alert alert-danger">
+        <i class="fa fa-check"></i>
+        {{session('failure_status')}}
+      </div>
+      @endif
+    </div>
+
     <!-- Main content -->
     <section class="content">
       <!-- MAILBOX BEGIN -->
@@ -33,7 +49,8 @@
                   <div style="margin-top: 15px;">
                     <ul class="nav nav-pills nav-stacked">
                       <li class="header">Folders</li>
-                      <li class="active"><a href="#"><i class="fa fa-inbox"></i> Inbox ({{ $countMessages }})</a></li>
+                      <li class="active"><a href="#"><i class="fa fa-inbox"></i> Unread ({{ $countMessages }})</a></li>
+                      <li class="active"><a href="#"><i class="fa fa-inbox"></i> Read ({{ $countMessages }})</a></li>
                     </ul>
                   </div>
                 </div><!-- /.col (LEFT) -->
@@ -77,9 +94,9 @@
                       @forelse($getMessages as $getMessage)
                       <tr>
                         <td class="small-col"><input type="checkbox" /></td>
-                        <td class="small-col"><i class="fa fa-star-o"></i></td>
+                        <td class="small-col"><a href="#"><i class="fa fa-star-o"></i></a></td>
                         <td class="name"><a href="#">{{ $getMessage->first_name }} {{ $getMessage->last_name }}</a></td>
-                        <td class="subject"><a href="#">{{ $getMessage->message }}</a></td>
+                        <td class="subject"><a href="/message/{{ $getMessage->id }}/edit">{{ $getMessage->shortMessage }}</a></td>
                         <td class="time">{{ $getMessage->time }}</td>
                       </tr>
                       @empty

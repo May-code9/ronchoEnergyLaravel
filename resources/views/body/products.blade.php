@@ -111,4 +111,7 @@ RonchoEnergy | Products
 		</div>
 	</div><!-- Page Content /- -->
 </main><!-- .site-main -->
+@if (session('alert'))
+		{!! session('alert') !!}
+@endif
 @endsection

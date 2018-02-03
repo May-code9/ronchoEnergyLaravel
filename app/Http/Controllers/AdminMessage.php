@@ -16,7 +16,7 @@ class AdminMessage extends Controller
     {
         $getMessages = Message::join('users', 'users.id', '=', 'messages.user_id')
         ->join('products', 'products.id', '=', 'messages.product_id')
-        ->select('users.first_name', 'users.last_name', 'users.phone_number', 'products.product', 'message', 'quantity', 'messages.created_at')
+        ->select('users.first_name', 'users.last_name', 'users.phone_number', 'products.product', 'message', 'quantity', 'messages.created_at', 'messages.id')
         ->latest()
         ->get();
         $countMessages = Message::count();
@@ -63,7 +63,11 @@ class AdminMessage extends Controller
      */
     public function edit($id)
     {
-        //
+        $getFullMessage = Message::join('users', 'users.id', '=', 'messages.user_id')
+        ->join('products', 'products.id', '=', 'messages.product_id')
+        ->select('users.first_name', 'users.last_name', 'users.phone_number', 'products.product', 'message', 'quantity', 'messages.created_at', 'messages.id', 'user_id', 'product_id')
+        ->findOrFail($id);
+        return view('admin.layouts.mail', compact('getFullMessage'));
     }
 
     /**
@@ -75,7 +79,17 @@ class AdminMessage extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+      $delete = $request->get('id');
+      /* Add data to database */
+      if($request->has('edit'))
+      {
+        $editMessage = Message::findOrFail($id);
+        $editMessage->update($request->all());
+        return redirect('/message')->with("success_status", "Message Marked As Read");
+      } else {
+        Message::where('id', $delete)->delete();
+        return redirect('/message')->with("success_status", "Message Deleted");
+      }
     }
 
     /**
