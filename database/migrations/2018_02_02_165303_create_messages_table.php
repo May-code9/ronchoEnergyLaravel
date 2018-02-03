@@ -19,6 +19,7 @@ class CreateMessagesTable extends Migration
             $table->integer('product_id');
             $table->text('message');
             $table->string('quantity');
+            $table->boolean('read')->default(0);
             $table->timestamps();
         });
     }

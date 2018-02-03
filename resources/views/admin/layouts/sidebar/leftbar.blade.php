@@ -26,7 +26,6 @@
         </a>
       </li>
 
-
       <li class="treeview">
         <a href="#">
           <i class="fa fa-edit"></i> <span>Projects</span>
@@ -45,7 +44,7 @@
         </a>
       </li>
 
-      <li class="treeview">
+      <!-- <li class="treeview">
         <a href="#">
           <i class="fa fa-table"></i> <span>Tables</span>
           <i class="fa fa-angle-left pull-right"></i>
@@ -54,9 +53,9 @@
           <li><a href="#"><i class="fa fa-angle-double-right"></i>Testimony List</a></li>
           <li><a href="#"><i class="fa fa-angle-double-right"></i>Message List</a></li>
         </ul>
-      </li>
+      </li> -->
       <li>
-        <a href="pages/mailbox.html">
+        <a href="{{ route('message.index') }}">
           <i class="fa fa-envelope"></i> <span>Mailbox</span>
           <small class="badge pull-right bg-yellow">12</small>
         </a>

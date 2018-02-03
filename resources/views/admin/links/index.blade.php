@@ -15,3 +15,9 @@
 <link href="{{ asset('css/bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css') }}" rel="stylesheet" type="text/css" />
 <!-- Theme style -->
 <link href="{{ asset('css/AdminLTE.css') }}" rel="stylesheet" type="text/css" />
+
+@if(Route::currentRouteName() == 'message.index')
+<link href="{{asset('css/bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css')}}" rel="stylesheet" type="text/css" />
+<!-- iCheck for checkboxes and radio inputs -->
+<link href="{{asset('css/iCheck/minimal/blue.css')}}" rel="stylesheet" type="text/css" />
+@endif

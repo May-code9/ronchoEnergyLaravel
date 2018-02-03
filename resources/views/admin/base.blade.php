@@ -29,6 +29,8 @@
 
   @if(Route::currentRouteName() == 'news.create' || Route::currentRouteName() == 'product.create')
   @include('admin.scripts.news')
+  @elseif(Route::currentRouteName() == 'message.index')
+  @include('admin.scripts.mail')
   @else
   @include('admin.scripts.index')
   @endif
