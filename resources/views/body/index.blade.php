@@ -313,12 +313,9 @@ RonchoEnergy | Energy, ICT, Engineering Services
 												</div>
 
 
-												<div class='container-fuild no-padding testimonial-section'>
+												<!-- <div class='container-fuild no-padding testimonial-section'>
 													<div class='container'>
 														<div class='testimonial-carousel'>
-
-
-
 															<div class='testimonial-box'>
 																<div class='testimonial-content'>
 																	<span><i class='fa fa-quote-right' aria-hidden='true'></i></span>
@@ -334,8 +331,6 @@ RonchoEnergy | Energy, ICT, Engineering Services
 																</ul>
 
 															</diV>
-
-
 															<div class='testimonial-box'>
 																<div class='testimonial-content'>
 																	<span><i class='fa fa-quote-right' aria-hidden='true'></i></span>
@@ -351,8 +346,6 @@ RonchoEnergy | Energy, ICT, Engineering Services
 																</ul>
 
 															</diV>
-
-
 															<div class='testimonial-box'>
 																<div class='testimonial-content'>
 																	<span><i class='fa fa-quote-right' aria-hidden='true'></i></span>
@@ -368,8 +361,6 @@ RonchoEnergy | Energy, ICT, Engineering Services
 																</ul>
 
 															</diV>
-
-
 															<div class='testimonial-box'>
 																<div class='testimonial-content'>
 																	<span><i class='fa fa-quote-right' aria-hidden='true'></i></span>
@@ -387,7 +378,11 @@ RonchoEnergy | Energy, ICT, Engineering Services
 															</div>
 														</div>
 													</div>
-												</div></div></div></div></div>
+												</div> -->
+											</div>
+										</div>
+									</div>
+								</div>
 												<!-- <div class="vc_row wpb_row vc_row-fluid">
 													<div class="container no-padding fixedlayout">
 														<div class="wpb_column vc_column_container vc_col-sm-12 vc_col-lg-6 vc_col-md-12">
@@ -534,7 +529,8 @@ RonchoEnergy | Energy, ICT, Engineering Services
 																			<div class="container">
 																				<div class="row">
 																					<div class="col-md-6 col-sm-6 subscribe-info">
-																						<img width="196" height="63" src="demo/wpm/manufactory/wp-content/uploads/2016/07/logo-196x63.png" class="attachment-manufactory-196-80 size-manufactory-196-80" alt="" /><p>At vero eos et accusamus et iusto elity lit agnissmos ducimus os quidtiis </p>
+																						<img width="196" height="63" src="demo/wpm/manufactory/wp-content/uploads/2016/07/logo-196x63.png" class="attachment-manufactory-196-80 size-manufactory-196-80" alt="" />
+																						<p>Creating innovative solutions that are available, affordable and scalable.</p>
 																					</div>
 																					<div class="col-md-6 col-sm-6 newsletter-block">
 																						<script type="text/javascript">(function() {
@@ -552,14 +548,25 @@ RonchoEnergy | Energy, ICT, Engineering Services
 																								}
 																							}
 																						})();
-																						</script><!-- MailChimp for WordPress v4.1.9 - https://wordpress.org/plugins/mailchimp-for-wp/ --><form id="mc4wp-form-1" class="mc4wp-form mc4wp-form-247" method="post" data-id="247" data-name="Mailchimp Footer" ><div class="mc4wp-form-fields"><p>
-																							<label>Subscribe now to get daily updates</label>
-																							<input type="email" name="EMAIL" placeholder="Enter your email" required />
-																						</p>
-
+																						</script><!-- MailChimp for WordPress v4.1.9 - https://wordpress.org/plugins/mailchimp-for-wp/ -->
+																						<!-- <form id="mc4wp-form-1" class="mc4wp-form mc4wp-form-247" method="post" data-id="247" data-name="Mailchimp Footer" >
+																							<div class="mc4wp-form-fields">
+																								<p>
+																									<label>Subscribe now to get daily updates</label>
+																									<input type="email" name="EMAIL" placeholder="Enter your email" required />
+																								</p>
 																						<p>
 																							<input type="submit" value="Sign up" />
-																						</p><label style="display: none !important;">Leave this field empty if you're human: <input type="text" name="_mc4wp_honeypot" value="" tabindex="-1" autocomplete="off" /></label><input type="hidden" name="_mc4wp_timestamp" value="1513334253" /><input type="hidden" name="_mc4wp_form_id" value="247" /><input type="hidden" name="_mc4wp_form_element_id" value="mc4wp-form-1" /></div><div class="mc4wp-response"></div></form><!-- / MailChimp for WordPress Plugin -->			</div>
+																						</p>
+																						<label style="display: none !important;">Leave this field empty if you're human:
+																							<input type="text" name="_mc4wp_honeypot" value="" tabindex="-1" autocomplete="off" />
+																						</label>
+																						<input type="hidden" name="_mc4wp_timestamp" value="1513334253" />
+																						<input type="hidden" name="_mc4wp_form_id" value="247" />
+																						<input type="hidden" name="_mc4wp_form_element_id" value="mc4wp-form-1" />
+																					</div>
+																					<div class="mc4wp-response"></div>
+																				</form> -->		</div>
 																					</div>
 																				</div>
 																			</div>
