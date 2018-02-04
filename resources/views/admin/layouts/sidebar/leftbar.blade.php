@@ -57,7 +57,7 @@
       <li>
         <a href="{{ route('message.index') }}">
           <i class="fa fa-envelope"></i> <span>Mailbox</span>
-          <small class="badge pull-right bg-yellow">12</small>
+          <!-- <small class="badge pull-right bg-yellow">12</small> -->
         </a>
       </li>
       @endif

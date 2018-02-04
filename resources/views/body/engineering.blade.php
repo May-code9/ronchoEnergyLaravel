@@ -76,14 +76,14 @@ RonchoEnergy | Engineering Services
 										<li>Information & Communication Systems & Technologies</li>
 									</ul>
 									<div class="service-info col-md-10">
-										<a target="_blank" href="{{ asset('pdf/RonchoEnergy_Corporate Profile_20171215.pdf') }}">
+										<a target="_blank" href="{{ asset('pdf/RonchoEngineering.pdf') }}">
 											<i class="fa fa-file-pdf-o" aria-hidden="true"></i>
 										</a>
 										<span>For more information, Please download our Engineering Services brochure here</span>
 									</div>
 								</div>
 								<div class="col-md-5 col-sm-5 servicedetail-images">
-									<img width="352" height="371" src="demo/wpm/manufactory/wp-content/uploads/2016/06/service-detail-2-352x371.jpg" class="attachment-manufactory-352-371 size-manufactory-352-371" alt="" srcset="demo/wpm/manufactory/wp-content/uploads/2016/06/service-detail-2-352x371.jpg 352w, demo/wpm/manufactory/wp-content/uploads/2016/06/service-detail-2-284x300.jpg 284w, demo/wpm/manufactory/wp-content/uploads/2016/06/service-detail-2.jpg 360w" sizes="(max-width: 352px) 100vw, 352px" />
+									<img width="352" height="371" src="{{asset('demo/wpm/manufactory/wp-content/uploads/2016/06/engineering.png')}}" class="attachment-manufactory-352-371 size-manufactory-352-371" alt="" srcset="{{asset('demo/wpm/manufactory/wp-content/uploads/2016/06/engineering.png')}} 352w, {{asset('demo/wpm/manufactory/wp-content/uploads/2016/06/engineering.png')}} 284w, {{asset('demo/wpm/manufactory/wp-content/uploads/2016/06/engineering.png')}} 360w" sizes="(max-width: 352px) 100vw, 352px" />
 								</div>
 							</div>
 						</div>

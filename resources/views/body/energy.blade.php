@@ -5,7 +5,7 @@ RonchoEnergy | Energy
 @endsection
 
 @section("content")
-<div class="container-fluid no-padding pagebanner"  style="background-image: url(demo/wpm/manufactory/wp-content/themes/manufactory/images/page-banner.jpg);">
+<div class="container-fluid no-padding pagebanner"  style="background-image: url({{asset('demo/wpm/manufactory/wp-content/themes/manufactory/images/page-banner.jpg')}});">
 	<div class="page-banner-inner">
 		<div class="container">
 			<h3>
@@ -80,14 +80,14 @@ RonchoEnergy | Energy
 										<li>Grid Extension Projects including HVAC installations.</li>
 									</ul>
 									<div class="service-info col-md-10">
-										<a href="{{ asset('pdf/RonchoEnergy_Corporate Profile_20171215.pdf') }}" target="_blank">
+										<a href="{{ asset('pdf/RonchoEnergy.pdf') }}" target="_blank">
 											<i class="fa fa-file-pdf-o" aria-hidden="true"></i>
 										</a>
 										<span>For more information, Please download our Energy brochure here</span>
 									</div>
 								</div>
 								<div class="col-md-5 col-sm-5 servicedetail-images">
-									<img width="352" height="371" src="{{ asset('demo/wpm/manufactory/wp-content/uploads/2016/06/service-detail-2-352x371.jpg') }}" class="attachment-manufactory-352-371 size-manufactory-352-371" alt="" srcset="{{ asset('demo/wpm/manufactory/wp-content/uploads/2016/06/service-detail-2-352x371.jpg') }} 352w, demo/wpm/manufactory/wp-content/uploads/2016/06/service-detail-2-284x300.jpg 284w, demo/wpm/manufactory/wp-content/uploads/2016/06/service-detail-2-352x371.png 360w" sizes="(max-width: 352px) 100vw, 352px"/>
+									<img width="352" height="371" src="{{ asset('demo/wpm/manufactory/wp-content/uploads/2016/06/energy.jpg') }}" class="attachment-manufactory-352-371 size-manufactory-352-371" alt="" srcset="{{ asset('demo/wpm/manufactory/wp-content/uploads/2016/06/energy.jpg') }} 352w, demo/wpm/manufactory/wp-content/uploads/2016/06/service-detail-2-284x300.jpg 284w, demo/wpm/manufactory/wp-content/uploads/2016/06/service-detail-2-352x371.png 360w" sizes="(max-width: 352px) 100vw, 352px"/>
 								</div>
 							</div>
 						</div>
@@ -101,7 +101,7 @@ RonchoEnergy | Energy
 <div class="col-md-10 col-md-push-1">
 	<hr>
 </div>
-<main id="maining" class="site-main">
+<!-- <main id="maining" class="site-main">
 	<div class="post-content">
 		<div class="container servicedetail">
 			<div class="row">
@@ -254,6 +254,192 @@ RonchoEnergy | Energy
 			</div>
 		</div>
 	</div>
-</main>
+</main> -->
+
+<div class="vc_row wpb_row vc_row-fluid">
+	<div class="container no-padding fixedlayout">
+		<div class="wpb_column vc_column_container vc_col-sm-12 vc_col-lg-6 vc_col-md-12">
+			<div class="vc_column-inner ">
+				<div class="wpb_wrapper">
+					<div class="latestblog-section">
+						<div class="section-header">
+							<h3>Solar Plug & Play Products</h3>
+							<h4>We offer affordable Solar Plug & Play products that tackle the most essential power needs for underserved communities</h4>
+						</div>
+						<div class="type-post" style="border-bottom:none">
+							<div class="entry-cover">
+								<div class="post-img zoom">
+									<img width="250" height="160" src="demo/wpm/manufactory/wp-content/uploads/2016/06/soelectric10.jpg" class="attachment-manufactory-250-160 size-manufactory-250-160 wp-post-image" alt="" />
+									<a href="#"></a>
+								</div>
+							</div>
+							<div class="entry-block">
+								<div class="entry-title">
+									<a href="#">
+										<h3>Solectric 10</h3>
+									</a>
+								</div>
+								<div class="entry-meta">
+
+								</div>
+								<div class="entry-content">
+									<p>Solar Lantern</p>
+									<ul>
+										<li>Charges mobile phones</li>
+									</ul>
+								</div>
+								<a class="single-read-more" href="#">Download Brochure for Details<span class="arrow_right" aria-hidden="true"></span></a>
+							</div>
+						</div>
+						<hr>
+						<div class="type-post" style="border-bottom:none">
+							<div class="entry-cover">
+								<div class="post-img zoom">
+									<img width="250" height="160" src="demo/wpm/manufactory/wp-content/uploads/2016/06/soelectric15.jpg" class="attachment-manufactory-250-160 size-manufactory-250-160 wp-post-image" alt="" />
+									<a href="#"></a>
+								</div>
+							</div>
+							<div class="entry-block">
+								<div class="entry-title">
+									<a href="#">
+										<h3>Solectric 15</h3>
+									</a>
+								</div>
+								<div class="entry-meta">
+
+								</div>
+								<div class="entry-content">
+									<p>Small Home Lighting</p>
+									<ul>
+										<li>2 LED Bulbs included</li>
+										<li>Charges mobile phones</li>
+									</ul>
+								</div>
+								<a class="single-read-more" href="#">Download Brochure for Details<span class="arrow_right" aria-hidden="true"></span></a>
+							</div>
+						</div>
+						<hr>
+						<div class="type-post" style="border-bottom:none">
+							<div class="entry-cover">
+								<div class="post-img zoom">
+									<img width="250" height="160" src="demo/wpm/manufactory/wp-content/uploads/2016/06/soelectric30.jpg" class="attachment-manufactory-250-160 size-manufactory-250-160 wp-post-image" alt="" />
+									<a href="#"></a>
+								</div>
+							</div>
+							<div class="entry-block">
+								<div class="entry-title">
+									<a href="#">
+										<h3>Solectric 30</h3>
+									</a>
+								</div>
+								<div class="entry-meta">
+
+								</div>
+								<div class="entry-content">
+									<p>Small Home Lighting</p>
+									<ul>
+										<li>4 LED Bulbs included </li>
+										<li>Charges mobile phones</li>
+									</ul>
+								</div>
+								<a class="single-read-more" href="#">Download Brochure for Details<span class="arrow_right" aria-hidden="true"></span></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="wpb_column vc_column_container vc_col-sm-12 vc_col-lg-6 vc_col-md-12">
+			<div class="vc_column-inner ">
+				<div class="wpb_wrapper">
+					<div class="latestblog-section">
+						<div class="section-header">
+							<h3>Energy Back-Up Solutions</h3>
+							<h4>We are technology flexible, and can deploy your project using:</h4>
+						</div>
+						<div class="type-post" style="border-bottom:none">
+							<div class="entry-cover">
+								<div class="post-img zoom">
+									<img width="250" height="160" src="demo/wpm/manufactory/wp-content/uploads/2016/06/Lead Acid Battery.png" class="attachment-manufactory-250-160 size-manufactory-250-160 wp-post-image" alt="" />
+									<a href="#"></a>
+								</div>
+							</div>
+							<div class="entry-block">
+								<div class="entry-title">
+									<a href="#">
+										<h3>Flagship Product – Lead Acid Batteries (Trojan)</h3>
+									</a>
+								</div>
+								<div class="entry-meta">
+
+								</div>
+								<div class="entry-content">
+									<p>Lead Acid battery at its best !!! Designed for Nigerian weather.</p>
+									<ul>
+										<li><strong>Technology</strong> - Deep cycle, Flooded</li>
+										<li><strong>Expected Lifetime</strong> -	8 yrs based on IEC61427</li>
+									</ul>
+								</div>
+								<a class="single-read-more" href="#">Download Brochure for Details<span class="arrow_right" aria-hidden="true"></span></a>
+							</div>
+						</div>
+						<hr>
+						<div class="type-post" style="border-bottom:none">
+							<div class="entry-cover">
+								<div class="post-img zoom">
+									<img width="250" height="160" src="demo/wpm/manufactory/wp-content/uploads/2016/06/Lithium Ion Battery.png" class="attachment-manufactory-250-160 size-manufactory-250-160 wp-post-image" alt="" />
+									<a href="#"></a>
+								</div>
+							</div>
+							<div class="entry-block">
+								<div class="entry-title">
+									<a href="#">
+										<h3>Flagship Solution – Lithium Ion Batteries (Tesla Power Wall)</h3>
+									</a>
+								</div>
+								<div class="entry-meta">
+
+								</div>
+								<div class="entry-content">
+									<p>Seamless backup power, with or without solar.</p>
+									<ul>
+										<li><strong>Usable Capacity</strong> - 13.5 kWh</li>
+										<li><strong>Warranty</strong> - 10 years</li>
+									</ul>
+								</div>
+								<a class="single-read-more" href="#">Download Brochure for Details<span class="arrow_right" aria-hidden="true"></span></a>
+							</div>
+						</div>
+						<hr>
+						<div class="type-post" style="border-bottom:none">
+							<div class="entry-cover">
+								<div class="post-img zoom">
+									<img width="250" height="160" src="demo/wpm/manufactory/wp-content/uploads/2016/06/Flow Battery.png" class="attachment-manufactory-250-160 size-manufactory-250-160 wp-post-image" alt="" />
+									<a href="#"></a>
+								</div>
+							</div>
+							<div class="entry-block">
+								<div class="entry-title">
+									<a href="#">
+										<h3>Flagship Product – Flow Batteries</h3>
+									</a>
+								</div>
+
+								<div class="entry-content">
+									<p>Secure your power supplies and cut diesel costs with redT at the heart of your off-grid system</p>
+									<ul>
+										<li>4 LED Bulbs included </li>
+										<li>Charges mobile phones</li>
+									</ul>
+								</div>
+								<a class="single-read-more" href="#">Download Brochure for Details<span class="arrow_right" aria-hidden="true"></span></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
 
 @endsection

@@ -1825,7 +1825,7 @@ body.search-results article[class*="type-"] .entry-cover::before {
 /* -- ServiceDetail */
 .servicedetail {
     padding-top: 65px;
-    padding-bottom: 70px;
+    padding-bottom: 20px;
 }
 
 /* -- ServiceDetail Tab */

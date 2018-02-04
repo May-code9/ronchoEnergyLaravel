@@ -180,9 +180,9 @@ RonchoEnergy | is an energy and technology company registered in Nigeria
 													<h3>Meet Our Team</h3>
 												</div>
 												<div class='row'>
-													<div class='col-md-3 col-sm-4 col-xs-4 col-md-offset-2'>
+													<div class='col-md-3 col-sm-4 col-xs-4 col-md-offset-3'>
 														<div class='team-box'>
-															<img width="270" height="400" src="demo/wpm/manufactory/wp-content/uploads/2016/07/team-1.jpg" class="attachment-manufactory-270-400 size-manufactory-270-400" alt="" srcset="demo/wpm/manufactory/wp-content/uploads/2016/07/team-1.jpg 270w, demo/wpm/manufactory/wp-content/uploads/2016/07/team-1-203x300.jpg 203w" sizes="(max-width: 270px) 100vw, 270px" />
+															<img width="270" height="400" src="{{asset('demo/wpm/manufactory/wp-content/uploads/2016/07/team-1gvhvhgv.jpg')}}" class="attachment-manufactory-270-400 size-manufactory-270-400" alt="" srcset="{{asset('demo/wpm/manufactory/wp-content/uploads/2016/07/team-1gvhvhgv.jpg')}} 270w, {{asset('demo/wpm/manufactory/wp-content/uploads/2016/07/team-1gvhvhgv.jpg')}} 203w" sizes="(max-width: 270px) 100vw, 270px" />
 															<div class='team-content'>
 																<h4>Dr. Ikenna Efika</h4>
 																<div class='team-content-box'>
@@ -200,7 +200,7 @@ RonchoEnergy | is an energy and technology company registered in Nigeria
 													</div>
 													<div class='col-md-3 col-sm-4 col-xs-4 '>
 														<div class='team-box'>
-															<img width="270" height="400" src="demo/wpm/manufactory/wp-content/uploads/2016/07/team-2.jpg" class="attachment-manufactory-270-400 size-manufactory-270-400" alt="" srcset="demo/wpm/manufactory/wp-content/uploads/2016/07/team-2.jpg 270w, demo/wpm/manufactory/wp-content/uploads/2016/07/team-2-203x300.jpg 203w" sizes="(max-width: 270px) 100vw, 270px" />
+															<img width="270" height="400" src="{{asset('demo/wpm/manufactory/wp-content/uploads/2016/07/team-2ghvhvh.jpg')}}" class="attachment-manufactory-270-400 size-manufactory-270-400" alt="" srcset="{{asset('demo/wpm/manufactory/wp-content/uploads/2016/07/team-2ghvhvh.jpg')}} 270w, {{asset('demo/wpm/manufactory/wp-content/uploads/2016/07/team-2ghvhvh.jpg')}} 203w" sizes="(max-width: 270px) 100vw, 270px" />
 															<div class='team-content'>
 																<h4>Dr. Chidi Efika</h4>
 																<div class='team-content-box'>
@@ -216,24 +216,7 @@ RonchoEnergy | is an energy and technology company registered in Nigeria
 															</div>
 														</div>
 													</div>
-													<div class='col-md-3 col-sm-4 col-xs-4 '>
-														<div class='team-box'>
-															<img width="270" height="400" src="demo/wpm/manufactory/wp-content/uploads/2016/07/team-3.jpg" class="attachment-manufactory-270-400 size-manufactory-270-400" alt="" srcset="demo/wpm/manufactory/wp-content/uploads/2016/07/team-3.jpg 270w, demo/wpm/manufactory/wp-content/uploads/2016/07/team-3-203x300.jpg 203w" sizes="(max-width: 270px) 100vw, 270px" />
-															<div class='team-content'>
-																<h4>Nkiru Anisiobi</h4>
-																<div class='team-content-box'>
-																	<span>COO</span>
-																	<a href='mailto:example@example.com'><span class='icon icon-Mail'></span>example@example.com</a>
-																	<a href='tel:+80023145451'><span class='icon icon-Phone2'></span>+80023145451</a>
-																	<ul>
-																		<li><a target='_blank' href='#'><i class='fa fa-facebook' aria-hidden='true'></i></a></li>
-																		<li><a target='_blank' href='#'><i class='fa fa-twitter' aria-hidden='true'></i></a></li>
-																		<li><a target='_blank' href='#'><i class='fa fa-google-plus' aria-hidden='true'></i></a></li>
-																	</ul>
-																</div>
-															</div>
-														</div>
-													</div>
+
 												</div>
 											</div>
 											<hr>

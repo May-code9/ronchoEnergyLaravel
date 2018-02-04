@@ -37,4 +37,5 @@ Route::group(['middleware'=>'superadmin'], function () {
   Route::resource('product', 'ProductController');
   Route::resource('news', 'AddNewsController');
   Route::resource('message', 'AdminMessage');
+  Route::resource('readmessage', 'AdminReadMessage');
 });

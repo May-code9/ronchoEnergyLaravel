@@ -44,24 +44,24 @@
                     <h3 class="box-title">INBOX</h3>
                   </div>
                   <!-- compose message btn -->
-                  <a class="btn btn-block btn-primary" data-toggle="modal" data-target="#compose-modal"><i class="fa fa-pencil"></i> Compose Message</a>
+                  <!-- <a class="btn btn-block btn-primary" data-toggle="modal" data-target="#compose-modal"><i class="fa fa-pencil"></i> Compose Message</a>  -->
                   <!-- Navigation - folders-->
                   <div style="margin-top: 15px;">
                     <ul class="nav nav-pills nav-stacked">
                       <li class="header">Folders</li>
                       <li class="active"><a href="#"><i class="fa fa-inbox"></i> Unread ({{ $countMessages }})</a></li>
-                      <li class="active"><a href="#"><i class="fa fa-inbox"></i> Read ({{ $countMessages }})</a></li>
+                      <li class=""><a href="{{ route('readmessage.index') }}"><i class="fa fa-inbox"></i> Read ({{ $countReadMessages }})</a></li>
                     </ul>
                   </div>
                 </div><!-- /.col (LEFT) -->
                 <div class="col-md-9 col-sm-8">
                   <div class="row pad">
                     <div class="col-sm-6">
-                      <label style="margin-right: 10px;">
+                      <!-- <label style="margin-right: 10px;">
                         <input type="checkbox" id="check-all"/>
-                      </label>
+                      </label> -->
                       <!-- Action button -->
-                      <div class="btn-group">
+                      <!-- <div class="btn-group">
                         <button type="button" class="btn btn-default btn-sm btn-flat dropdown-toggle" data-toggle="dropdown">
                           Action <span class="caret"></span>
                         </button>
@@ -73,7 +73,7 @@
                           <li class="divider"></li>
                           <li><a href="#">Delete</a></li>
                         </ul>
-                      </div>
+                      </div> -->
 
                     </div>
                     <div class="col-sm-6 search-form">
@@ -109,9 +109,7 @@
             </div><!-- /.box-body -->
             <div class="box-footer clearfix">
               <div class="pull-right">
-                <small>Showing 1-12/1,240</small>
-                <button class="btn btn-xs btn-primary"><i class="fa fa-caret-left"></i></button>
-                <button class="btn btn-xs btn-primary"><i class="fa fa-caret-right"></i></button>
+                {{ $getMessages->links() }}
               </div>
             </div><!-- box-footer -->
           </div><!-- /.box -->
@@ -124,7 +122,7 @@
 </div><!-- ./wrapper -->
 
 <!-- COMPOSE MESSAGE MODAL -->
-<div class="modal fade" id="compose-modal" tabindex="-1" role="dialog" aria-hidden="true">
+<!-- <div class="modal fade" id="compose-modal" tabindex="-1" role="dialog" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
@@ -170,7 +168,7 @@
           <button type="submit" class="btn btn-primary pull-left"><i class="fa fa-envelope"></i> Send Message</button>
         </div>
       </form>
-    </div><!-- /.modal-content -->
-  </div><!-- /.modal-dialog -->
-</div><!-- /.modal -->
+    </div>
+  </div>
+</div> -->
 @endsection
