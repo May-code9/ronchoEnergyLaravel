@@ -25,7 +25,8 @@ class IctProject extends Controller
      */
     public function create()
     {
-        return view('admin.layouts.crud.ictProject');
+        $activeProject = 'active';
+        return view('admin.layouts.crud.ictProject', compact('activeProject'));
     }
 
     /**

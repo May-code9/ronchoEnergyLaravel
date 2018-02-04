@@ -25,7 +25,8 @@ class EnergyProject extends Controller
      */
     public function create()
     {
-        return view('admin.layouts.crud.energyProject');
+        $activeProject = 'active';
+        return view('admin.layouts.crud.energyProject', compact('activeProject'));
     }
 
     /**

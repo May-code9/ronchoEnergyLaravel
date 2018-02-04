@@ -14,6 +14,7 @@ class AdminMessage extends Controller
      */
     public function index()
     {
+        $activeMessage = 'active';
         $getMessages = Message::join('users', 'users.id', '=', 'messages.user_id')
         ->join('products', 'products.id', '=', 'messages.product_id')
         ->select('users.first_name', 'users.last_name', 'users.phone_number', 'products.product', 'message', 'quantity', 'messages.created_at', 'messages.id', 'read')
@@ -22,7 +23,7 @@ class AdminMessage extends Controller
         ->paginate(20);
         $countReadMessages = Message::where('read',1)->count();
         $countMessages = Message::where('read',0)->count();
-        return view('admin.layouts.crud.mail', compact('getMessages', 'countMessages', 'countReadMessages'));
+        return view('admin.layouts.crud.mail', compact('getMessages', 'countMessages', 'countReadMessages', 'activeMessage'));
     }
 
     /**

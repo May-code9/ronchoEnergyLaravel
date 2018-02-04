@@ -25,7 +25,8 @@ class EngineeringProject extends Controller
      */
     public function create()
     {
-        return view('admin.layouts.crud.engineeringProject');
+        $activeProject = 'active';
+        return view('admin.layouts.crud.engineeringProject', compact('activeProject'));
     }
 
     /**

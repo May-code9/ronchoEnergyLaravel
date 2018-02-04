@@ -25,7 +25,8 @@ class ProductController extends Controller
      */
     public function create()
     {
-        return view('admin.layouts.crud.products');
+        $activeProduct = 'active';
+        return view('admin.layouts.crud.products', compact('activeProduct'));
     }
 
     /**

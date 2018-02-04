@@ -25,7 +25,8 @@ class AddNewsController extends Controller
      */
     public function create()
     {
-        return view('admin.layouts.crud.news');
+        $activeNews = 'active';
+        return view('admin.layouts.crud.news', compact('activeNews'));
     }
 
     /**

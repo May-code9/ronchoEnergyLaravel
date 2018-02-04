@@ -15,18 +15,18 @@
     <!-- sidebar menu: : style can be found in sidebar.less -->
     <ul class="sidebar-menu">
       @if (Auth::user()->role == 4)
-      <li class="">
+      <li class="@if(isset($activeDashboard)) {{ $activeDashboard }} @endif">
         <a href="{{ route('ronchoDashboard') }}">
           <i class="fa fa-dashboard"></i> <span>Dashboard</span>
         </a>
       </li>
-      <li class="">
+      <li class="@if(isset($activeProduct)) {{ $activeProduct }} @endif">
         <a href="{{ route('product.create') }}">
           <i class="fa fa-edit"></i> <span>Product</span>
         </a>
       </li>
 
-      <li class="treeview">
+      <li class="treeview @if(isset($activeProject)) {{ $activeProject }} @endif">
         <a href="#">
           <i class="fa fa-edit"></i> <span>Projects</span>
           <i class="fa fa-angle-left pull-right"></i>
@@ -38,7 +38,7 @@
         </ul>
       </li>
 
-      <li class="">
+      <li class="@if(isset($activeNews)) {{ $activeNews }} @endif">
         <a href="{{ route('news.create') }}">
           <i class="fa fa-edit"></i> <span>News</span>
         </a>
@@ -54,7 +54,7 @@
           <li><a href="#"><i class="fa fa-angle-double-right"></i>Message List</a></li>
         </ul>
       </li> -->
-      <li>
+      <li class="@if(isset($activeMessage)) {{ $activeMessage }} @endif">
         <a href="{{ route('message.index') }}">
           <i class="fa fa-envelope"></i> <span>Mailbox</span>
           <!-- <small class="badge pull-right bg-yellow">12</small> -->
