@@ -142,10 +142,10 @@
           <div class="small-box bg-yellow">
             <div class="inner">
               <h3>
-                ---
+                {{ $readMails }}
               </h3>
               <p>
-                Blog
+                Read Message(s)
               </p>
             </div>
             <div class="icon">
@@ -161,10 +161,10 @@
           <div class="small-box bg-blue">
             <div class="inner">
               <h3>
-                ---
+                {{ $unReadMails }}
               </h3>
               <p>
-                Testimonies
+                UnRead Messages
               </p>
             </div>
             <div class="icon">

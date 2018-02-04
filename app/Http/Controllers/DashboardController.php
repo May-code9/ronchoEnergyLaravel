@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 use App\Project;
 use App\Product;
 use App\News;
+use App\Message;
 
 class DashboardController extends Controller
 {
@@ -16,6 +17,8 @@ class DashboardController extends Controller
       $engineeringProjects = Project::where('category', 'engineering')->count();
       $news = News::count();
       $product = Product::count();
-      return view('admin.layouts.index', compact('energyProjects', 'ictProjects', 'engineeringProjects', 'news', 'product', 'activeDashboard'));
+      $readMails = Message::where('read', 1)->count();
+      $unReadMails = Message::where('read', 0)->count();
+      return view('admin.layouts.index', compact('energyProjects', 'ictProjects', 'engineeringProjects', 'news', 'product', 'activeDashboard', 'readMails', 'unReadMails'));
     }
 }

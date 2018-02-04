@@ -76,7 +76,7 @@
                       </div> -->
 
                     </div>
-                    <div class="col-sm-6 search-form">
+                    <!-- <div class="col-sm-6 search-form">
                       <form action="#" class="text-right">
                         <div class="input-group">
                           <input type="text" class="form-control input-sm" placeholder="Search">
@@ -85,7 +85,7 @@
                           </div>
                         </div>
                       </form>
-                    </div>
+                    </div> -->
                   </div><!-- /.row -->
 
                   <div class="table-responsive">

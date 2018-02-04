@@ -14,7 +14,7 @@
 
     <!-- sidebar menu: : style can be found in sidebar.less -->
     <ul class="sidebar-menu">
-      @if (Auth::user()->role == 4)
+      @if (Auth::user()->role > 2)
       <li class="@if(isset($activeDashboard)) {{ $activeDashboard }} @endif">
         <a href="{{ route('ronchoDashboard') }}">
           <i class="fa fa-dashboard"></i> <span>Dashboard</span>
@@ -59,6 +59,20 @@
           <i class="fa fa-envelope"></i> <span>Mailbox</span>
           <!-- <small class="badge pull-right bg-yellow">12</small> -->
         </a>
+      </li>
+      @endif
+      <hr>
+      <hr>
+      @if(Auth::user()->role == 4)
+      <li class="treeview ">
+        <a href="#">
+          <i class="fa fa-users"></i> <span>Admin</span>
+          <i class="fa fa-angle-left pull-right"></i>
+        </a>
+        <ul class="treeview-menu">
+          <li><a href="{{ route('adminuser.index') }}"><i class="fa fa-angle-double-right"></i> View Admin</a></li>
+          <li><a href="{{ route('adminuser.create') }}"><i class="fa fa-angle-double-right"></i> Add Admin</a></li>
+        </ul>
       </li>
       @endif
     </ul>

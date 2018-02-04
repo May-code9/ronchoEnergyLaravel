@@ -29,7 +29,7 @@ Route::get('searchNews{page?}', ['as'=>'news.search', 'uses'=>'SearchController@
 
 Auth::routes();
 
-Route::group(['middleware'=>'superadmin'], function () {
+Route::group(['middleware'=>'admin'], function () {
   Route::get('/dashboard', ['as'=>'ronchoDashboard', 'uses'=>'DashboardController@index']);
   Route::resource('energy', 'EnergyProject');
   Route::resource('ict', 'IctProject');
@@ -39,3 +39,4 @@ Route::group(['middleware'=>'superadmin'], function () {
   Route::resource('message', 'AdminMessage');
   Route::resource('readmessage', 'AdminReadMessage');
 });
+Route::resource('adminuser', 'UserAdminController')->middleware('superadmin');
