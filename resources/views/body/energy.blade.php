@@ -87,7 +87,7 @@ RonchoEnergy | Energy
 									</div>
 								</div>
 								<div class="col-md-5 col-sm-5 servicedetail-images">
-									<img width="352" height="371" src="{{ asset('demo/wpm/manufactory/wp-content/uploads/2016/06/energy.jpg') }}" class="attachment-manufactory-352-371 size-manufactory-352-371" alt="" srcset="{{ asset('demo/wpm/manufactory/wp-content/uploads/2016/06/energy.jpg') }} 352w, demo/wpm/manufactory/wp-content/uploads/2016/06/service-detail-2-284x300.jpg 284w, demo/wpm/manufactory/wp-content/uploads/2016/06/service-detail-2-352x371.png 360w" sizes="(max-width: 352px) 100vw, 352px"/>
+									<img width="352" height="371" src="{{ asset('image/2016/06/energy.jpg') }}" class="attachment-manufactory-352-371 size-manufactory-352-371" alt="" srcset="{{ asset('image/2016/06/energy.jpg') }} 352w, image/2016/06/service-detail-2-284x300.jpg 284w, image/2016/06/service-detail-2-352x371.png 360w" sizes="(max-width: 352px) 100vw, 352px"/>
 								</div>
 							</div>
 						</div>
@@ -269,7 +269,7 @@ RonchoEnergy | Energy
 						<div class="type-post" style="border-bottom:none">
 							<div class="entry-cover">
 								<div class="post-img zoom">
-									<img width="250" height="160" src="demo/wpm/manufactory/wp-content/uploads/2016/06/soelectric10.jpg" class="attachment-manufactory-250-160 size-manufactory-250-160 wp-post-image" alt="" />
+									<img width="250" height="160" src="image/2016/06/soelectric10.jpg" class="attachment-manufactory-250-160 size-manufactory-250-160 wp-post-image" alt="" />
 									<a href="#"></a>
 								</div>
 							</div>
@@ -295,7 +295,7 @@ RonchoEnergy | Energy
 						<div class="type-post" style="border-bottom:none">
 							<div class="entry-cover">
 								<div class="post-img zoom">
-									<img width="250" height="160" src="demo/wpm/manufactory/wp-content/uploads/2016/06/soelectric15.jpg" class="attachment-manufactory-250-160 size-manufactory-250-160 wp-post-image" alt="" />
+									<img width="250" height="160" src="image/2016/06/soelectric15.jpg" class="attachment-manufactory-250-160 size-manufactory-250-160 wp-post-image" alt="" />
 									<a href="#"></a>
 								</div>
 							</div>
@@ -322,7 +322,7 @@ RonchoEnergy | Energy
 						<div class="type-post" style="border-bottom:none">
 							<div class="entry-cover">
 								<div class="post-img zoom">
-									<img width="250" height="160" src="demo/wpm/manufactory/wp-content/uploads/2016/06/soelectric30.jpg" class="attachment-manufactory-250-160 size-manufactory-250-160 wp-post-image" alt="" />
+									<img width="250" height="160" src="image/2016/06/soelectric30.jpg" class="attachment-manufactory-250-160 size-manufactory-250-160 wp-post-image" alt="" />
 									<a href="#"></a>
 								</div>
 							</div>
@@ -360,7 +360,7 @@ RonchoEnergy | Energy
 						<div class="type-post" style="border-bottom:none">
 							<div class="entry-cover">
 								<div class="post-img zoom">
-									<img width="250" height="160" src="demo/wpm/manufactory/wp-content/uploads/2016/06/Lead Acid Battery.png" class="attachment-manufactory-250-160 size-manufactory-250-160 wp-post-image" alt="" />
+									<img width="250" height="160" src="image/2016/06/Lead Acid Battery.png" class="attachment-manufactory-250-160 size-manufactory-250-160 wp-post-image" alt="" />
 									<a href="#"></a>
 								</div>
 							</div>
@@ -387,7 +387,7 @@ RonchoEnergy | Energy
 						<div class="type-post" style="border-bottom:none">
 							<div class="entry-cover">
 								<div class="post-img zoom">
-									<img width="250" height="160" src="demo/wpm/manufactory/wp-content/uploads/2016/06/Lithium Ion Battery.png" class="attachment-manufactory-250-160 size-manufactory-250-160 wp-post-image" alt="" />
+									<img width="250" height="160" src="image/2016/06/Lithium Ion Battery.png" class="attachment-manufactory-250-160 size-manufactory-250-160 wp-post-image" alt="" />
 									<a href="#"></a>
 								</div>
 							</div>
@@ -414,7 +414,7 @@ RonchoEnergy | Energy
 						<div class="type-post" style="border-bottom:none">
 							<div class="entry-cover">
 								<div class="post-img zoom">
-									<img width="250" height="160" src="demo/wpm/manufactory/wp-content/uploads/2016/06/Flow Battery.png" class="attachment-manufactory-250-160 size-manufactory-250-160 wp-post-image" alt="" />
+									<img width="250" height="160" src="image/2016/06/Flow Battery.png" class="attachment-manufactory-250-160 size-manufactory-250-160 wp-post-image" alt="" />
 									<a href="#"></a>
 								</div>
 							</div>

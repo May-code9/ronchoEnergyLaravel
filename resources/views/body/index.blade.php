@@ -25,7 +25,7 @@ RonchoEnergy | Energy, ICT, Engineering Services
 														<ul>	<!-- SLIDE  -->
 															<li data-index="rs-7" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="300"  data-thumb="{{asset('demo/wpm/manufactory/wp-content/uploads/revslider/home-slide-1/slider-1-100x50.jpg')}}"  data-rotate="0"  data-saveperformance="off"  class="home-slide" data-title="Slide">
 																<!-- MAIN IMAGE -->
-																<img src="{{ asset('demo/wpm/manufactory/wp-content/uploads/revslider/home-slide-1/slider-1.jpg') }}"  alt="" title="Manufactory Home 1"  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
+																<img src="{{ asset('image/revslider/slider-1.jpg') }}"  alt="" title="Manufactory Home 1"  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
 																<!-- LAYERS -->
 
 																<!-- LAYER NR. 1 -->
@@ -48,7 +48,7 @@ RonchoEnergy | Energy, ICT, Engineering Services
 															<!-- SLIDE  -->
 															<li data-index="rs-8" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="300"  data-thumb="demo/wpm/manufactory/wp-content/uploads/revslider/home-slide-1/slider-1-100x50.jpg"  data-rotate="0"  data-saveperformance="off"  class="home-slide" data-title="Slide" data-description="">
 																<!-- MAIN IMAGE -->
-																<img src="demo/wpm/manufactory/wp-content/uploads/revslider/home-slide-1/slider-1.jpg"  alt="" title="Manufactory Home 1"  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
+																<img src="image/revslider/slider-1.jpg"  alt="" title="Manufactory Home 1"  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
 																<!-- LAYERS -->
 
 																<!-- LAYER NR. 5 -->
@@ -83,7 +83,7 @@ RonchoEnergy | Energy, ICT, Engineering Services
 															<!-- SLIDE  -->
 															<li data-index="rs-9" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="300"  data-thumb="demo/wpm/manufactory/wp-content/uploads/revslider/home-slide-1/slider-1-100x50.jpg"  data-rotate="0"  data-saveperformance="off"  class="home-slide" data-title="Slide"  data-description="">
 																<!-- MAIN IMAGE -->
-																<img src="demo/wpm/manufactory/wp-content/uploads/revslider/home-slide-1/slider-1.jpg"  alt="" title="Manufactory Home 1"  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
+																<img src="image/revslider/slider-1.jpg"  alt="" title="Manufactory Home 1"  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
 																<!-- LAYERS -->
 
 																<!-- LAYER NR. 12 -->
@@ -206,7 +206,7 @@ RonchoEnergy | Energy, ICT, Engineering Services
 														</div>
 														<div class='col-md-6'>
 															<div style="padding-left:50px">
-																<img width="560" height="287" src="image/dev-goals.jpg" class="attachment-manufactory-370-281 size-manufactory-370-281" alt="" />
+																<img width="560" height="287" src="{{asset('image/revslider/dev-goals.jpg')}}" class="attachment-manufactory-370-281 size-manufactory-370-281" alt="" />
 															</div>
 														</div>
 													</div>
@@ -214,23 +214,23 @@ RonchoEnergy | Energy, ICT, Engineering Services
 												<div class='container features-section '>
 													<div class='row'>
 														<div class='col-md-4 col-sm-6 col-xs-6 introdction-block '>
-															<img width="370" height="281" src="demo/wpm/manufactory/wp-content/uploads/revslider/home-slider-2/slider-4-370x281.jpg" class="attachment-manufactory-370-281 size-manufactory-370-281" alt="" />
+															<img width="370" height="281" src="image/revslider/slider-4-370x281.jpg" class="attachment-manufactory-370-281 size-manufactory-370-281" alt="" />
 															<h3><a href='#'>Energy</a></h3>
 															<span>Objectively innovate empowered</span>
 														</div>
 														<div class='col-md-4 col-sm-6 col-xs-6 introdction-block '>
-															<img width="360" height="281" src="demo/wpm/manufactory/wp-content/uploads/2016/06/service-detail-2-360x281.jpg" class="attachment-manufactory-370-281 size-manufactory-370-281" alt="" />
+															<img width="360" height="281" src="image/2016/06/service-detail-2-360x281.jpg" class="attachment-manufactory-370-281 size-manufactory-370-281" alt="" />
 															<h3><a href='#'>ICT</a></h3>
 															<span>Objectively innovate empowered</span>
 														</div>
 														<div class='col-md-4 col-sm-6 col-xs-6 introdction-block '>
-															<img width="370" height="281" src="demo/wpm/manufactory/wp-content/uploads/2016/07/intro-lg-3.jpg" class="attachment-manufactory-370-281 size-manufactory-370-281" alt="" srcset="demo/wpm/manufactory/wp-content/uploads/2016/07/intro-lg-3.jpg 370w, demo/wpm/manufactory/wp-content/uploads/2016/07/intro-lg-3-300x228.jpg 300w" sizes="(max-width: 370px) 100vw, 370px" />
+															<img width="370" height="281" src="image/2016/07/intro-lg-3.jpg" class="attachment-manufactory-370-281 size-manufactory-370-281" alt="" srcset="image/2016/07/intro-lg-3.jpg 370w, image/2016/07/intro-lg-3-300x228.jpg 300w" sizes="(max-width: 370px) 100vw, 370px" />
 															<h3><a href='#'>Engineering Services</a></h3>
 															<span>Objectively innovate empowered</span>
 														</div>
 													</div>
 												</div>
-												<div class="container-fuild no-padding portfolio-section one" style="background-image:url(demo/wpm/manufactory/wp-content/uploads/2016/07/portfolio-bg.jpg);">
+												<div class="container-fuild no-padding portfolio-section one" style="background-image:url(image/2016/07/portfolio-bg.jpg);">
 													<div class="container">
 														<div class="row">
 															<div class="portfolio-categories">
@@ -272,39 +272,39 @@ RonchoEnergy | Energy, ICT, Engineering Services
 
 
 																	<div class='logg-box '>
-																		<a href='#'><img width="450" height="99" src="demo/wpm/manufactory/wp-content/uploads/2016/07/client-1.png" class="attachment-manufactory-134-36 size-manufactory-134-36" alt="" /></a>
+																		<a href='#'><img width="450" height="99" src="image/2016/07/client-1.png" class="attachment-manufactory-134-36 size-manufactory-134-36" alt="" /></a>
 																	</div>
 
 																	<div class='logg-box '>
-																		<a href='#'><img width="450" height="79" src="demo/wpm/manufactory/wp-content/uploads/2016/07/client-2.png" class="attachment-manufactory-134-36 size-manufactory-134-36" alt="" /></a>
+																		<a href='#'><img width="450" height="79" src="image/2016/07/client-2.png" class="attachment-manufactory-134-36 size-manufactory-134-36" alt="" /></a>
 																	</div>
 
 																	<div class='logg-box '>
-																		<a href='#'><img width="450" height="79" src="demo/wpm/manufactory/wp-content/uploads/2016/07/client-3.png" class="attachment-manufactory-134-36 size-manufactory-134-36" alt="" /></a>
+																		<a href='#'><img width="450" height="79" src="image/2016/07/client-3.png" class="attachment-manufactory-134-36 size-manufactory-134-36" alt="" /></a>
 																	</div>
 
 																	<div class='logg-box '>
-																		<a href='#'><img width="450" height="79" src="demo/wpm/manufactory/wp-content/uploads/2016/07/client-4.png" class="attachment-manufactory-134-36 size-manufactory-134-36" alt="" /></a>
+																		<a href='#'><img width="450" height="79" src="image/2016/07/client-4.png" class="attachment-manufactory-134-36 size-manufactory-134-36" alt="" /></a>
 																	</div>
 
 																	<div class='logg-box '>
-																		<a href='#'><img width="450" height="100" src="demo/wpm/manufactory/wp-content/uploads/2016/07/client-5.png" class="attachment-manufactory-134-36 size-manufactory-134-36" alt="" /></a>
+																		<a href='#'><img width="450" height="100" src="image/2016/07/client-5.png" class="attachment-manufactory-134-36 size-manufactory-134-36" alt="" /></a>
 																	</div>
 
 																	<div class='logg-box '>
-																		<a href='#'><img width="450" height="79" src="demo/wpm/manufactory/wp-content/uploads/2016/07/client-6.png" class="attachment-manufactory-134-36 size-manufactory-134-36" alt="" /></a>
+																		<a href='#'><img width="450" height="79" src="image/2016/07/client-6.png" class="attachment-manufactory-134-36 size-manufactory-134-36" alt="" /></a>
 																	</div>
 
 																	<div class='logg-box '>
-																		<a href='#'><img width="450" height="79" src="demo/wpm/manufactory/wp-content/uploads/2016/07/client-7.png" class="attachment-manufactory-134-36 size-manufactory-134-36" alt="" /></a>
+																		<a href='#'><img width="450" height="79" src="image/2016/07/client-7.png" class="attachment-manufactory-134-36 size-manufactory-134-36" alt="" /></a>
 																	</div>
 
 																	<div class='logg-box '>
-																		<a href='#'><img width="450" height="100" src="demo/wpm/manufactory/wp-content/uploads/2016/07/client-8.png" class="attachment-manufactory-134-36 size-manufactory-134-36" alt="" /></a>
+																		<a href='#'><img width="450" height="100" src="image/2016/07/client-8.png" class="attachment-manufactory-134-36 size-manufactory-134-36" alt="" /></a>
 																	</div>
 
 																	<div class='logg-box '>
-																		<a href='#'><img width="450" height="100" src="demo/wpm/manufactory/wp-content/uploads/2016/07/client-9.png" class="attachment-manufactory-134-36 size-manufactory-134-36" alt="" /></a>
+																		<a href='#'><img width="450" height="100" src="image/2016/07/client-9.png" class="attachment-manufactory-134-36 size-manufactory-134-36" alt="" /></a>
 																	</div>
 																</div>
 															</div>
@@ -456,7 +456,7 @@ RonchoEnergy | Energy, ICT, Engineering Services
 																		<div class="type-post">
 																			<div class="entry-cover">
 																				<div class="post-img">
-																					<img width="250" height="160" src="demo/wpm/manufactory/wp-content/uploads/2016/06/blog-5-250x160.jpg" class="attachment-manufactory-250-160 size-manufactory-250-160 wp-post-image" alt="" />
+																					<img width="250" height="160" src="image/2016/06/blog-5-250x160.jpg" class="attachment-manufactory-250-160 size-manufactory-250-160 wp-post-image" alt="" />
 																					<a href="demo/wpm/manufactory/2016/06/01/expands-food-quality-and-safety-services-in-italy-with-acquisition-of-food-international-industries-5/"></a>
 																				</div>
 																			</div>
@@ -487,7 +487,7 @@ RonchoEnergy | Energy, ICT, Engineering Services
 																		<div class="type-post">
 																			<div class="entry-cover">
 																				<div class="post-img">
-																					<img width="250" height="160" src="demo/wpm/manufactory/wp-content/uploads/2016/06/blog-4-250x160.jpg" class="attachment-manufactory-250-160 size-manufactory-250-160 wp-post-image" alt="" />
+																					<img width="250" height="160" src="image/2016/06/blog-4-250x160.jpg" class="attachment-manufactory-250-160 size-manufactory-250-160 wp-post-image" alt="" />
 																					<a href="demo/wpm/manufactory/2016/06/01/expands-food-quality-and-safety-services-in-italy-with-acquisition-of-food-international-industries-4/"></a>
 																				</div>
 																			</div>
@@ -529,7 +529,7 @@ RonchoEnergy | Energy, ICT, Engineering Services
 																			<div class="container">
 																				<div class="row">
 																					<div class="col-md-6 col-sm-6 subscribe-info">
-																						<img width="196" height="63" src="demo/wpm/manufactory/wp-content/uploads/2016/07/logo-196x63.png" class="attachment-manufactory-196-80 size-manufactory-196-80" alt="" />
+																						<img width="196" height="63" src="image/2016/07/logo-196x63.png" class="attachment-manufactory-196-80 size-manufactory-196-80" alt="" />
 																						<p>Creating innovative solutions that are available, affordable and scalable.</p>
 																					</div>
 																					<div class="col-md-6 col-sm-6 newsletter-block">

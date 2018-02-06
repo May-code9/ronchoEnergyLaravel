@@ -86,8 +86,8 @@ RonchoEnergy | ICT
 									</div>
 								</div>
 								<div class="col-md-5 col-sm-5 servicedetail-images">
-									<img width="352" height="371" src="{{asset('demo/wpm/manufactory/wp-content/uploads/2016/06/ict.jpg')}}" class="attachment-manufactory-352-371 size-manufactory-352-371" alt="" srcset="{{asset('demo/wpm/manufactory/wp-content/uploads/2016/06/ict.jpg')}} 352w, {{asset('demo/wpm/manufactory/wp-content/uploads/2016/06/ict.jpg')}} 284w, {{asset('demo/wpm/manufactory/wp-content/uploads/2016/06/ict.jpg')}} 360w" sizes="(max-width: 352px) 100vw, 352px" />
-									<!-- <img width="352" height="371" src="demo/wpm/manufactory/wp-content/uploads/2016/06/service-detail-1-352x371.jpg" class="attachment-manufactory-352-371 size-manufactory-352-371" alt="" srcset="demo/wpm/manufactory/wp-content/uploads/2016/06/service-detail-1-352x371.jpg 352w, demo/wpm/manufactory/wp-content/uploads/2016/06/service-detail-1-284x300.jpg 284w, demo/wpm/manufactory/wp-content/uploads/2016/06/service-detail-1.jpg 360w" sizes="(max-width: 352px) 100vw, 352px" /> -->
+									<img width="352" height="371" src="{{asset('image/2016/06/ict.jpg')}}" class="attachment-manufactory-352-371 size-manufactory-352-371" alt="" srcset="{{asset('image/2016/06/ict.jpg')}} 352w, {{asset('image/2016/06/ict.jpg')}} 284w, {{asset('image/2016/06/ict.jpg')}} 360w" sizes="(max-width: 352px) 100vw, 352px" />
+									<!-- <img width="352" height="371" src="image/2016/06/service-detail-1-352x371.jpg" class="attachment-manufactory-352-371 size-manufactory-352-371" alt="" srcset="image/2016/06/service-detail-1-352x371.jpg 352w, image/2016/06/service-detail-1-284x300.jpg 284w, image/2016/06/service-detail-1.jpg 360w" sizes="(max-width: 352px) 100vw, 352px" /> -->
 								</div>
 							</div>
 						</div>
@@ -113,7 +113,7 @@ RonchoEnergy | ICT
 						<div class="type-post" style="border-bottom:none">
 							<div class="entry-cover">
 								<div class="post-img zoom">
-									<img width="250" height="160" src="demo/wpm/manufactory/wp-content/uploads/2016/06/PAGA.png" class="attachment-manufactory-250-160 size-manufactory-250-160 wp-post-image" alt="" />
+									<img width="250" height="160" src="image/2016/06/PAGA.png" class="attachment-manufactory-250-160 size-manufactory-250-160 wp-post-image" alt="" />
 									<a href="#"></a>
 								</div>
 							</div>
@@ -141,7 +141,7 @@ RonchoEnergy | ICT
 						<div class="type-post" style="border-bottom:none">
 							<div class="entry-cover">
 								<div class="post-img zoom">
-									<img width="250" height="160" src="demo/wpm/manufactory/wp-content/uploads/2016/06/FitPC 4.png" class="attachment-manufactory-250-160 size-manufactory-250-160 wp-post-image" alt="" />
+									<img width="250" height="160" src="image/2016/06/FitPC 4.png" class="attachment-manufactory-250-160 size-manufactory-250-160 wp-post-image" alt="" />
 									<a href="#"></a>
 								</div>
 							</div>
@@ -175,7 +175,7 @@ RonchoEnergy | ICT
 						<div class="type-post" style="border-bottom:none">
 							<div class="entry-cover">
 								<div class="post-img zoom">
-									<img width="250" height="160" src="demo/wpm/manufactory/wp-content/uploads/2016/06/Fitlet mini PC.png" class="attachment-manufactory-250-160 size-manufactory-250-160 wp-post-image" alt="" />
+									<img width="250" height="160" src="image/2016/06/Fitlet mini PC.png" class="attachment-manufactory-250-160 size-manufactory-250-160 wp-post-image" alt="" />
 									<a href="#"></a>
 								</div>
 							</div>
@@ -199,7 +199,7 @@ RonchoEnergy | ICT
 						<div class="type-post" style="border-bottom:none">
 							<div class="entry-cover">
 								<div class="post-img zoom">
-									<img width="250" height="160" src="demo/wpm/manufactory/wp-content/uploads/2016/06/Fitlet2 PC.png" class="attachment-manufactory-250-160 size-manufactory-250-160 wp-post-image" alt="" />
+									<img width="250" height="160" src="image/2016/06/Fitlet2 PC.png" class="attachment-manufactory-250-160 size-manufactory-250-160 wp-post-image" alt="" />
 									<a href="#"></a>
 								</div>
 							</div>

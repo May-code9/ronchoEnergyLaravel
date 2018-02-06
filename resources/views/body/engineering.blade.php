@@ -83,7 +83,7 @@ RonchoEnergy | Engineering Services
 									</div>
 								</div>
 								<div class="col-md-5 col-sm-5 servicedetail-images">
-									<img width="352" height="371" src="{{asset('demo/wpm/manufactory/wp-content/uploads/2016/06/engineering.png')}}" class="attachment-manufactory-352-371 size-manufactory-352-371" alt="" srcset="{{asset('demo/wpm/manufactory/wp-content/uploads/2016/06/engineering.png')}} 352w, {{asset('demo/wpm/manufactory/wp-content/uploads/2016/06/engineering.png')}} 284w, {{asset('demo/wpm/manufactory/wp-content/uploads/2016/06/engineering.png')}} 360w" sizes="(max-width: 352px) 100vw, 352px" />
+									<img width="352" height="371" src="{{asset('image/2016/06/engineering.png')}}" class="attachment-manufactory-352-371 size-manufactory-352-371" alt="" srcset="{{asset('image/2016/06/engineering.png')}} 352w, {{asset('image/2016/06/engineering.png')}} 284w, {{asset('image/2016/06/engineering.png')}} 360w" sizes="(max-width: 352px) 100vw, 352px" />
 								</div>
 							</div>
 						</div>

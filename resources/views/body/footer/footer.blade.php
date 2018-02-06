@@ -28,16 +28,17 @@
             </p>
             <p itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
               <span class="icon icon-Pointer"></span>
-              <a itemprop="streetAddress">Address 1 :						<br/>4 Okoh Close, Rumuogba</a>, <br/>
+              <a itemprop="streetAddress">Main Office :						<br/>Okporo road, Rumuodara</a>, <br/>
               <a itemprop="addressLocality"> Port Harcourt</a>,
               <a itemprop="addressRegion"> Rivers State</a>
             </p>
             <p itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
               <span class="icon icon-Pointer"></span>
-              <a itemprop="streetAddress">Address 2 :						<br/>31b, Remi Fani Kayode</a>, <br/>
+              <a itemprop="streetAddress">Lagos Office :						<br/>Remi Fani Kayode</a>, <br/>
               <a itemprop="addressLocality"> GRA, Ikeja</a>,
               <a itemprop="addressRegion"> Lagos State</a>
             </p>
+
           </div>
         </aside>
       </div>
@@ -49,18 +50,18 @@
             </p>
             <p itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
               <span class="icon icon-Pointer"></span>
-              <a itemprop="streetAddress">Address 3 :						<br/>Deogratias Plaza, Opp. Modern Market</a>,
+              <a itemprop="streetAddress">Abuja Office :						<br/>Deogratias Plaza, Opp. Modern Market</a>,
               <a itemprop="addressLocality">Utako</a>,
               <a itemprop="addressRegion"> Abuja</a>
             </p>
             <p>
               <span class="icon icon-Phone2"></span>
               Phone :
-              <a href="tel:+234 701 309 5215" itemprop="telephone"> +234 701 309 5215</a>
+              <a href="tel:09069920242" itemprop="telephone"> 09069920242</a>
             </p>
             <p>
               <span class="icon icon-Mail"></span>
-              Email :						<a href="mailto:ikenna.efika@ronchoenergy.com" itemprop="email">ikenna.efika@ronchoenergy.com</a>
+              Email :						<a href="mailto:info@ronchoenergy.com" itemprop="email">info@ronchoenergy.com</a>
             </p>
           </div>
         </aside>

@@ -48,10 +48,10 @@ RonchoEnergy | is an energy and technology company registered in Nigeria
 												<div class='col-md-6 aboutus-image'>
 													<div class='row'>
 														<div class='col-md-6 col-sm-6 col-xs-6'>
-															<img width="285" height="373" src="demo/wpm/manufactory/wp-content/uploads/2016/07/aboutus-1-285x373.jpg" class="attachment-manufactory-285-373 size-manufactory-285-373" alt="" srcset="demo/wpm/manufactory/wp-content/uploads/2016/07/aboutus-1-285x373.jpg 285w, demo/wpm/manufactory/wp-content/uploads/2016/07/aboutus-1-229x300.jpg 229w, demo/wpm/manufactory/wp-content/uploads/2016/07/aboutus-1.jpg 290w" sizes="(max-width: 285px) 100vw, 285px" />
+															<img width="285" height="373" src="image/2016/07/aboutus-1-285x373.jpg" class="attachment-manufactory-285-373 size-manufactory-285-373" alt="" srcset="image/2016/07/aboutus-1-285x373.jpg 285w, image/2016/07/aboutus-1-229x300.jpg 229w, image/2016/07/aboutus-1.jpg 290w" sizes="(max-width: 285px) 100vw, 285px" />
 														</div>
 														<div class='col-md-6 col-sm-6 col-xs-6'>
-															<img width="290" height="380" src="demo/wpm/manufactory/wp-content/uploads/2016/07/aboutus-2.jpg" class="attachment- manufactory-285-373 size- manufactory-285-373" alt="" srcset="demo/wpm/manufactory/wp-content/uploads/2016/07/aboutus-2.jpg 290w, demo/wpm/manufactory/wp-content/uploads/2016/07/aboutus-2-229x300.jpg 229w, demo/wpm/manufactory/wp-content/uploads/2016/07/aboutus-2-285x373.jpg 285w" sizes="(max-width: 290px) 100vw, 290px" />
+															<img width="290" height="380" src="image/2016/07/aboutus-2.jpg" class="attachment- manufactory-285-373 size- manufactory-285-373" alt="" srcset="image/2016/07/aboutus-2.jpg 290w, image/2016/07/aboutus-2-229x300.jpg 229w, image/2016/07/aboutus-2-285x373.jpg 285w" sizes="(max-width: 290px) 100vw, 290px" />
 														</div>
 													</div>
 												</div>
@@ -182,7 +182,7 @@ RonchoEnergy | is an energy and technology company registered in Nigeria
 												<div class='row'>
 													<div class='col-md-3 col-sm-4 col-xs-4 col-md-offset-3'>
 														<div class='team-box'>
-															<img width="270" height="400" src="{{asset('demo/wpm/manufactory/wp-content/uploads/2016/07/team-1gvhvhgv.jpg')}}" class="attachment-manufactory-270-400 size-manufactory-270-400" alt="" srcset="{{asset('demo/wpm/manufactory/wp-content/uploads/2016/07/team-1gvhvhgv.jpg')}} 270w, {{asset('demo/wpm/manufactory/wp-content/uploads/2016/07/team-1gvhvhgv.jpg')}} 203w" sizes="(max-width: 270px) 100vw, 270px" />
+															<img width="270" height="400" src="{{asset('image/2016/07/team-1gvhvhgv.jpg')}}" class="attachment-manufactory-270-400 size-manufactory-270-400" alt="" srcset="{{asset('image/2016/07/team-1gvhvhgv.jpg')}} 270w, {{asset('image/2016/07/team-1gvhvhgv.jpg')}} 203w" sizes="(max-width: 270px) 100vw, 270px" />
 															<div class='team-content'>
 																<h4>Dr. Ikenna Efika</h4>
 																<div class='team-content-box'>
@@ -200,7 +200,7 @@ RonchoEnergy | is an energy and technology company registered in Nigeria
 													</div>
 													<div class='col-md-3 col-sm-4 col-xs-4 '>
 														<div class='team-box'>
-															<img width="270" height="400" src="{{asset('demo/wpm/manufactory/wp-content/uploads/2016/07/team-2ghvhvh.jpg')}}" class="attachment-manufactory-270-400 size-manufactory-270-400" alt="" srcset="{{asset('demo/wpm/manufactory/wp-content/uploads/2016/07/team-2ghvhvh.jpg')}} 270w, {{asset('demo/wpm/manufactory/wp-content/uploads/2016/07/team-2ghvhvh.jpg')}} 203w" sizes="(max-width: 270px) 100vw, 270px" />
+															<img width="270" height="400" src="{{asset('image/2016/07/team-2ghvhvh.jpg')}}" class="attachment-manufactory-270-400 size-manufactory-270-400" alt="" srcset="{{asset('image/2016/07/team-2ghvhvh.jpg')}} 270w, {{asset('image/2016/07/team-2ghvhvh.jpg')}} 203w" sizes="(max-width: 270px) 100vw, 270px" />
 															<div class='team-content'>
 																<h4>Dr. Chidi Efika</h4>
 																<div class='team-content-box'>
@@ -230,39 +230,39 @@ RonchoEnergy | is an energy and technology company registered in Nigeria
 														<div class='col-md-12 col-sm-12 col-xs-12'>
 															<div class='client-logo-block'>
 																<div class='logg-box '>
-																	<a href='#'><img width="450" height="99" src="demo/wpm/manufactory/wp-content/uploads/2016/07/client-1.png" class="attachment-manufactory-134-36 size-manufactory-134-36" alt="" /></a>
+																	<a href='#'><img width="450" height="99" src="image/2016/07/client-1.png" class="attachment-manufactory-134-36 size-manufactory-134-36" alt="" /></a>
 																</div>
 
 																<div class='logg-box '>
-																	<a href='#'><img width="450" height="79" src="demo/wpm/manufactory/wp-content/uploads/2016/07/client-2.png" class="attachment-manufactory-134-36 size-manufactory-134-36" alt="" /></a>
+																	<a href='#'><img width="450" height="79" src="image/2016/07/client-2.png" class="attachment-manufactory-134-36 size-manufactory-134-36" alt="" /></a>
 																</div>
 
 																<div class='logg-box '>
-																	<a href='#'><img width="450" height="79" src="demo/wpm/manufactory/wp-content/uploads/2016/07/client-3.png" class="attachment-manufactory-134-36 size-manufactory-134-36" alt="" /></a>
+																	<a href='#'><img width="450" height="79" src="image/2016/07/client-3.png" class="attachment-manufactory-134-36 size-manufactory-134-36" alt="" /></a>
 																</div>
 
 																<div class='logg-box '>
-																	<a href='#'><img width="450" height="79" src="demo/wpm/manufactory/wp-content/uploads/2016/07/client-4.png" class="attachment-manufactory-134-36 size-manufactory-134-36" alt="" /></a>
+																	<a href='#'><img width="450" height="79" src="image/2016/07/client-4.png" class="attachment-manufactory-134-36 size-manufactory-134-36" alt="" /></a>
 																</div>
 
 																<div class='logg-box '>
-																	<a href='#'><img width="450" height="100" src="demo/wpm/manufactory/wp-content/uploads/2016/07/client-5.png" class="attachment-manufactory-134-36 size-manufactory-134-36" alt="" /></a>
+																	<a href='#'><img width="450" height="100" src="image/2016/07/client-5.png" class="attachment-manufactory-134-36 size-manufactory-134-36" alt="" /></a>
 																</div>
 
 																<div class='logg-box '>
-																	<a href='#'><img width="450" height="79" src="demo/wpm/manufactory/wp-content/uploads/2016/07/client-6.png" class="attachment-manufactory-134-36 size-manufactory-134-36" alt="" /></a>
+																	<a href='#'><img width="450" height="79" src="image/2016/07/client-6.png" class="attachment-manufactory-134-36 size-manufactory-134-36" alt="" /></a>
 																</div>
 
 																<div class='logg-box '>
-																	<a href='#'><img width="450" height="79" src="demo/wpm/manufactory/wp-content/uploads/2016/07/client-7.png" class="attachment-manufactory-134-36 size-manufactory-134-36" alt="" /></a>
+																	<a href='#'><img width="450" height="79" src="image/2016/07/client-7.png" class="attachment-manufactory-134-36 size-manufactory-134-36" alt="" /></a>
 																</div>
 
 																<div class='logg-box '>
-																	<a href='#'><img width="450" height="100" src="demo/wpm/manufactory/wp-content/uploads/2016/07/client-8.png" class="attachment-manufactory-134-36 size-manufactory-134-36" alt="" /></a>
+																	<a href='#'><img width="450" height="100" src="image/2016/07/client-8.png" class="attachment-manufactory-134-36 size-manufactory-134-36" alt="" /></a>
 																</div>
 
 																<div class='logg-box '>
-																	<a href='#'><img width="450" height="100" src="demo/wpm/manufactory/wp-content/uploads/2016/07/client-9.png" class="attachment-manufactory-134-36 size-manufactory-134-36" alt="" /></a>
+																	<a href='#'><img width="450" height="100" src="image/2016/07/client-9.png" class="attachment-manufactory-134-36 size-manufactory-134-36" alt="" /></a>
 																</div>
 															</div>
 														</div>
@@ -277,106 +277,51 @@ RonchoEnergy | is an energy and technology company registered in Nigeria
 															<div class='client-logo-block'>
 
 																<div class='logg-box '>
-																	<a href='#'><img width="450" height="79" src="demo/wpm/manufactory/wp-content/uploads/2016/07/client-10.png" class="attachment-manufactory-134-36 size-manufactory-134-36" alt="" /></a>
+																	<a href='#'><img width="450" height="79" src="image/2016/07/client-10.png" class="attachment-manufactory-134-36 size-manufactory-134-36" alt="" /></a>
 																</div>
 
 																<div class='logg-box '>
-																	<a href='#'><img width="450" height="99" src="demo/wpm/manufactory/wp-content/uploads/2016/07/client-11.png" class="attachment-manufactory-134-36 size-manufactory-134-36" alt="" /></a>
+																	<a href='#'><img width="450" height="99" src="image/2016/07/client-11.png" class="attachment-manufactory-134-36 size-manufactory-134-36" alt="" /></a>
 																</div>
 
 																<div class='logg-box '>
-																	<a href='#'><img width="450" height="79" src="demo/wpm/manufactory/wp-content/uploads/2016/07/client-12.png" class="attachment-manufactory-134-36 size-manufactory-134-36" alt="" /></a>
+																	<a href='#'><img width="450" height="79" src="image/2016/07/client-12.png" class="attachment-manufactory-134-36 size-manufactory-134-36" alt="" /></a>
 																</div>
 
 																<div class='logg-box '>
-																	<a href='#'><img width="450" height="79" src="demo/wpm/manufactory/wp-content/uploads/2016/07/client-13.png" class="attachment-manufactory-134-36 size-manufactory-134-36" alt="" /></a>
+																	<a href='#'><img width="450" height="79" src="image/2016/07/client-13.png" class="attachment-manufactory-134-36 size-manufactory-134-36" alt="" /></a>
 																</div>
 
 																<div class='logg-box '>
-																	<a href='#'><img width="450" height="100" src="demo/wpm/manufactory/wp-content/uploads/2016/07/client-14.png" class="attachment-manufactory-134-36 size-manufactory-134-36" alt="" /></a>
+																	<a href='#'><img width="450" height="100" src="image/2016/07/client-14.png" class="attachment-manufactory-134-36 size-manufactory-134-36" alt="" /></a>
 																</div>
 
 																<div class='logg-box '>
-																	<a href='#'><img width="450" height="79" src="demo/wpm/manufactory/wp-content/uploads/2016/07/client-15.png" class="attachment-manufactory-134-36 size-manufactory-134-36" alt="" /></a>
+																	<a href='#'><img width="450" height="79" src="image/2016/07/client-15.png" class="attachment-manufactory-134-36 size-manufactory-134-36" alt="" /></a>
 																</div>
 
 																<div class='logg-box '>
-																	<a href='#'><img width="450" height="79" src="demo/wpm/manufactory/wp-content/uploads/2016/07/client-16.png" class="attachment-manufactory-134-36 size-manufactory-134-36" alt="" /></a>
+																	<a href='#'><img width="450" height="79" src="image/2016/07/client-16.png" class="attachment-manufactory-134-36 size-manufactory-134-36" alt="" /></a>
 																</div>
 
 																<div class='logg-box '>
-																	<a href='#'><img width="450" height="100" src="demo/wpm/manufactory/wp-content/uploads/2016/07/client-17.png" class="attachment-manufactory-134-36 size-manufactory-134-36" alt="" /></a>
+																	<a href='#'><img width="450" height="100" src="image/2016/07/client-17.png" class="attachment-manufactory-134-36 size-manufactory-134-36" alt="" /></a>
 																</div>
 
 																<div class='logg-box '>
-																	<a href='#'><img width="450" height="100" src="demo/wpm/manufactory/wp-content/uploads/2016/07/client-18.png" class="attachment-manufactory-134-36 size-manufactory-134-36" alt="" /></a>
+																	<a href='#'><img width="450" height="100" src="image/2016/07/client-18.png" class="attachment-manufactory-134-36 size-manufactory-134-36" alt="" /></a>
 																</div>
 
 																<div class='logg-box '>
-																	<a href='#'><img width="450" height="100" src="demo/wpm/manufactory/wp-content/uploads/2016/07/client-19.png" class="attachment-manufactory-134-36 size-manufactory-134-36" alt="" /></a>
+																	<a href='#'><img width="450" height="100" src="image/2016/07/client-19.png" class="attachment-manufactory-134-36 size-manufactory-134-36" alt="" /></a>
 																</div>
 
 																<div class='logg-box '>
-																	<a href='#'><img width="450" height="100" src="demo/wpm/manufactory/wp-content/uploads/2016/07/client-20.png" class="attachment-manufactory-134-36 size-manufactory-134-36" alt="" /></a>
+																	<a href='#'><img width="450" height="100" src="image/2016/07/client-20.png" class="attachment-manufactory-134-36 size-manufactory-134-36" alt="" /></a>
 																</div>
 
 																<div class='logg-box '>
-																	<a href='#'><img width="450" height="100" src="demo/wpm/manufactory/wp-content/uploads/2016/07/client-21.png" class="attachment-manufactory-134-36 size-manufactory-134-36" alt="" /></a>
-																</div>
-															</div>
-														</div>
-													</div>
-													<hr>
-													<div class='row'>
-														<div class='col-md-12 col-sm-12 col-xs-12'>
-															<div class='client-logo-block'>
-
-																<div class='logg-box '>
-																	<a href='#'><img width="450" height="79" src="demo/wpm/manufactory/wp-content/uploads/2016/07/client-22.png" class="attachment-manufactory-134-36 size-manufactory-134-36" alt="" /></a>
-																</div>
-
-																<div class='logg-box '>
-																	<a href='#'><img width="450" height="99" src="demo/wpm/manufactory/wp-content/uploads/2016/07/client-23.png" class="attachment-manufactory-134-36 size-manufactory-134-36" alt="" /></a>
-																</div>
-
-																<div class='logg-box '>
-																	<a href='#'><img width="450" height="79" src="demo/wpm/manufactory/wp-content/uploads/2016/07/client-24.png" class="attachment-manufactory-134-36 size-manufactory-134-36" alt="" /></a>
-																</div>
-
-																<div class='logg-box '>
-																	<a href='#'><img width="450" height="79" src="demo/wpm/manufactory/wp-content/uploads/2016/07/client-25.png" class="attachment-manufactory-134-36 size-manufactory-134-36" alt="" /></a>
-																</div>
-
-																<div class='logg-box '>
-																	<a href='#'><img width="450" height="100" src="demo/wpm/manufactory/wp-content/uploads/2016/07/client-26.png" class="attachment-manufactory-134-36 size-manufactory-134-36" alt="" /></a>
-																</div>
-
-																<div class='logg-box '>
-																	<a href='#'><img width="450" height="79" src="demo/wpm/manufactory/wp-content/uploads/2016/07/client-27.png" class="attachment-manufactory-134-36 size-manufactory-134-36" alt="" /></a>
-																</div>
-
-																<div class='logg-box '>
-																	<a href='#'><img width="450" height="79" src="demo/wpm/manufactory/wp-content/uploads/2016/07/client-28.png" class="attachment-manufactory-134-36 size-manufactory-134-36" alt="" /></a>
-																</div>
-
-																<div class='logg-box '>
-																	<a href='#'><img width="450" height="100" src="demo/wpm/manufactory/wp-content/uploads/2016/07/client-29.png" class="attachment-manufactory-134-36 size-manufactory-134-36" alt="" /></a>
-																</div>
-
-																<div class='logg-box '>
-																	<a href='#'><img width="450" height="100" src="demo/wpm/manufactory/wp-content/uploads/2016/07/client-30.png" class="attachment-manufactory-134-36 size-manufactory-134-36" alt="" /></a>
-																</div>
-
-																<div class='logg-box '>
-																	<a href='#'><img width="450" height="100" src="demo/wpm/manufactory/wp-content/uploads/2016/07/client-31.png" class="attachment-manufactory-134-36 size-manufactory-134-36" alt="" /></a>
-																</div>
-
-																<div class='logg-box '>
-																	<a href='#'><img width="450" height="100" src="demo/wpm/manufactory/wp-content/uploads/2016/07/client-32.png" class="attachment-manufactory-134-36 size-manufactory-134-36" alt="" /></a>
-																</div>
-
-																<div class='logg-box '>
-																	<a href='#'><img width="450" height="100" src="demo/wpm/manufactory/wp-content/uploads/2016/07/client-33.png" class="attachment-manufactory-134-36 size-manufactory-134-36" alt="" /></a>
+																	<a href='#'><img width="450" height="100" src="image/2016/07/client-21.png" class="attachment-manufactory-134-36 size-manufactory-134-36" alt="" /></a>
 																</div>
 															</div>
 														</div>
@@ -387,51 +332,106 @@ RonchoEnergy | is an energy and technology company registered in Nigeria
 															<div class='client-logo-block'>
 
 																<div class='logg-box '>
-																	<a href='#'><img width="450" height="79" src="demo/wpm/manufactory/wp-content/uploads/2016/07/client-34.png" class="attachment-manufactory-134-36 size-manufactory-134-36" alt="" /></a>
+																	<a href='#'><img width="450" height="79" src="image/2016/07/client-22.png" class="attachment-manufactory-134-36 size-manufactory-134-36" alt="" /></a>
 																</div>
 
 																<div class='logg-box '>
-																	<a href='#'><img width="450" height="99" src="demo/wpm/manufactory/wp-content/uploads/2016/07/client-35.png" class="attachment-manufactory-134-36 size-manufactory-134-36" alt="" /></a>
+																	<a href='#'><img width="450" height="99" src="image/2016/07/client-23.png" class="attachment-manufactory-134-36 size-manufactory-134-36" alt="" /></a>
 																</div>
 
 																<div class='logg-box '>
-																	<a href='#'><img width="450" height="79" src="demo/wpm/manufactory/wp-content/uploads/2016/07/client-36.png" class="attachment-manufactory-134-36 size-manufactory-134-36" alt="" /></a>
+																	<a href='#'><img width="450" height="79" src="image/2016/07/client-24.png" class="attachment-manufactory-134-36 size-manufactory-134-36" alt="" /></a>
 																</div>
 
 																<div class='logg-box '>
-																	<a href='#'><img width="450" height="79" src="demo/wpm/manufactory/wp-content/uploads/2016/07/client-37.png" class="attachment-manufactory-134-36 size-manufactory-134-36" alt="" /></a>
+																	<a href='#'><img width="450" height="79" src="image/2016/07/client-25.png" class="attachment-manufactory-134-36 size-manufactory-134-36" alt="" /></a>
 																</div>
 
 																<div class='logg-box '>
-																	<a href='#'><img width="450" height="100" src="demo/wpm/manufactory/wp-content/uploads/2016/07/client-38.png" class="attachment-manufactory-134-36 size-manufactory-134-36" alt="" /></a>
+																	<a href='#'><img width="450" height="100" src="image/2016/07/client-26.png" class="attachment-manufactory-134-36 size-manufactory-134-36" alt="" /></a>
 																</div>
 
 																<div class='logg-box '>
-																	<a href='#'><img width="450" height="79" src="demo/wpm/manufactory/wp-content/uploads/2016/07/client-39.png" class="attachment-manufactory-134-36 size-manufactory-134-36" alt="" /></a>
+																	<a href='#'><img width="450" height="79" src="image/2016/07/client-27.png" class="attachment-manufactory-134-36 size-manufactory-134-36" alt="" /></a>
 																</div>
 
 																<div class='logg-box '>
-																	<a href='#'><img width="450" height="79" src="demo/wpm/manufactory/wp-content/uploads/2016/07/client-40.png" class="attachment-manufactory-134-36 size-manufactory-134-36" alt="" /></a>
+																	<a href='#'><img width="450" height="79" src="image/2016/07/client-28.png" class="attachment-manufactory-134-36 size-manufactory-134-36" alt="" /></a>
 																</div>
 
 																<div class='logg-box '>
-																	<a href='#'><img width="450" height="100" src="demo/wpm/manufactory/wp-content/uploads/2016/07/client-41.png" class="attachment-manufactory-134-36 size-manufactory-134-36" alt="" /></a>
+																	<a href='#'><img width="450" height="100" src="image/2016/07/client-29.png" class="attachment-manufactory-134-36 size-manufactory-134-36" alt="" /></a>
 																</div>
 
 																<div class='logg-box '>
-																	<a href='#'><img width="450" height="100" src="demo/wpm/manufactory/wp-content/uploads/2016/07/client-42.png" class="attachment-manufactory-134-36 size-manufactory-134-36" alt="" /></a>
+																	<a href='#'><img width="450" height="100" src="image/2016/07/client-30.png" class="attachment-manufactory-134-36 size-manufactory-134-36" alt="" /></a>
 																</div>
 
 																<div class='logg-box '>
-																	<a href='#'><img width="450" height="100" src="demo/wpm/manufactory/wp-content/uploads/2016/07/client-43.png" class="attachment-manufactory-134-36 size-manufactory-134-36" alt="" /></a>
+																	<a href='#'><img width="450" height="100" src="image/2016/07/client-31.png" class="attachment-manufactory-134-36 size-manufactory-134-36" alt="" /></a>
 																</div>
 
 																<div class='logg-box '>
-																	<a href='#'><img width="450" height="100" src="demo/wpm/manufactory/wp-content/uploads/2016/07/client-44.png" class="attachment-manufactory-134-36 size-manufactory-134-36" alt="" /></a>
+																	<a href='#'><img width="450" height="100" src="image/2016/07/client-32.png" class="attachment-manufactory-134-36 size-manufactory-134-36" alt="" /></a>
 																</div>
 
 																<div class='logg-box '>
-																	<a href='#'><img width="450" height="100" src="demo/wpm/manufactory/wp-content/uploads/2016/07/client-45.png" class="attachment-manufactory-134-36 size-manufactory-134-36" alt="" /></a>
+																	<a href='#'><img width="450" height="100" src="image/2016/07/client-33.png" class="attachment-manufactory-134-36 size-manufactory-134-36" alt="" /></a>
+																</div>
+															</div>
+														</div>
+													</div>
+													<hr>
+													<div class='row'>
+														<div class='col-md-12 col-sm-12 col-xs-12'>
+															<div class='client-logo-block'>
+
+																<div class='logg-box '>
+																	<a href='#'><img width="450" height="79" src="image/2016/07/client-34.png" class="attachment-manufactory-134-36 size-manufactory-134-36" alt="" /></a>
+																</div>
+
+																<div class='logg-box '>
+																	<a href='#'><img width="450" height="99" src="image/2016/07/client-35.png" class="attachment-manufactory-134-36 size-manufactory-134-36" alt="" /></a>
+																</div>
+
+																<div class='logg-box '>
+																	<a href='#'><img width="450" height="79" src="image/2016/07/client-36.png" class="attachment-manufactory-134-36 size-manufactory-134-36" alt="" /></a>
+																</div>
+
+																<div class='logg-box '>
+																	<a href='#'><img width="450" height="79" src="image/2016/07/client-37.png" class="attachment-manufactory-134-36 size-manufactory-134-36" alt="" /></a>
+																</div>
+
+																<div class='logg-box '>
+																	<a href='#'><img width="450" height="100" src="image/2016/07/client-38.png" class="attachment-manufactory-134-36 size-manufactory-134-36" alt="" /></a>
+																</div>
+
+																<div class='logg-box '>
+																	<a href='#'><img width="450" height="79" src="image/2016/07/client-39.png" class="attachment-manufactory-134-36 size-manufactory-134-36" alt="" /></a>
+																</div>
+
+																<div class='logg-box '>
+																	<a href='#'><img width="450" height="79" src="image/2016/07/client-40.png" class="attachment-manufactory-134-36 size-manufactory-134-36" alt="" /></a>
+																</div>
+
+																<div class='logg-box '>
+																	<a href='#'><img width="450" height="100" src="image/2016/07/client-41.png" class="attachment-manufactory-134-36 size-manufactory-134-36" alt="" /></a>
+																</div>
+
+																<div class='logg-box '>
+																	<a href='#'><img width="450" height="100" src="image/2016/07/client-42.png" class="attachment-manufactory-134-36 size-manufactory-134-36" alt="" /></a>
+																</div>
+
+																<div class='logg-box '>
+																	<a href='#'><img width="450" height="100" src="image/2016/07/client-43.png" class="attachment-manufactory-134-36 size-manufactory-134-36" alt="" /></a>
+																</div>
+
+																<div class='logg-box '>
+																	<a href='#'><img width="450" height="100" src="image/2016/07/client-44.png" class="attachment-manufactory-134-36 size-manufactory-134-36" alt="" /></a>
+																</div>
+
+																<div class='logg-box '>
+																	<a href='#'><img width="450" height="100" src="image/2016/07/client-45.png" class="attachment-manufactory-134-36 size-manufactory-134-36" alt="" /></a>
 																</div>
 															</div>
 														</div>
@@ -446,59 +446,59 @@ RonchoEnergy | is an energy and technology company registered in Nigeria
 															<div class='client-logo-block'>
 
 																<div class='logg-box '>
-																	<a href='#'><img width="450" height="79" src="demo/wpm/manufactory/wp-content/uploads/2016/07/license-1.png" class="attachment-manufactory-134-36 size-manufactory-134-36" alt="" /></a>
+																	<a href='#'><img width="450" height="79" src="image/2016/07/license-1.png" class="attachment-manufactory-134-36 size-manufactory-134-36" alt="" /></a>
 																</div>
 
 																<div class='logg-box '>
-																	<a href='#'><img width="450" height="99" src="demo/wpm/manufactory/wp-content/uploads/2016/07/license-2.png" class="attachment-manufactory-134-36 size-manufactory-134-36" alt="" /></a>
+																	<a href='#'><img width="450" height="99" src="image/2016/07/license-2.png" class="attachment-manufactory-134-36 size-manufactory-134-36" alt="" /></a>
 																</div>
 
 																<div class='logg-box '>
-																	<a href='#'><img width="450" height="79" src="demo/wpm/manufactory/wp-content/uploads/2016/07/license-3.png" class="attachment-manufactory-134-36 size-manufactory-134-36" alt="" /></a>
+																	<a href='#'><img width="450" height="79" src="image/2016/07/license-3.png" class="attachment-manufactory-134-36 size-manufactory-134-36" alt="" /></a>
 																</div>
 
 																<div class='logg-box '>
-																	<a href='#'><img width="450" height="79" src="demo/wpm/manufactory/wp-content/uploads/2016/07/license-4.png" class="attachment-manufactory-134-36 size-manufactory-134-36" alt="" /></a>
+																	<a href='#'><img width="450" height="79" src="image/2016/07/license-4.png" class="attachment-manufactory-134-36 size-manufactory-134-36" alt="" /></a>
 																</div>
 
 																<div class='logg-box '>
-																	<a href='#'><img width="450" height="100" src="demo/wpm/manufactory/wp-content/uploads/2016/07/license-5.png" class="attachment-manufactory-134-36 size-manufactory-134-36" alt="" /></a>
+																	<a href='#'><img width="450" height="100" src="image/2016/07/license-5.png" class="attachment-manufactory-134-36 size-manufactory-134-36" alt="" /></a>
 																</div>
 
 																<div class='logg-box '>
-																	<a href='#'><img width="450" height="79" src="demo/wpm/manufactory/wp-content/uploads/2016/07/license-6.png" class="attachment-manufactory-134-36 size-manufactory-134-36" alt="" /></a>
+																	<a href='#'><img width="450" height="79" src="image/2016/07/license-6.png" class="attachment-manufactory-134-36 size-manufactory-134-36" alt="" /></a>
 																</div>
 
 																<div class='logg-box '>
-																	<a href='#'><img width="450" height="79" src="demo/wpm/manufactory/wp-content/uploads/2016/07/license-7.png" class="attachment-manufactory-134-36 size-manufactory-134-36" alt="" /></a>
+																	<a href='#'><img width="450" height="79" src="image/2016/07/license-7.png" class="attachment-manufactory-134-36 size-manufactory-134-36" alt="" /></a>
 																</div>
 
 																<div class='logg-box '>
-																	<a href='#'><img width="450" height="100" src="demo/wpm/manufactory/wp-content/uploads/2016/07/license-8.png" class="attachment-manufactory-134-36 size-manufactory-134-36" alt="" /></a>
+																	<a href='#'><img width="450" height="100" src="image/2016/07/license-8.png" class="attachment-manufactory-134-36 size-manufactory-134-36" alt="" /></a>
 																</div>
 
 																<div class='logg-box '>
-																	<a href='#'><img width="450" height="100" src="demo/wpm/manufactory/wp-content/uploads/2016/07/license-9.png" class="attachment-manufactory-134-36 size-manufactory-134-36" alt="" /></a>
+																	<a href='#'><img width="450" height="100" src="image/2016/07/license-9.png" class="attachment-manufactory-134-36 size-manufactory-134-36" alt="" /></a>
 																</div>
 
 																<div class='logg-box '>
-																	<a href='#'><img width="450" height="100" src="demo/wpm/manufactory/wp-content/uploads/2016/07/license-10.png" class="attachment-manufactory-134-36 size-manufactory-134-36" alt="" /></a>
+																	<a href='#'><img width="450" height="100" src="image/2016/07/license-10.png" class="attachment-manufactory-134-36 size-manufactory-134-36" alt="" /></a>
 																</div>
 
 																<div class='logg-box '>
-																	<a href='#'><img width="450" height="100" src="demo/wpm/manufactory/wp-content/uploads/2016/07/license-11.png" class="attachment-manufactory-134-36 size-manufactory-134-36" alt="" /></a>
+																	<a href='#'><img width="450" height="100" src="image/2016/07/license-11.png" class="attachment-manufactory-134-36 size-manufactory-134-36" alt="" /></a>
 																</div>
 
 																<div class='logg-box '>
-																	<a href='#'><img width="450" height="100" src="demo/wpm/manufactory/wp-content/uploads/2016/07/license-12.png" class="attachment-manufactory-134-36 size-manufactory-134-36" alt="" /></a>
+																	<a href='#'><img width="450" height="100" src="image/2016/07/license-12.png" class="attachment-manufactory-134-36 size-manufactory-134-36" alt="" /></a>
 																</div>
 
 																<div class='logg-box '>
-																	<a href='#'><img width="450" height="100" src="demo/wpm/manufactory/wp-content/uploads/2016/07/license-13.png" class="attachment-manufactory-134-36 size-manufactory-134-36" alt="" /></a>
+																	<a href='#'><img width="450" height="100" src="image/2016/07/license-13.png" class="attachment-manufactory-134-36 size-manufactory-134-36" alt="" /></a>
 																</div>
 
 																<div class='logg-box '>
-																	<a href='#'><img width="450" height="100" src="demo/wpm/manufactory/wp-content/uploads/2016/07/license-14.png" class="attachment-manufactory-134-36 size-manufactory-134-36" alt="" /></a>
+																	<a href='#'><img width="450" height="100" src="image/2016/07/license-14.png" class="attachment-manufactory-134-36 size-manufactory-134-36" alt="" /></a>
 																</div>
 															</div>
 														</div>
