@@ -63,7 +63,7 @@ RonchoEnergy | is an energy and technology company registered in Nigeria
 														<a class='about-link' href=#>24/7 availibility</a>
 														<a class='about-link' href=#>Genius workers</a>
 														<a class='about-link' href=#>Low pricing </a>
-														<a class='about-link' href=#>Free estimation</a>
+														<a class='about-link' href=#>Project consulting services</a>
 													</div>
 												</div>
 											</div>
@@ -269,7 +269,7 @@ RonchoEnergy | is an energy and technology company registered in Nigeria
 													</div>
 													<hr>
 													<div class='section-header' id="clients">
-														<h3 style="color:#000000; font-size:32px">Meet Our Partners</h3>
+														<h3 style="color:#000000; font-size:32px">Technologies We Support</h3>
 													</div>
 													<br>
 													<div class='row'>

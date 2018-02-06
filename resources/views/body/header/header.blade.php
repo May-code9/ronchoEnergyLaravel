@@ -9,10 +9,12 @@
         </div>
         <div class="header-info" style="margin-top: 10px;">
           <!-- Button trigger modal -->
-          <button type="button" class="btn btn-warning btn-lg" data-toggle="modal" data-target="#myModal">
-            Request A Quote
-          </button>
-          <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+
+            <a class="btn btn-warning btn-lg" href="{{ route('roncho_contact') }}">
+              Request A Quote
+            </a>
+
+          <!-- <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
             <div class="modal-dialog" role="document">
               <div class="modal-content">
                 <div class="modal-header">
@@ -66,7 +68,7 @@
                 </div>
               </div>
             </div>
-          </div>
+          </div> -->
           <ul>
             <li>
               <h3>Certificate</h3><span>ISO 9001: 2008 | ISO 14001:2004 | OHSAS 18001</span>
