@@ -117,28 +117,27 @@ RonchoEnergy | Contact Roncho Energy
 														</div>
 														<div class="getintouch">
 															<p>
-																<span>Address 1:</span><a itemprop="streetAddress">4 Okoh Close, Rumuogba,</a><a itemprop="addressLocality"> Port Harcourt</a><a itemprop="addressRegion"> Rivers State</a>
+																<span>Main Office:</span><a itemprop="streetAddress">Okporo road, Rumuogba,</a><a itemprop="addressLocality"> Port Harcourt</a><a itemprop="addressRegion"> Rivers State</a>
 															</p>
 															<p>
-																<span>Address 2:</span><a itemprop="streetAddress">31b, Remi Fani Kayode,</a><a itemprop="addressLocality"> GRA, Ikeja,</a><a itemprop="addressRegion"> Lagos</a>
+																<span>Lagos Office:</span><a itemprop="streetAddress">Remi Fani Kayode,</a><a itemprop="addressLocality"> GRA, Ikeja,</a><a itemprop="addressRegion"> Lagos</a>
 															</p>
 															<p>
-																<span>Address 3:</span><a itemprop="streetAddress">Deogratias Plaza, Opp. Modern Market</a><a itemprop="addressLocality"> Utako,</a><a itemprop="addressRegion"> Abuja</a>
+																<span>Abuja Office:</span><a itemprop="streetAddress">Deogratias Plaza, Opp. Modern Market</a><a itemprop="addressLocality"> Utako,</a><a itemprop="addressRegion"> Abuja</a>
 															</p>
 															<p>
 																<span>Phone :</span>
-																<a href="tel:+234 701 309 5215" itemprop="telephone"> +234 701 309 5215</a>
+																<a href="tel:+234 701 309 5215" itemprop="telephone"> 09069920242</a>
 															</p>
 															<p>
 																<span>Email :</span>
-																<a href="mailto:ikenna.efika@ronchoenergy.com" itemprop="email">ikenna.efika@ronchoenergy.com</a>
+																<a href="mailto:info@ronchoenergy.com" itemprop="email">info@ronchoenergy.com</a>
 															</p>
 															<ul>
-																<li><a target="_blank" href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-																<li><a target="_blank" href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-																<li><a target="_blank" href="#"><i class="fa fa-link" aria-hidden="true"></i></a></li>
-																<li><a target="_blank" href="#"><i class="fa fa-rss" aria-hidden="true"></i></a></li>
-															</ul>
+											          <li><a target="_blank" href="https://www.facebook.com/ronchoenergy/"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+											          <li><a target="_blank" href="https://twitter.com/Roncho_Energy"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+											          <li><a target="_blank" href="https://www.linkedin.com/company/roncho-energy-services-ltd/"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+											        </ul>
 														</div>
 													</div>
 												</div>

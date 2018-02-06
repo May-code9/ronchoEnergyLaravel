@@ -81,9 +81,9 @@
     <div class="container">
       <div class="header-social">
         <ul>
-          <li><a target="_blank" href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-          <li><a target="_blank" href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-          <li><a target="_blank" href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+          <li><a target="_blank" href="https://www.facebook.com/ronchoenergy/"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+          <li><a target="_blank" href="https://twitter.com/Roncho_Energy"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+          <li><a target="_blank" href="https://www.linkedin.com/company/roncho-energy-services-ltd/"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
         </ul>
       </div>
     </div>
@@ -107,7 +107,7 @@
           </button>
           <div class="menu-default-logo">
             <a class="image-logo" href="{{ route('roncho_home') }}" title="{{ config('app.name') }}">
-              <img src="{{asset('demo/wpm/manufactory/wp-content/uploads/2016/07/logo.png')}}" alt="{{ config('app.name') }}">
+              <img src="{{asset('image/2016/07/logo.png')}}" alt="{{ config('app.name') }}">
             </a>
           </div>
         </div>
