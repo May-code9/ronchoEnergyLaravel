@@ -200,13 +200,13 @@ RonchoEnergy | is an energy and technology company registered in Nigeria
 													</div>
 													<div class='col-md-3 col-sm-4 col-xs-4 '>
 														<div class='team-box'>
-															<img width="270" height="400" src="{{asset('image/2016/07/team-2ghvhvh.jpg')}}" class="attachment-manufactory-270-400 size-manufactory-270-400" alt="" srcset="{{asset('image/2016/07/team-2ghvhvh.jpg')}} 270w, {{asset('image/2016/07/team-2ghvhvh.jpg')}} 203w" sizes="(max-width: 270px) 100vw, 270px" />
+															<img width="270" height="400" src="{{asset('image/2016/07/Chidi-Efika.png')}}" class="attachment-manufactory-270-400 size-manufactory-270-400" alt="" srcset="{{asset('image/2016/07/Chidi-Efika.png')}} 270w, {{asset('image/2016/07/Chidi-Efika.png')}} 203w" sizes="(max-width: 270px) 100vw, 270px" />
 															<div class='team-content'>
 																<h4>Dr. Chidi Efika</h4>
 																<div class='team-content-box'>
 																	<span>Chairman</span>
-																	<a href='mailto:example@example.com'><span class='icon icon-Mail'></span>example@example.com</a>
-																	<a href='tel:+80023145451'><span class='icon icon-Phone2'></span>+80023145451</a>
+																	<a href='mailto:example@example.com'><span class='icon icon-Mail'></span>----</a>
+																	<a href='tel:+80023145451'><span class='icon icon-Phone2'></span>---</a>
 																	<ul>
 																		<li><a target='_blank' href='#'><i class='fa fa-facebook' aria-hidden='true'></i></a></li>
 																		<li><a target='_blank' href='#'><i class='fa fa-twitter' aria-hidden='true'></i></a></li>
