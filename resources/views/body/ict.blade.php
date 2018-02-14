@@ -129,7 +129,20 @@ RonchoEnergy | ICT
 								<div class="entry-content">
 									<p style="text-align:justify">High-quality public address and voice evacuation systems are essential for dealing with security and safety challenges.</p>
 								</div>
-								<a class="single-read-more" href="#">Download Brochure for Details<span class="arrow_right" aria-hidden="true"></span></a>
+								@guest
+								<a class="wpcf7-form-control wpcf7-submit" href="{{ route('login') }}">Login to Request Quote</a>
+								@else
+								<form action="{{ route('postProduct') }}" method="get" class="wpcf7-form">
+	                {{ csrf_field() }}
+									<input type="hidden" name="id" value="{{ Auth::user()->id }}" >
+									<input type="hidden" name="first_name" value="{{ Auth::user()->first_name }}" >
+									<input type="hidden" name="email" value="{{ Auth::user()->email }}" >
+									<input type="hidden" name="phone_number" value="{{ Auth::user()->phone_number }}" >
+									<input type="hidden" name="equipment" value="PAGA" >
+									<input type="submit" value="Request Quote" class="wpcf7-form-control wpcf7-submit" />
+									<!-- <a class="wpcf7-form-control wpcf7-submit" href="#">Click to Buy<span class="arrow_right" aria-hidden="true"></span></a> -->
+	              </form>
+								@endguest
 							</div>
 						</div>
 
@@ -158,7 +171,20 @@ RonchoEnergy | ICT
 								<div class="entry-content">
 									<p>fit-PC4 is based on AMD Embedded G-series system-on-chip with 64-bit quad-core CPU and AMD radeon HD GPU.</p>
 								</div>
-								<a class="single-read-more" href="#">Download Brochure for Details<span class="arrow_right" aria-hidden="true"></span></a>
+								@guest
+								<a class="wpcf7-form-control wpcf7-submit" href="{{ route('login') }}">Login to Request Quote</a>
+								@else
+								<form action="{{ route('postProduct') }}" method="get" class="wpcf7-form">
+	                {{ csrf_field() }}
+									<input type="hidden" name="id" value="{{ Auth::user()->id }}" >
+									<input type="hidden" name="first_name" value="{{ Auth::user()->first_name }}" >
+									<input type="hidden" name="email" value="{{ Auth::user()->email }}" >
+									<input type="hidden" name="phone_number" value="{{ Auth::user()->phone_number }}" >
+									<input type="hidden" name="equipment" value="FitPC 4" >
+									<input type="submit" value="Request Quote" class="wpcf7-form-control wpcf7-submit" />
+									<!-- <a class="wpcf7-form-control wpcf7-submit" href="#">Click to Buy<span class="arrow_right" aria-hidden="true"></span></a> -->
+	              </form>
+								@endguest
 							</div>
 						</div>
 					</div>
@@ -192,7 +218,20 @@ RonchoEnergy | ICT
 								<div class="entry-content">
 									<p>Fitlet is a fanless mini PC with high performance, excellent graphics, up to 4 LAN ports and 5 year warranty.</p>
 								</div>
-								<a class="single-read-more" href="#">Download Brochure for Details<span class="arrow_right" aria-hidden="true"></span></a>
+								@guest
+								<a class="wpcf7-form-control wpcf7-submit" href="{{ route('login') }}">Login to Request Quote</a>
+								@else
+								<form action="{{ route('postProduct') }}" method="get" class="wpcf7-form">
+	                {{ csrf_field() }}
+									<input type="hidden" name="id" value="{{ Auth::user()->id }}" >
+									<input type="hidden" name="first_name" value="{{ Auth::user()->first_name }}" >
+									<input type="hidden" name="email" value="{{ Auth::user()->email }}" >
+									<input type="hidden" name="phone_number" value="{{ Auth::user()->phone_number }}" >
+									<input type="hidden" name="equipment" value="Fitlet mini PC" >
+									<input type="submit" value="Request Quote" class="wpcf7-form-control wpcf7-submit" />
+									<!-- <a class="wpcf7-form-control wpcf7-submit" href="#">Click to Buy<span class="arrow_right" aria-hidden="true"></span></a> -->
+	              </form>
+								@endguest
 							</div>
 						</div>
 						<hr>
@@ -216,7 +255,20 @@ RonchoEnergy | ICT
 								<div class="entry-content">
 									<p>fitlet2 is based on quad-core Apollo-Lake Atom with up to 16 GB RAM.</p>
 								</div>
-								<a class="single-read-more" href="#">Download Brochure for Details<span class="arrow_right" aria-hidden="true"></span></a>
+								@guest
+								<a class="wpcf7-form-control wpcf7-submit" href="{{ route('login') }}">Login to Request Quote</a>
+								@else
+								<form action="{{ route('postProduct') }}" method="get" class="wpcf7-form">
+	                {{ csrf_field() }}
+									<input type="hidden" name="id" value="{{ Auth::user()->id }}" >
+									<input type="hidden" name="first_name" value="{{ Auth::user()->first_name }}" >
+									<input type="hidden" name="email" value="{{ Auth::user()->email }}" >
+									<input type="hidden" name="phone_number" value="{{ Auth::user()->phone_number }}" >
+									<input type="hidden" name="equipment" value="Fitlet2 PC" >
+									<input type="submit" value="Request Quote" class="wpcf7-form-control wpcf7-submit" />
+									<!-- <a class="wpcf7-form-control wpcf7-submit" href="#">Click to Buy<span class="arrow_right" aria-hidden="true"></span></a> -->
+	              </form>
+								@endguest
 							</div>
 						</div>
 					</div>

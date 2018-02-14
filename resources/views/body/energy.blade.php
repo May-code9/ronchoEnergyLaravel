@@ -288,7 +288,20 @@ RonchoEnergy | Energy
 										<li>Charges mobile phones</li>
 									</ul>
 								</div>
-								<a class="single-read-more" href="#">Download Brochure for Details<span class="arrow_right" aria-hidden="true"></span></a>
+								@guest
+								<a class="wpcf7-form-control wpcf7-submit" href="{{ route('login') }}">Login to Purchase</a>
+								@else
+								<form action="{{ route('postProduct') }}" method="get" class="wpcf7-form">
+	                {{ csrf_field() }}
+									<input type="hidden" name="id" value="{{ Auth::user()->id }}" >
+									<input type="hidden" name="first_name" value="{{ Auth::user()->first_name }}" >
+									<input type="hidden" name="email" value="{{ Auth::user()->email }}" >
+									<input type="hidden" name="phone_number" value="{{ Auth::user()->phone_number }}" >
+									<input type="hidden" name="equipment" value="Solectric 10" >
+									<input type="submit" value="Click to Buy" class="wpcf7-form-control wpcf7-submit" />
+									<!-- <a class="wpcf7-form-control wpcf7-submit" href="#">Click to Buy<span class="arrow_right" aria-hidden="true"></span></a> -->
+	              </form>
+								@endguest
 							</div>
 						</div>
 						<hr>
@@ -315,7 +328,20 @@ RonchoEnergy | Energy
 										<li>Charges mobile phones</li>
 									</ul>
 								</div>
-								<a class="single-read-more" href="#">Download Brochure for Details<span class="arrow_right" aria-hidden="true"></span></a>
+								@guest
+								<a class="wpcf7-form-control wpcf7-submit" href="{{ route('login') }}">Login to Purchase</a>
+								@else
+								<form action="{{ route('postProduct') }}" method="get" class="wpcf7-form">
+	                {{ csrf_field() }}
+									<input type="hidden" name="id" value="{{ Auth::user()->id }}" >
+									<input type="hidden" name="first_name" value="{{ Auth::user()->first_name }}" >
+									<input type="hidden" name="email" value="{{ Auth::user()->email }}" >
+									<input type="hidden" name="phone_number" value="{{ Auth::user()->phone_number }}" >
+									<input type="hidden" name="equipment" value="Solectric 15" >
+									<input type="submit" value="Click to Buy" class="wpcf7-form-control wpcf7-submit" />
+									<!-- <a class="wpcf7-form-control wpcf7-submit" href="#">Click to Buy<span class="arrow_right" aria-hidden="true"></span></a> -->
+	              </form>
+								@endguest
 							</div>
 						</div>
 						<hr>
@@ -342,7 +368,20 @@ RonchoEnergy | Energy
 										<li>Charges mobile phones</li>
 									</ul>
 								</div>
-								<a class="single-read-more" href="#">Download Brochure for Details<span class="arrow_right" aria-hidden="true"></span></a>
+								@guest
+								<a class="wpcf7-form-control wpcf7-submit" href="{{ route('login') }}">Login to Purchase</a>
+								@else
+								<form action="{{ route('postProduct') }}" method="get" class="wpcf7-form">
+	                {{ csrf_field() }}
+									<input type="hidden" name="id" value="{{ Auth::user()->id }}" >
+									<input type="hidden" name="first_name" value="{{ Auth::user()->first_name }}" >
+									<input type="hidden" name="email" value="{{ Auth::user()->email }}" >
+									<input type="hidden" name="phone_number" value="{{ Auth::user()->phone_number }}" >
+									<input type="hidden" name="equipment" value="Solectric 30" >
+									<input type="submit" value="Click to Buy" class="wpcf7-form-control wpcf7-submit" />
+									<!-- <a class="wpcf7-form-control wpcf7-submit" href="#">Click to Buy<span class="arrow_right" aria-hidden="true"></span></a> -->
+	              </form>
+								@endguest
 							</div>
 						</div>
 					</div>
@@ -380,7 +419,20 @@ RonchoEnergy | Energy
 										<li><strong>Expected Lifetime</strong> -	8 yrs based on IEC61427</li>
 									</ul>
 								</div>
-								<a class="single-read-more" href="#">Download Brochure for Details<span class="arrow_right" aria-hidden="true"></span></a>
+								@guest
+								<a class="wpcf7-form-control wpcf7-submit" href="{{ route('login') }}">Login to Request Quote</a>
+								@else
+								<form action="{{ route('postProduct') }}" method="get" class="wpcf7-form">
+	                {{ csrf_field() }}
+									<input type="hidden" name="id" value="{{ Auth::user()->id }}" >
+									<input type="hidden" name="first_name" value="{{ Auth::user()->first_name }}" >
+									<input type="hidden" name="email" value="{{ Auth::user()->email }}" >
+									<input type="hidden" name="phone_number" value="{{ Auth::user()->phone_number }}" >
+									<input type="hidden" name="equipment" value="Lead Acid Batteries (Trojan)" >
+									<input type="submit" value="Request Quote" class="wpcf7-form-control wpcf7-submit" />
+									<!-- <a class="wpcf7-form-control wpcf7-submit" href="#">Click to Buy<span class="arrow_right" aria-hidden="true"></span></a> -->
+	              </form>
+								@endguest
 							</div>
 						</div>
 						<hr>
@@ -407,7 +459,20 @@ RonchoEnergy | Energy
 										<li><strong>Warranty</strong> - 10 years</li>
 									</ul>
 								</div>
-								<a class="single-read-more" href="#">Download Brochure for Details<span class="arrow_right" aria-hidden="true"></span></a>
+								@guest
+								<a class="wpcf7-form-control wpcf7-submit" href="{{ route('login') }}">Login to Request Quote</a>
+								@else
+								<form action="{{ route('postProduct') }}" method="get" class="wpcf7-form">
+	                {{ csrf_field() }}
+									<input type="hidden" name="id" value="{{ Auth::user()->id }}" >
+									<input type="hidden" name="first_name" value="{{ Auth::user()->first_name }}" >
+									<input type="hidden" name="email" value="{{ Auth::user()->email }}" >
+									<input type="hidden" name="phone_number" value="{{ Auth::user()->phone_number }}" >
+									<input type="hidden" name="equipment" value="Lithium Ion Batteries (Tesla Power Wall)" >
+									<input type="submit" value="Request Quote" class="wpcf7-form-control wpcf7-submit" />
+									<!-- <a class="wpcf7-form-control wpcf7-submit" href="#">Click to Buy<span class="arrow_right" aria-hidden="true"></span></a> -->
+	              </form>
+								@endguest
 							</div>
 						</div>
 						<hr>
@@ -432,7 +497,20 @@ RonchoEnergy | Energy
 										<li>Charges mobile phones</li>
 									</ul>
 								</div>
-								<a class="single-read-more" href="#">Download Brochure for Details<span class="arrow_right" aria-hidden="true"></span></a>
+								@guest
+								<a class="wpcf7-form-control wpcf7-submit" href="{{ route('login') }}">Login to Request Quote</a>
+								@else
+								<form action="{{ route('postProduct') }}" method="get" class="wpcf7-form">
+	                {{ csrf_field() }}
+									<input type="hidden" name="id" value="{{ Auth::user()->id }}" >
+									<input type="hidden" name="first_name" value="{{ Auth::user()->first_name }}" >
+									<input type="hidden" name="email" value="{{ Auth::user()->email }}" >
+									<input type="hidden" name="phone_number" value="{{ Auth::user()->phone_number }}" >
+									<input type="hidden" name="equipment" value="Flow Batteries" >
+									<input type="submit" value="Request Quote" class="wpcf7-form-control wpcf7-submit" />
+									<!-- <a class="wpcf7-form-control wpcf7-submit" href="#">Click to Buy<span class="arrow_right" aria-hidden="true"></span></a> -->
+	              </form>
+								@endguest
 							</div>
 						</div>
 					</div>

@@ -60,6 +60,12 @@
           <!-- <small class="badge pull-right bg-yellow">12</small> -->
         </a>
       </li>
+      <li class="@if(isset($activeRequest)) {{ $activeRequest }} @endif">
+        <a href="{{ route('requestform.index') }}">
+          <i class="fa fa-envelope"></i> <span>Requests</span>
+          <!-- <small class="badge pull-right bg-yellow">12</small> -->
+        </a>
+      </li>
       @endif
       <hr>
       <hr>

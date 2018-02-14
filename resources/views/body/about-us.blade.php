@@ -182,7 +182,7 @@ RonchoEnergy | is an energy and technology company registered in Nigeria
 												<div class='row'>
 													<div class='col-md-3 col-sm-4 col-xs-4 col-md-offset-3'>
 														<div class='team-box'>
-															<img width="270" height="400" src="{{asset('image/2016/07/team-1gvhvhgv.jpg')}}" class="attachment-manufactory-270-400 size-manufactory-270-400" alt="" srcset="{{asset('image/2016/07/team-1gvhvhgv.jpg')}} 270w, {{asset('image/2016/07/team-1gvhvhgv.jpg')}} 203w" sizes="(max-width: 270px) 100vw, 270px" />
+															<img width="270" height="400" src="{{asset('image/2016/07/Ikenna-Efika.png')}}" class="attachment-manufactory-270-400 size-manufactory-270-400" alt="" srcset="{{asset('image/2016/07/Ikenna-Efika.png')}} 270w, {{asset('image/2016/07/Ikenna-Efika.png')}} 203w" sizes="(max-width: 270px) 100vw, 270px" />
 															<div class='team-content'>
 																<h4>Dr. Ikenna Efika</h4>
 																<div class='team-content-box'>

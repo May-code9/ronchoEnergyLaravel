@@ -86,6 +86,7 @@ RonchoEnergy | Login
                                   <a class="btn btn-link" href="{{ route('password.request') }}">
                                     Forgot Your Password?
                                   </a>
+                                  <h4>or <a href="{{ route('register') }}">Click Here to Register</a></h4>
                                 </div>
                               </div>
                             </form>

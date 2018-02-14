@@ -19,6 +19,9 @@ Route::get('/About RonchoEnergy', ['as'=>'roncho_about', 'uses'=>'RonchoControll
 Route::get('/Products', ['as'=>'roncho_products', 'uses'=>'RonchoController@products']);
 Route::get('/SingleProducts/{id}', ['as'=>'roncho_iproducts', 'uses'=>'RonchoController@iproducts'])->middleware('authuser');
 Route::post('/submitProduct/{id}', ['as'=>'submitProduct', 'uses'=>'MessageController@submitProduct']);
+Route::get('/postEnergy', ['as'=>'postProduct', 'uses'=>'SolutionRequest@postEnergy'])->middleware('authuser');
+//Route::post('/Request', ['as'=>'postEnergy', 'uses'=>'SolutionRequest@request'])->middleware('authuser');
+Route::post('/Request/{user_id}/{equipment}', ['as'=>'postRequest', 'uses'=>'SolutionRequest@postRequest'])->middleware('authuser');
 Route::get('/Contact Us', ['as'=>'roncho_contact', 'uses'=>'RonchoController@contact']);
 Route::get('/News', ['as'=>'roncho_news', 'uses'=>'RonchoController@news']);
 Route::get('/Projects', ['as'=>'roncho_projects', 'uses'=>'RonchoController@projects']);
@@ -38,5 +41,7 @@ Route::group(['middleware'=>'admin'], function () {
   Route::resource('news', 'AddNewsController');
   Route::resource('message', 'AdminMessage');
   Route::resource('readmessage', 'AdminReadMessage');
+  Route::resource('requestform', 'AdminRequest');
+  Route::resource('readrequestform', 'AdminReadRequest');
 });
 Route::resource('adminuser', 'UserAdminController')->middleware('superadmin');
