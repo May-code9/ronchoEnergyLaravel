@@ -137,14 +137,20 @@
             <li id="menu-item-278" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-229"><a title="login" href="{{ route('login') }}">Login</a></li>
             <li id="menu-item-278" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-229"><a title="register" href="{{ route('register') }}">Register</a></li>
             @else
-            <li id="menu-item-278" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-229"><a title="logout" href="{{route('logout')}}" onclick="event.preventDefault(); document.getElementById('logout-form').submit();">{{ Auth::user()->first_name }} | Logout</a>
-              <form id="logout-form" action="{{route('logout')}}" method="POST" style="display: none;">
-                {{ csrf_field() }}
-              </form>
+            <li id="menu-item-278" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-229 dropdown"><a title="User Name" href="#" class="dropdown-toggle" aria-haspopup="true">{{ Auth::user()->first_name }}</a><i class='ddl-switch fa fa-angle-down'></i>
+              <ul role="menu" class=" dropdown-menu">
+                <li id="menu-item-198" class="menu-item menu-item-type-post_type menu-item-object-manufactor_service menu-item-198"><a title="logout" href="{{route('logout')}}" onclick="event.preventDefault(); document.getElementById('logout-form').submit();">Logout</a>
+                  <form id="logout-form" action="{{route('logout')}}" method="POST" style="display: none;">
+                    {{ csrf_field() }}
+                  </form>
+                </li>
+                @if(Auth::user()->role > 2)
+                <li id="menu-item-278" class="menu-item menu-item-type-post_type menu-item-object-manufactor_service menu-item-229"><a title="register" href="{{ route('message.index') }}">Unread Messages: {{ $countMessages }}</a></li>
+                <li id="menu-item-278" class="menu-item menu-item-type-post_type menu-item-object-manufactor_service menu-item-229"><a title="register" href="{{ route('requestform.index') }}">Unread Requests: {{ $countRequests }}</a></li>
+                <li id="menu-item-278" class="menu-item menu-item-type-post_type menu-item-object-manufactor_service menu-item-229"><a title="Contact" href="{{ route('ronchoDashboard') }}">Dashboard</a></li>
+                @endif
+              </ul>
             </li>
-            @if(Auth::user()->role > 2)
-            <li id="menu-item-278" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-229"><a title="Contact" href="{{ route('ronchoDashboard') }}">Dashboard</a></li>
-            @endif
             @endguest
           </ul>
         </div>
